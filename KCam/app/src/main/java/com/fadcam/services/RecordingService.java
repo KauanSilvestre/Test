@@ -1408,6 +1408,22 @@ public class RecordingService extends Service {
                         } catch (Exception e) {
                             FLog.w(TAG, "Safety-net markFinalized failed", e);
                         }
+                        // Sentinela: write the integrity companion (SHA-256 +
+                        // session manifest) next to the finished file. File-mode
+                        // only for now; SAF/content URIs are handled in a later
+                        // step. This never touches the original, runs off the
+                        // main thread, and a failure is logged and ignored so it
+                        // can never break finalization.
+                        try {
+                            android.net.Uri u = android.net.Uri.parse(finalUri);
+                            if ("file".equals(u.getScheme()) && u.getPath() != null) {
+                                java.io.File media = new java.io.File(u.getPath());
+                                com.fadcam.kcam.integrity.SessionIntegrity.writeSidecar(
+                                        RecordingService.this, media, media.lastModified());
+                            }
+                        } catch (Exception e) {
+                            FLog.w(TAG, "Integrity sidecar failed", e);
+                        }
                     });
                 }
             }
