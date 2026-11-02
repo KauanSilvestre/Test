@@ -18,4 +18,77 @@
     <string name="kcam_edition_personal">Personal</string>
     <string name="kcam_edition_free">Free</string>
     <string name="kcam_edition_pro">Pro</string>
+
+    <!-- Mini apps (shared) -->
+    <string name="kcam_permission_needed">Permission is needed for this tool. You can grant it in system settings.</string>
+    <string name="kcam_sensor_missing">Not supported</string>
+    <string name="kcam_no_app">No app available for this action</string>
+    <string name="kcam_reset">Reset</string>
+    <string name="kcam_stat_min">Minimum</string>
+    <string name="kcam_stat_avg">Average</string>
+    <string name="kcam_stat_max">Maximum</string>
+
+    <!-- Compass -->
+    <string name="kcam_compass_hint">Hold the phone flat and away from metal or magnets for the best reading.</string>
+    <string name="kcam_compass_calibrate">Low accuracy: move the phone in a figure-8 to calibrate.</string>
+
+    <!-- Clinometer -->
+    <string name="kcam_clino_pitch">Pitch</string>
+    <string name="kcam_clino_roll">Roll</string>
+    <string name="kcam_clino_slope">Slope</string>
+    <string name="kcam_clino_zero">Set current position as zero</string>
+    <string name="kcam_clino_reset">Clear zero</string>
+
+    <!-- Metal detector -->
+    <string name="kcam_metal_delta">Change from baseline</string>
+    <string name="kcam_metal_peak">Peak change</string>
+    <string name="kcam_metal_hint">Detects iron/steel near the top of the phone. Calibrate away from metal first.</string>
+    <string name="kcam_metal_calibrate">Calibrate here</string>
+    <string name="kcam_metal_detected">Metal detected</string>
+    <string name="kcam_metal_none">No metal nearby</string>
+
+    <!-- Sensor dashboard -->
+    <string name="kcam_sensors_count">%1$d sensors on this device</string>
+
+    <!-- Sound meter -->
+    <string name="kcam_mic_busy">Microphone unavailable (in use?)</string>
+    <string name="kcam_sound_hint">Phone microphones are not calibrated: values are estimates, good for comparing places.</string>
+    <string name="kcam_sound_quiet">Quiet</string>
+    <string name="kcam_sound_normal">Normal conversation</string>
+    <string name="kcam_sound_loud">Loud</string>
+    <string name="kcam_sound_very_loud">Very loud – protect your hearing</string>
+
+    <!-- Speedometer -->
+    <string name="kcam_speedo_distance">Distance</string>
+    <string name="kcam_speedo_gps">GPS accuracy</string>
+    <string name="kcam_speedo_waiting">Waiting for GPS…</string>
+    <string name="kcam_speedo_gps_off">GPS is off</string>
+    <string name="kcam_speedo_units">Switch km/h ↔ mph</string>
+
+    <!-- Pedometer -->
+    <string name="kcam_pedo_session">steps since opened</string>
+    <string name="kcam_pedo_today">Today</string>
+    <string name="kcam_pedo_kcal">Calories (estimate)</string>
+    <string name="kcam_pedo_hint">Uses the phone\'s step sensor. "Today" counts while the sensor is active; open the tool once a day to start tracking.</string>
+
+    <!-- Parking marker -->
+    <string name="kcam_park_saved">Saved</string>
+    <string name="kcam_park_none">No spot saved</string>
+    <string name="kcam_park_save">Save current spot</string>
+    <string name="kcam_park_saved_toast">Parking spot saved</string>
+    <string name="kcam_park_open_maps">Open in maps</string>
+    <string name="kcam_park_clear">Clear spot</string>
+
+    <!-- QR generator -->
+    <string name="kcam_qr_kind_text">Type: Text / URL (tap to change)</string>
+    <string name="kcam_qr_kind_wifi">Type: Wi-Fi (tap to change)</string>
+    <string name="kcam_qr_kind_contact">Type: Contact (tap to change)</string>
+    <string name="kcam_qr_text_hint">Text or link</string>
+    <string name="kcam_qr_wifi_ssid">Network name (SSID)</string>
+    <string name="kcam_qr_wifi_password">Password (empty = open network)</string>
+    <string name="kcam_qr_contact_name">Name</string>
+    <string name="kcam_qr_contact_phone">Phone</string>
+    <string name="kcam_qr_contact_email">Email</string>
+    <string name="kcam_qr_share">Share QR image</string>
+    <string name="kcam_qr_too_long">Too much data for one QR code</string>
 </resources>

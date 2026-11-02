@@ -430,6 +430,14 @@ public class HomeSidebarFragment extends DialogFragment {
         if (qrGeneratorRow != null) qrGeneratorRow.setOnClickListener(v -> showMiniAppComingSoon(this, "qr_generator"));
 
         applyMiniAppVisibility(view);
+        // KCam: these mini apps are implemented — drop their "Soon" badges
+        for (int rowId : new int[]{R.id.row_mini_app_compass, R.id.row_mini_app_sound_meter,
+                R.id.row_mini_app_sensor_dashboard, R.id.row_mini_app_speedometer,
+                R.id.row_mini_app_clinometer, R.id.row_mini_app_pedometer,
+                R.id.row_mini_app_metal_detector, R.id.row_mini_app_parking_marker,
+                R.id.row_mini_app_qr_generator}) {
+            com.fadcam.kcam.miniapps.MiniApps.hideComingSoonBadges(view.findViewById(rowId));
+        }
 
         setupUpdateCards(view);
     }
@@ -536,6 +544,8 @@ public class HomeSidebarFragment extends DialogFragment {
     }
 
     public static void showMiniAppComingSoon(Fragment fragment, String appId) {
+        // KCam: open our implementation when one exists
+        if (com.fadcam.kcam.miniapps.MiniApps.open(fragment, appId)) return;
         try {
             String title = null;
             String desc = null;

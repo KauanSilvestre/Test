@@ -32,6 +32,8 @@
     <!-- For Android 12 and below -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- KCam: pedometer mini app (step sensor, API 29+) -->
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     
     <!-- For Android 13+ - MANAGE_EXTERNAL_STORAGE for access to Documents directory -->

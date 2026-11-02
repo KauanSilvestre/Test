@@ -466,6 +466,13 @@ public class SettingsHomeFragment extends Fragment {
         });
         // App section rows (onboarding/auto-update/debug) are wired in wireAppInlineRows()
         setupMiniAppCards(root);
+        // KCam: every mini card is implemented now — drop the "Soon" badges
+        for (int cardId : new int[]{R.id.group_mini_compass, R.id.group_mini_sound_meter,
+                R.id.group_mini_sensor, R.id.group_mini_speedometer, R.id.group_mini_clinometer,
+                R.id.group_mini_pedometer, R.id.group_mini_metal_detector,
+                R.id.group_mini_parking_marker, R.id.group_mini_qr_generator}) {
+            com.fadcam.kcam.miniapps.MiniApps.hideComingSoonBadges(root.findViewById(cardId));
+        }
         equalizeMiniCardRows(root);
         bindRow(root, R.id.group_watermark_quick, () -> openSubFragment(new WatermarkSettingsFragment()));
         bindRow(root, R.id.group_about, () -> openSubFragment(new AboutFragment()));
