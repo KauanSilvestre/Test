@@ -34,6 +34,9 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <!-- KCam: pedometer mini app (step sensor, API 29+) -->
     <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+    <!-- KCam: scheduled recording -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     
     <!-- For Android 13+ - MANAGE_EXTERNAL_STORAGE for access to Documents directory -->
@@ -435,6 +438,16 @@
         <service android:name=".services.AlarmService" android:foregroundServiceType="mediaPlayback" android:exported="true">
         </service>
         
+        <!-- KCam: scheduled recording alarms + re-arm after reboot / clock change -->
+        <receiver android:name=".kcam.schedule.ScheduleReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
         <receiver android:name=".receivers.TorchToggleReceiver" android:exported="true">
             <intent-filter>
                 <action android:name="com.fadcam.TOGGLE_TORCH"/>

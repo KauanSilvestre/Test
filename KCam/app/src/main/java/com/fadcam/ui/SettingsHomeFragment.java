@@ -451,9 +451,9 @@ public class SettingsHomeFragment extends Fragment {
         bindRow(root, R.id.group_audio_vision, () -> {
             android.widget.Toast.makeText(requireContext(), R.string.mini_app_coming_soon_desc, android.widget.Toast.LENGTH_SHORT).show();
         });
-        bindRow(root, R.id.group_scheduled_recording, () -> {
-            android.widget.Toast.makeText(requireContext(), R.string.mini_app_coming_soon_desc, android.widget.Toast.LENGTH_SHORT).show();
-        });
+        // KCam: scheduled recording is implemented
+        bindRow(root, R.id.group_scheduled_recording, () -> OverlayNavUtil.show(requireActivity(), new com.fadcam.kcam.schedule.ScheduledRecordingFragment(), "kcam_schedule"));
+        com.fadcam.kcam.miniapps.MiniApps.hideComingSoonBadges(root.findViewById(R.id.group_scheduled_recording));
         bindRow(root, R.id.group_profiles, () -> {
             android.widget.Toast.makeText(requireContext(), R.string.mini_app_coming_soon_desc, android.widget.Toast.LENGTH_SHORT).show();
         });

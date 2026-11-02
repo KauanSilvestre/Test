@@ -79,14 +79,25 @@ public final class MiniApps {
      */
     public static void hideComingSoonBadges(View root) {
         if (root == null) return;
-        String soon = root.getContext().getString(R.string.mini_app_coming_soon);
+        android.content.Context c = root.getContext();
+        String[] soon = {
+                c.getString(R.string.mini_app_coming_soon),
+                c.getString(R.string.remote_coming_soon_badge),
+                c.getString(R.string.digital_forensics_coming_soon_short)};
         hide(root, soon);
     }
 
-    private static void hide(View v, String soon) {
+    private static void hide(View v, String[] soon) {
         if (v instanceof TextView) {
             CharSequence t = ((TextView) v).getText();
-            if (t != null && soon.contentEquals(t)) v.setVisibility(View.GONE);
+            if (t != null) {
+                for (String s : soon) {
+                    if (s.contentEquals(t)) {
+                        v.setVisibility(View.GONE);
+                        break;
+                    }
+                }
+            }
         } else if (v instanceof ViewGroup) {
             ViewGroup g = (ViewGroup) v;
             for (int i = 0; i < g.getChildCount(); i++) hide(g.getChildAt(i), soon);

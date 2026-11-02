@@ -62,9 +62,10 @@ public class AdvancedSettingsFragment extends Fragment {
         }
         View scheduledRecording = view.findViewById(R.id.row_scheduled_recording);
         if (scheduledRecording != null) {
-            scheduledRecording.setOnClickListener(v ->
-                android.widget.Toast.makeText(requireContext(), R.string.mini_app_coming_soon_desc, android.widget.Toast.LENGTH_SHORT).show()
-            );
+            // KCam: scheduled recording is implemented
+            scheduledRecording.setOnClickListener(v -> OverlayNavUtil.show(requireActivity(),
+                new com.fadcam.kcam.schedule.ScheduledRecordingFragment(), "kcam_schedule"));
+            com.fadcam.kcam.miniapps.MiniApps.hideComingSoonBadges(scheduledRecording);
         }
         View profiles = view.findViewById(R.id.row_profiles);
         if (profiles != null) {

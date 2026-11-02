@@ -91,4 +91,29 @@
     <string name="kcam_qr_contact_email">Email</string>
     <string name="kcam_qr_share">Share QR image</string>
     <string name="kcam_qr_too_long">Too much data for one QR code</string>
+
+    <!-- Scheduled recording -->
+    <string name="kcam_schedule_title">Scheduled recording</string>
+    <string name="kcam_schedule_add">Add schedule</string>
+    <string name="kcam_schedule_empty">No schedules yet</string>
+    <string name="kcam_schedule_days">Repeat on</string>
+    <string name="kcam_schedule_once">Once</string>
+    <string name="kcam_schedule_every_day">Every day</string>
+    <string name="kcam_schedule_duration">Record for</string>
+    <string name="kcam_schedule_camera">Camera</string>
+    <string name="kcam_schedule_minutes">%1$d min</string>
+    <string name="kcam_schedule_next">Next: %1$s</string>
+    <string name="kcam_schedule_delete">Delete this schedule?</string>
+    <string name="kcam_schedule_long_press">Long-press a schedule to delete it</string>
+    <string name="kcam_schedule_tap_to_start">Tap to start the scheduled recording</string>
+    <string name="kcam_schedule_need_overlay">Allow "Display over other apps" so scheduled recordings can start by themselves. Without it you get a notification to tap.</string>
+    <string name="kcam_schedule_need_exact">Allow "Alarms &amp; reminders" so recordings start on the exact minute.</string>
+    <string name="kcam_schedule_info">Recording starts with your current video settings and stops automatically after the chosen duration. If something is already recording, that occurrence is skipped. Battery optimisation should be disabled for reliable starts.</string>
+    <string name="kcam_grant">Grant</string>
+    <string-array name="kcam_schedule_cameras">
+        <item>Current camera</item>
+        <item>Back camera</item>
+        <item>Front camera</item>
+        <item>Dual camera</item>
+    </string-array>
 </resources>

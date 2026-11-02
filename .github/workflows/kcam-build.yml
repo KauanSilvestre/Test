@@ -40,7 +40,10 @@ jobs:
       - name: Assemble debug APKs
         run: |
           chmod +x gradlew
-          ./gradlew :app:assembleDefaultDebug -Pkcam.edition=${{ inputs.edition || 'personal' }} --stacktrace --no-configuration-cache
+          ./gradlew :app:assembleDefaultDebug -Pkcam.edition=${{ inputs.edition || 'personal' }} --no-configuration-cache
+
+      - name: KCam unit tests
+        run: ./gradlew :app:testDefaultDebugUnitTest --tests 'com.fadcam.kcam.*' --no-configuration-cache
 
       - name: Upload APKs
         uses: actions/upload-artifact@v4

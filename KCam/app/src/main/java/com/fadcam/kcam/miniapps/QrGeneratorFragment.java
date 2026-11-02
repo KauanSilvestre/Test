@@ -113,7 +113,7 @@ public class QrGeneratorFragment extends KMiniAppFragment {
 
     private static String esc(String s) {
         // Escape characters that are special in WIFI:/MECARD: payloads
-        return s.replace("\\", "\\\\").replace(";", "\;").replace(",", "\\,").replace(":", "\\:").replace("\"", "\\\"");
+        return s.replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace(":", "\\:").replace("\"", "\\\"");
     }
 
     private String payload() {
