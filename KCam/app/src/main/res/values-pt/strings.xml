@@ -912,7 +912,7 @@
     <string name="warning_temp_file_detail">
         <![CDATA[
         <b>AVISO IMPORTANTE:</b><br/>
-        Este é um <b>arquivo temporário não processado</b>. O processamento do vídeo (como adicionar a marca d'água) pode ter falhado ou sido interrompido.<br/><br/>
+        Este é um <b>arquivo temporário não processado</b>. O processamento do vídeo (como adicionar a marca d\'água) pode ter falhado ou sido interrompido.<br/><br/>
         <b>O que fazer:</b><br/>
         <b>1. Renomeie</b> este arquivo agora (pelo menu).<br/>
         <b>2. Salve</b> na galeria (pelo menu).<br/><br/>
@@ -1876,7 +1876,7 @@ Para a reprodução mais suave, você pode usar um player externo como o VLC. Ma
     <string name="motion_lab_trigger_person_confirmed">Pessoa confirmada</string>
     <string name="motion_lab_trigger_person_confirmed_desc">Começa só quando o movimento parece de uma pessoa. Reduz alarmes falsos de ventilador/sombras.</string>
     <string name="motion_lab_sensitivity">Sensibilidade</string>
-    <string name="motion_lab_sensitivity_hint">Pense nisso como o "ouvido" do movimento. Mais alto reage a movimentos menores (como uma mão na borda). Mais baixo ignora movimentos pequenos. O padrão 80 serve para a maioria dos ambientes.</string>
+    <string name="motion_lab_sensitivity_hint">Pense nisso como o \"ouvido\" do movimento. Mais alto reage a movimentos menores (como uma mão na borda). Mais baixo ignora movimentos pequenos. O padrão 80 serve para a maioria dos ambientes.</string>
     <string name="motion_lab_analysis_fps">FPS de análise</string>
     <string name="motion_lab_analysis_helper">Quantas vezes por segundo a IA analisa a cena. Mais análises reagem mais rápido, mas gastam mais bateria e podem esquentar o celular. Para a detecção EfficientDet, use cerca de 6 fps no dia a dia (5-8 é a faixa confiável).</string>
     <string name="motion_lab_analysis_2_desc">Economia de energia, resposta mais lenta.</string>

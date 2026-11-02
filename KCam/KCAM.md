@@ -40,46 +40,75 @@ sem conflito em centenas de arquivos. O código novo fica em `com.fadcam.kcam.*`
   A nuvem fica desligada até você ter seu próprio backend; o modo Remote local (Wi-Fi) continua funcionando.
 - Classe `Edition` (Personal / Free / Pro) para bloquear recursos por edição.
 
+### Gravação rápida — duplo clique no botão lateral/liga-desliga
+Configurações → **Gravação rápida**. Ao acionar, o KCam abre por cima de tudo (inclusive da tela
+de bloqueio) e grava conforme a ação escolhida:
+
+- Câmera traseira
+- Câmera frontal
+- Só áudio
+- Tela com áudio
+- Tudo: as duas câmeras + a tela. O áudio fica no vídeo das câmeras, porque o Android não deixa
+  dois gravadores usarem o microfone ao mesmo tempo.
+- Ou "perguntar sempre", que mostra as 5 opções.
+
+Acionar de novo **para tudo**.
+
+Como ligar o duplo clique:
+
+| Celular | Como |
+|---|---|
+| **Samsung** | Configurações → Recursos avançados → Tecla lateral → Pressionar duas vezes → Abrir app → **KCam Rec** |
+| Pixel e outros com "duplo toque no liga/desliga abre a câmera" | escolha **KCam Rec** como câmera quando o sistema perguntar |
+| Qualquer celular | ative "Detectar clique duplo no botão liga/desliga (experimental)": o KCam percebe a tela apagando/acendendo duas vezes rápido (precisa de "Sobrepor a outros apps") |
+| Qualquer celular | botão "Adicionar botão na tela inicial" |
+
+Nenhum app comum consegue ler o botão liga/desliga diretamente — é uma proteção do Android.
+A gravação de tela sempre mostra a confirmação do sistema (exigência do Android 14+).
+
 ### Recursos que estavam "em breve" no FadCam e agora funcionam
 | Recurso | Onde |
 |---|---|
-| Bússola | Menu lateral / Configurações → mini apps |
-| Medidor de som (dB) | idem |
-| Painel de sensores | idem |
-| Velocímetro GPS (km/h ↔ mph, máx, média, distância) | idem |
-| Clinômetro / nível de bolha (com zerar) | idem |
-| Pedômetro (sessão + hoje) | idem |
-| Detector de metais (magnetômetro + vibração) | idem |
-| Marcador de estacionamento (seta + distância + abrir no mapa) | idem |
-| Gerador de QR (texto/URL, Wi-Fi, contato + compartilhar) | idem |
+| **FadMic** — gravar só áudio (tela apagada, qualidade voz/padrão/alta, ouvir/compartilhar/apagar) | Tela inicial → botão de modo **FadMic** |
 | **Gravação agendada** (horário, dias da semana ou uma vez, duração, câmera) | Configurações → Gravação agendada |
-| **Perfis** (salvar as configurações atuais com um nome e trocar com um toque) | Configurações / Avançado / menu lateral → Perfis |
-| Botões "Salvar em lote" e "Faditor em lote" na seleção de gravações | Aba Gravações → selecionar |
+| **Perfis** (salvar as configurações com um nome e trocar com um toque) | Configurações / Avançado / menu lateral → Perfis |
+| **Thermal Guardian** (avisa e para a gravação com segurança se o celular esquentar demais) | Configurações → Thermal Guardian |
+| **Audio Vision** (começa a gravar sozinho quando detecta som: áudio ou câmera) | Configurações → Audio Vision |
+| **FadCrypt** (criptografa gravações com senha, AES-256-GCM) | Avançado → FadCrypt, ou menu da gravação → Criptografar |
+| 9 mini apps: bússola, medidor de som, sensores, velocímetro, nível/clinômetro, pedômetro, detector de metais, marcador de estacionamento, gerador de QR | Menu lateral / Configurações → mini apps |
+| Botões "Salvar em lote" e "Faditor em lote" | Aba Gravações → selecionar |
+| Tela "Pro" → mostra a edição do KCam (em vez da loja do FadCam Pro) | Botão Pro na tela inicial |
+| **Português do Brasil** completo (~2.800 textos) | automático em celular em português, ou Aparência → Idioma |
 
-Gravação agendada: para iniciar sozinha, conceda **"Sobrepor a outros apps"** e
-**"Alarmes e lembretes"** (a tela mostra os botões). Sem isso, chega uma notificação para tocar
-e iniciar — é uma restrição do Android para câmera em segundo plano, não do app.
+O que **não** entrou, de propósito: FadDrive / FadSec Cloud (é o servidor pago da FadSecLab; no
+menu da gravação virou "Criptografar"). Para ter nuvem própria é preciso um servidor seu —
+os endereços ficam em `kcam.cloud.*`.
 
 ### Build
-- `.github/workflows/kcam-build.yml` compila o APK e roda os testes unitários do KCam a cada push.
+- `.github/workflows/kcam-build.yml` compila o APK de teste e roda os testes unitários a cada push.
+- APK final assinado: veja abaixo.
 
-## Roteiro (o que ainda falta)
+## APK assinado (versão final, atualiza sem desinstalar)
 
-Ainda "em breve" no código herdado — ordem sugerida:
+1. Gere uma chave **uma vez** (no PC com Java, ou no celular com Termux: `pkg install openjdk-17`):
+   ```bash
+   keytool -genkeypair -v -keystore kcam.jks -alias kcam -keyalg RSA -keysize 4096 -validity 36500
+   base64 -w0 kcam.jks > kcam.jks.b64
+   ```
+   **Guarde `kcam.jks` e as senhas com cuidado**: sem eles você nunca mais consegue atualizar o app.
+2. No GitHub: Settings → Secrets and variables → Actions → *New repository secret*:
+   `KCAM_KEYSTORE_BASE64` (conteúdo de `kcam.jks.b64`), `KCAM_KEYSTORE_PASSWORD`,
+   `KCAM_KEY_ALIAS` (`kcam`), `KCAM_KEY_PASSWORD`.
+3. Actions → KCam build → *Run workflow* → marque **release**. Ou crie uma tag `v1.0.0`:
+   aí o GitHub também publica uma Release com os APKs.
 
-1. **FadMic** — modo só áudio (gravador de microfone em segundo plano).
-2. **Tradução pt-BR** completa (~2.800 strings).
-3. Perfis automáticos (trocar perfil junto com a gravação agendada).
-4. **Assinatura de release** própria (keystore nos *Secrets* do GitHub) → APK release estável,
-   atualizável sem desinstalar.
-5. **Thermal Guardian** (pausar/reduzir qualidade quando o aparelho esquentar).
-6. **Audio Vision**, **FadCrypt** (criptografia de vídeos), alertas do Digital Forensics.
-7. Nuvem própria (só se fizer sentido: exige servidor, custo e manutenção).
-8. Pro: decidir o que é pago. Lembrete da GPL — quem recebe o APK tem direito ao código;
-   o valor sustentável está em serviço (nuvem, suporte, builds oficiais), não em esconder código.
+Saem 4 APKs: o normal e as variantes disfarçadas **Notes**, **Calculator** e **Weather**
+(nome e ícone de outro app). Sem os secrets, o job gera APKs "UNSIGNED", que servem só para
+conferir se compila.
 
-Bugs conhecidos do upstream que valem acompanhar: finalização de fMP4 em Android 16/HyperOS
-(issue #332 do FadCam) e gravações parando por volta de 5 min em alguns aparelhos.
+## Tradução
+`python3 tools/i18n_missing.py` lista textos ainda sem português (útil depois de puxar
+atualizações do FadCam). As traduções ficam em `app/src/main/res/values-pt/`.
 
 ## Como puxar atualizações do FadCam
 
