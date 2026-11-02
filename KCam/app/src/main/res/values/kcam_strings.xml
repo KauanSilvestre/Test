@@ -133,4 +133,68 @@
     <string name="kcam_profiles_applied">Profile \"%1$s\" applied</string>
     <string name="kcam_profiles_busy">Stop the recording before switching profiles.</string>
     <string name="kcam_profiles_error">Could not complete the profile action</string>
+
+    <!-- Shared -->
+    <string name="kcam_stop">Stop</string>
+    <string name="kcam_share">Share</string>
+    <string name="kcam_delete">Delete</string>
+    <string name="kcam_delete_confirm">Delete this file?</string>
+
+    <!-- FadMic -->
+    <string name="kcam_fadmic_title">FadMic</string>
+    <string name="kcam_fadmic_start">Start audio recording</string>
+    <string name="kcam_fadmic_recording">Recording audio…</string>
+    <string name="kcam_fadmic_idle">Ready</string>
+    <string name="kcam_fadmic_quality">Audio quality</string>
+    <string name="kcam_fadmic_quality_voice">Quality: Voice (small files)</string>
+    <string name="kcam_fadmic_quality_standard">Quality: Standard</string>
+    <string name="kcam_fadmic_quality_high">Quality: High (stereo)</string>
+    <string name="kcam_fadmic_info">Records only the microphone, keeps going with the screen off and stops from the notification. Files are saved as .m4a in the app recordings folder (FadCam/Audio).</string>
+    <string name="kcam_fadmic_recordings">Recordings</string>
+    <string name="kcam_fadmic_empty">No audio recordings yet</string>
+    <string name="kcam_fadmic_tap_play">Tap to play · long-press for share/delete</string>
+    <string name="kcam_fadmic_tap_stop">Playing — tap to stop</string>
+    <string name="kcam_fadmic_play_error">Could not play this file</string>
+
+    <!-- Quick record -->
+    <string name="kcam_quick_launcher_label">KCam Rec</string>
+    <string name="kcam_quick_title">Start recording</string>
+    <string name="kcam_quick_back">Back camera</string>
+    <string name="kcam_quick_front">Front camera</string>
+    <string name="kcam_quick_audio">Audio only</string>
+    <string name="kcam_quick_screen">Screen (with audio)</string>
+    <string name="kcam_quick_all">Everything (both cameras + screen)</string>
+    <string name="kcam_quick_stopped">Recording stopped</string>
+    <string name="kcam_quick_started_back">Recording: back camera</string>
+    <string name="kcam_quick_started_front">Recording: front camera</string>
+    <string name="kcam_quick_started_audio">Recording: audio</string>
+    <string name="kcam_quick_started_screen">Recording: screen</string>
+    <string name="kcam_quick_started_all">Recording: cameras + screen</string>
+    <string name="kcam_quick_failed">Could not start recording</string>
+    <string name="kcam_quick_screen_denied">Screen recording was not allowed</string>
+    <string name="kcam_quick_settings_title">Quick record</string>
+    <string name="kcam_quick_settings_subtitle">Double press the side/power key to record</string>
+    <string name="kcam_quick_mode_title">When triggered</string>
+    <string name="kcam_quick_mode_ask">Action: ask every time</string>
+    <string name="kcam_quick_mode_back">Action: back camera</string>
+    <string name="kcam_quick_mode_front">Action: front camera</string>
+    <string name="kcam_quick_mode_audio">Action: audio only</string>
+    <string name="kcam_quick_mode_screen">Action: screen with audio</string>
+    <string name="kcam_quick_mode_all">Action: everything</string>
+    <string name="kcam_quick_test">Try it now</string>
+    <string name="kcam_quick_add_shortcut">Add home-screen button</string>
+    <string name="kcam_quick_toggle_stops">Trigger again to stop all recordings</string>
+    <string name="kcam_quick_vibrate">Vibrate on start/stop</string>
+    <string name="kcam_quick_show_launcher">Show "KCam Rec" in the app list</string>
+    <string name="kcam_quick_power_watch">Detect double press of the power button (experimental)</string>
+    <string name="kcam_quick_power_watch_desc">For phones without a side-key setting. Android does not let apps read the power key, so KCam watches the screen switching off and on twice quickly. Needs "Display over other apps" and shows a small permanent notification.</string>
+    <string name="kcam_quick_need_overlay">Allow "Display over other apps" so the power-button trigger can open KCam.</string>
+    <string name="kcam_quick_power_channel">Power button trigger</string>
+    <string name="kcam_quick_power_title">Quick record is ready</string>
+    <string name="kcam_quick_power_text">Double press the power button to record</string>
+    <string name="kcam_quick_samsung_title">Samsung (recommended)</string>
+    <string name="kcam_quick_samsung_steps">Settings → Advanced features → Side key → Double press → Open app → choose "KCam Rec". Pressing twice again stops the recording.</string>
+    <string name="kcam_quick_other_title">Pixel and other phones</string>
+    <string name="kcam_quick_other_steps">If your phone has "Double press power button to open camera", choose KCam Rec as the camera when asked (or as default camera). Otherwise enable the experimental power-button detection above, or use the home-screen button.</string>
+    <string name="kcam_quick_open_settings">Open phone settings</string>
 </resources>

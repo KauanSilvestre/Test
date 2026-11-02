@@ -49,6 +49,9 @@ public class ScheduleReceiver extends BroadcastReceiver {
             case Intent.ACTION_TIME_CHANGED:
             case Intent.ACTION_TIMEZONE_CHANGED:
                 RecordingScheduler.rescheduleAll(context);
+                if (Intent.ACTION_BOOT_COMPLETED.equals(action) || Intent.ACTION_MY_PACKAGE_REPLACED.equals(action)) {
+                    com.fadcam.kcam.quick.PowerButtonWatchService.sync(context);
+                }
                 return;
             case ACTION_START:
                 onStart(context, intent.getIntExtra(EXTRA_ID, -1));

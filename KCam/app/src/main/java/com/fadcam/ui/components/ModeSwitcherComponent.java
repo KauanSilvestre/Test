@@ -478,9 +478,13 @@ public class ModeSwitcherComponent {
 
         if (mode.equals(currentMode)) return; // no-op
 
-        if (Constants.MODE_FADMIC.equals(mode)) { // blocked mode
-            showComingSoonToast(context.getString(R.string.fadmic_coming_soon));
-            if (listener != null) listener.onComingSoonRequested("FadMic");
+        if (Constants.MODE_FADMIC.equals(mode)) {
+            // KCam: FadMic is implemented as its own screen; the camera/screen mode stays
+            // as it is (the pill glides back), and the FadMic recorder opens on top.
+            if (context instanceof androidx.fragment.app.FragmentActivity) {
+                com.fadcam.ui.OverlayNavUtil.show((androidx.fragment.app.FragmentActivity) context,
+                        new com.fadcam.kcam.audio.FadMicFragment(), "kcam_fadmic");
+            }
             return;
         }
 

@@ -438,6 +438,44 @@
         <service android:name=".services.AlarmService" android:foregroundServiceType="mediaPlayback" android:exported="true">
         </service>
         
+        <!-- KCam: quick record (double press side key / camera gesture / shortcut) -->
+        <activity
+            android:name=".kcam.quick.QuickRecordActivity"
+            android:exported="true"
+            android:label="@string/kcam_quick_launcher_label"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:excludeFromRecents="true"
+            android:taskAffinity="io.github.kauansilvestre.kcam.quick"
+            android:launchMode="singleTask"
+            android:showWhenLocked="true"
+            android:turnScreenOn="true">
+            <!-- Lets KCam be picked as the app for the "double press power = open camera" gesture -->
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA_SECURE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- Separate launcher entry "KCam Rec": pick it in Samsung's side-key "Open app" -->
+        <activity-alias
+            android:name=".kcam.quick.QuickRecordLauncher"
+            android:targetActivity=".kcam.quick.QuickRecordActivity"
+            android:exported="true"
+            android:label="@string/kcam_quick_launcher_label">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <service android:name=".kcam.quick.PowerButtonWatchService" android:exported="false" android:foregroundServiceType="specialUse">
+            <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="Detects a double press of the power button (screen off/on) to start a user-requested recording" />
+        </service>
+        <!-- KCam: FadMic audio-only recorder -->
+        <service android:name=".kcam.audio.AudioRecordService" android:exported="false" android:foregroundServiceType="microphone" />
         <!-- KCam: scheduled recording alarms + re-arm after reboot / clock change -->
         <receiver android:name=".kcam.schedule.ScheduleReceiver" android:exported="false">
             <intent-filter>
