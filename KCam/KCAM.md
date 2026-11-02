@@ -53,6 +53,7 @@ sem conflito em centenas de arquivos. O código novo fica em `com.fadcam.kcam.*`
 | Marcador de estacionamento (seta + distância + abrir no mapa) | idem |
 | Gerador de QR (texto/URL, Wi-Fi, contato + compartilhar) | idem |
 | **Gravação agendada** (horário, dias da semana ou uma vez, duração, câmera) | Configurações → Gravação agendada |
+| **Perfis** (salvar as configurações atuais com um nome e trocar com um toque) | Configurações / Avançado / menu lateral → Perfis |
 | Botões "Salvar em lote" e "Faditor em lote" na seleção de gravações | Aba Gravações → selecionar |
 
 Gravação agendada: para iniciar sozinha, conceda **"Sobrepor a outros apps"** e
@@ -66,9 +67,9 @@ e iniciar — é uma restrição do Android para câmera em segundo plano, não 
 
 Ainda "em breve" no código herdado — ordem sugerida:
 
-1. **Perfis** (salvar/alternar conjuntos de configurações: "carro", "bodycam", "noite").
-2. **FadMic** — modo só áudio (gravador de microfone em segundo plano).
-3. **Tradução pt-BR** completa (~2.800 strings).
+1. **FadMic** — modo só áudio (gravador de microfone em segundo plano).
+2. **Tradução pt-BR** completa (~2.800 strings).
+3. Perfis automáticos (trocar perfil junto com a gravação agendada).
 4. **Assinatura de release** própria (keystore nos *Secrets* do GitHub) → APK release estável,
    atualizável sem desinstalar.
 5. **Thermal Guardian** (pausar/reduzir qualidade quando o aparelho esquentar).
