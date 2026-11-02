@@ -69,9 +69,9 @@ public class AdvancedSettingsFragment extends Fragment {
         }
         View profiles = view.findViewById(R.id.row_profiles);
         if (profiles != null) {
-            profiles.setOnClickListener(v ->
-                android.widget.Toast.makeText(requireContext(), R.string.mini_app_coming_soon_desc, android.widget.Toast.LENGTH_SHORT).show()
-            );
+            // KCam: profiles are implemented
+            profiles.setOnClickListener(v -> OverlayNavUtil.show(requireActivity(), new com.fadcam.kcam.profiles.ProfilesFragment(), "kcam_profiles"));
+            com.fadcam.kcam.miniapps.MiniApps.hideComingSoonBadges(profiles);
         }
         View fadcrypt = view.findViewById(R.id.row_fadcrypt);
         if (fadcrypt != null) {

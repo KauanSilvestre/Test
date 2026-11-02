@@ -116,4 +116,21 @@
         <item>Front camera</item>
         <item>Dual camera</item>
     </string-array>
+
+    <!-- Profiles -->
+    <string name="kcam_profiles_title">Profiles</string>
+    <string name="kcam_profiles_save">Save current settings as profile</string>
+    <string name="kcam_profiles_empty">No profiles yet. Set things up the way you like, then save them here.</string>
+    <string name="kcam_profiles_info">A profile is a snapshot of all settings (camera, video, audio, watermark, storage…). Tap a profile to switch to it. App lock and remote passwords are never changed by profiles.</string>
+    <string name="kcam_profiles_hint">Tap to apply · long-press to update or delete</string>
+    <string name="kcam_profiles_saved_when">Saved %1$s</string>
+    <string name="kcam_profiles_name_hint">e.g. Car, Bodycam, Night</string>
+    <string name="kcam_profiles_saved_toast">Profile \"%1$s\" saved</string>
+    <string name="kcam_profiles_overwrite">Update with current settings</string>
+    <string name="kcam_profiles_delete">Delete</string>
+    <string name="kcam_profiles_apply_title">Switch to \"%1$s\"?</string>
+    <string name="kcam_profiles_apply_msg">Your current settings will be replaced. Save them as a profile first if you want to keep them.</string>
+    <string name="kcam_profiles_applied">Profile \"%1$s\" applied</string>
+    <string name="kcam_profiles_busy">Stop the recording before switching profiles.</string>
+    <string name="kcam_profiles_error">Could not complete the profile action</string>
 </resources>

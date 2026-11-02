@@ -454,9 +454,9 @@ public class SettingsHomeFragment extends Fragment {
         // KCam: scheduled recording is implemented
         bindRow(root, R.id.group_scheduled_recording, () -> OverlayNavUtil.show(requireActivity(), new com.fadcam.kcam.schedule.ScheduledRecordingFragment(), "kcam_schedule"));
         com.fadcam.kcam.miniapps.MiniApps.hideComingSoonBadges(root.findViewById(R.id.group_scheduled_recording));
-        bindRow(root, R.id.group_profiles, () -> {
-            android.widget.Toast.makeText(requireContext(), R.string.mini_app_coming_soon_desc, android.widget.Toast.LENGTH_SHORT).show();
-        });
+        // KCam: profiles are implemented
+        bindRow(root, R.id.group_profiles, () -> OverlayNavUtil.show(requireActivity(), new com.fadcam.kcam.profiles.ProfilesFragment(), "kcam_profiles"));
+        com.fadcam.kcam.miniapps.MiniApps.hideComingSoonBadges(root.findViewById(R.id.group_profiles));
         bindRow(root, R.id.group_automation, () -> openSubFragment(new AutomationSettingsFragment()));
         bindRow(root, R.id.group_widgets, () -> openSubFragment(new ShortcutsSettingsFragment()));
         bindRow(root, R.id.group_notifications, () -> openSubFragment(new NotificationSettingsFragment()));

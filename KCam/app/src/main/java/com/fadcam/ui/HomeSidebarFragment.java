@@ -160,6 +160,7 @@ public class HomeSidebarFragment extends DialogFragment {
                 dismiss();
             });
         }
+        com.fadcam.kcam.miniapps.MiniApps.hideComingSoonBadges(profilesRow); // KCam
 
         // What's New row
         View whatsNewRow = view.findViewById(R.id.row_whats_new);
@@ -525,6 +526,15 @@ public class HomeSidebarFragment extends DialogFragment {
     }
 
     private void showProfilesComingSoon() {
+        // KCam: profiles are implemented
+        try {
+            com.fadcam.ui.OverlayNavUtil.show(requireActivity(),
+                    new com.fadcam.kcam.profiles.ProfilesFragment(), "kcam_profiles");
+            dismiss();
+            return;
+        } catch (Exception e) {
+            FLog.w("HomeSidebar", "Failed to open profiles", e);
+        }
         try {
             ArrayList<OptionItem> items = new ArrayList<>();
             items.add(new OptionItem("profiles",
