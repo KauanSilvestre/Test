@@ -445,12 +445,13 @@ public class SettingsHomeFragment extends Fragment {
         bindRow(root, R.id.group_security, () -> openSubFragment(new SecuritySettingsFragment()));
         bindRow(root, R.id.group_motion_lab, () -> openSubFragment(new MotionLabSettingsFragment()));
         bindRow(root, R.id.group_digital_forensics, () -> openSubFragment(new DigitalForensicsSettingsFragment()));
-        bindRow(root, R.id.group_thermal_guardian, () -> {
-            android.widget.Toast.makeText(requireContext(), R.string.mini_app_coming_soon_desc, android.widget.Toast.LENGTH_SHORT).show();
-        });
-        bindRow(root, R.id.group_audio_vision, () -> {
-            android.widget.Toast.makeText(requireContext(), R.string.mini_app_coming_soon_desc, android.widget.Toast.LENGTH_SHORT).show();
-        });
+        // KCam: Thermal Guardian and Audio Vision are implemented
+        bindRow(root, R.id.group_thermal_guardian, () -> OverlayNavUtil.show(requireActivity(),
+                new com.fadcam.kcam.thermal.ThermalGuardianFragment(), "kcam_thermal"));
+        bindRow(root, R.id.group_audio_vision, () -> OverlayNavUtil.show(requireActivity(),
+                new com.fadcam.kcam.vision.AudioVisionFragment(), "kcam_audio_vision"));
+        com.fadcam.kcam.miniapps.MiniApps.hideComingSoonBadges(root.findViewById(R.id.group_thermal_guardian));
+        com.fadcam.kcam.miniapps.MiniApps.hideComingSoonBadges(root.findViewById(R.id.group_audio_vision));
         // KCam: quick record (double press side key / power gesture)
         bindRow(root, R.id.group_kcam_quick_record, () -> OverlayNavUtil.show(requireActivity(),
                 new com.fadcam.kcam.quick.QuickRecordSettingsFragment(), "kcam_quick"));

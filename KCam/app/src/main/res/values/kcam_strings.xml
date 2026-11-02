@@ -197,4 +197,71 @@
     <string name="kcam_quick_other_title">Pixel and other phones</string>
     <string name="kcam_quick_other_steps">If your phone has "Double press power button to open camera", choose KCam Rec as the camera when asked (or as default camera). Otherwise enable the experimental power-button detection above, or use the home-screen button.</string>
     <string name="kcam_quick_open_settings">Open phone settings</string>
+
+    <!-- FadCrypt -->
+    <string name="kcam_crypt_menu">Encrypt (FadCrypt)</string>
+    <string name="kcam_crypt_pick">Choose files to encrypt</string>
+    <string name="kcam_crypt_info">Files are encrypted on the phone with AES-256-GCM using a key derived from your password (PBKDF2). There is NO way to recover a forgotten password. Encrypted files are kept in FadCam/Encrypted; decrypted copies go to FadCam/Decrypted.</string>
+    <string name="kcam_crypt_encrypted_files">Encrypted files</string>
+    <string name="kcam_crypt_empty">No encrypted files yet</string>
+    <string name="kcam_crypt_hint">Tap to decrypt · long-press to delete</string>
+    <string name="kcam_crypt_password">Password</string>
+    <string name="kcam_crypt_password_repeat">Repeat password</string>
+    <string name="kcam_crypt_delete_originals">Delete the originals after encrypting</string>
+    <string name="kcam_crypt_encrypt_n">Encrypt %1$d file(s)</string>
+    <string name="kcam_crypt_encrypt">Encrypt</string>
+    <string name="kcam_crypt_decrypt">Decrypt</string>
+    <string name="kcam_crypt_password_short">Use at least 6 characters</string>
+    <string name="kcam_crypt_password_mismatch">Passwords do not match</string>
+    <string name="kcam_crypt_working">Encrypting %1$d of %2$d: %3$s</string>
+    <string name="kcam_crypt_done">Done: %1$d encrypted, %2$d failed</string>
+    <string name="kcam_crypt_decrypting">Decrypting…</string>
+    <string name="kcam_crypt_wrong_password">Wrong password or damaged file</string>
+    <string name="kcam_crypt_decrypted_to">Decrypted: %1$s</string>
+
+    <!-- Thermal Guardian -->
+    <string name="kcam_thermal_enabled">Watch temperature while recording</string>
+    <string name="kcam_thermal_autostop">Stop recording safely when critical</string>
+    <string name="kcam_thermal_warn_at">Warn at</string>
+    <string name="kcam_thermal_stop_at">Stop at</string>
+    <string name="kcam_thermal_warn_title">Warn when battery reaches</string>
+    <string name="kcam_thermal_stop_title">Stop recording when battery reaches</string>
+    <string name="kcam_thermal_warn_value">Warn at %1$d °C</string>
+    <string name="kcam_thermal_stop_value">Stop at %1$d °C</string>
+    <string name="kcam_thermal_status_ok">Temperature normal</string>
+    <string name="kcam_thermal_status_warm">Phone is warm</string>
+    <string name="kcam_thermal_status_severe">Phone is hot</string>
+    <string name="kcam_thermal_status_critical">Critical temperature</string>
+    <string name="kcam_thermal_warning">Phone is getting hot (%1$d °C). Consider lowering resolution/FPS or giving it some air.</string>
+    <string name="kcam_thermal_stopped">Recording stopped at %1$d °C to protect the phone and the video file.</string>
+    <string name="kcam_thermal_info">Uses the battery temperature and Android\'s thermal status. A clean stop saves the video properly; letting the phone overheat can make Android kill the recording and leave a damaged file.</string>
+
+    <!-- Audio Vision -->
+    <string name="kcam_vision_start">Start listening</string>
+    <string name="kcam_vision_off">Off</string>
+    <string name="kcam_vision_listening">Listening for sound…</string>
+    <string name="kcam_vision_listening_n">Listening · %1$d clip(s) recorded</string>
+    <string name="kcam_vision_recording">Sound detected — recording</string>
+    <string name="kcam_vision_threshold">Sensitivity</string>
+    <string name="kcam_vision_threshold_value">Trigger at %1$d dB</string>
+    <string name="kcam_vision_action">When sound is detected</string>
+    <string name="kcam_vision_action_audio">Record: audio</string>
+    <string name="kcam_vision_action_back">Record: back camera</string>
+    <string name="kcam_vision_action_front">Record: front camera</string>
+    <string name="kcam_vision_silence">Stop after silence</string>
+    <string name="kcam_vision_silence_value">Stop after %1$d s of silence</string>
+    <string name="kcam_vision_clip">Camera clip length</string>
+    <string name="kcam_vision_clip_value">Camera clips: %1$d min</string>
+    <string name="kcam_vision_need_overlay">Camera actions need "Display over other apps" to start from the background. Without it, audio is recorded instead.</string>
+    <string name="kcam_vision_info">Keeps listening in the background (with a notification) and records when the sound level passes the trigger. Audio clips stop after a quiet period; camera clips have a fixed length. Clips are saved with the FadMic recordings.</string>
+
+    <!-- Edition -->
+    <string name="kcam_edition_title">Edition</string>
+    <string name="kcam_edition_all_unlocked">All features unlocked</string>
+    <string name="kcam_edition_free_desc">Free edition — Pro features are marked below</string>
+    <string name="kcam_edition_features_title">Features</string>
+    <string name="kcam_edition_feature_miniapps">Mini apps</string>
+    <string name="kcam_edition_feature_batch">Batch export</string>
+    <string name="kcam_edition_feature_disguise">Disguised app variants</string>
+    <string name="kcam_edition_gpl">KCam is free software (GPL-3.0), based on FadCam by FadSec Lab. Source code: github.com/KauanSilvestre/Test</string>
 </resources>

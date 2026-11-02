@@ -13,6 +13,12 @@ public class FadCamApplication extends Application implements DefaultLifecycleOb
     public void onCreate() {
         super.onCreate();
         ProcessLifecycleOwner.get().getLifecycle().addObserver(this);
+        // KCam: Thermal Guardian (watches temperature while recording)
+        try {
+            com.fadcam.kcam.thermal.ThermalGuardian.install(this);
+        } catch (Exception e) {
+            FLog.w("KCam", "Thermal Guardian install failed", e);
+        }
         // Room DB open + invalidation observer registration is deferred off the
         // main thread: cold start must not block on SQLite open. The observer
         // still catches post-kill index writes (invocation is on Room's own

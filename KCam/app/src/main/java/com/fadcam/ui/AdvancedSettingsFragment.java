@@ -50,15 +50,15 @@ public class AdvancedSettingsFragment extends Fragment {
         }
         View thermalGuardian = view.findViewById(R.id.row_thermal_guardian);
         if (thermalGuardian != null) {
-            thermalGuardian.setOnClickListener(v ->
-                android.widget.Toast.makeText(requireContext(), R.string.mini_app_coming_soon_desc, android.widget.Toast.LENGTH_SHORT).show()
-            );
+            thermalGuardian.setOnClickListener(v -> OverlayNavUtil.show(requireActivity(),
+                new com.fadcam.kcam.thermal.ThermalGuardianFragment(), "kcam_thermal"));
+            com.fadcam.kcam.miniapps.MiniApps.hideComingSoonBadges(thermalGuardian);
         }
         View audioVision = view.findViewById(R.id.row_audio_vision);
         if (audioVision != null) {
-            audioVision.setOnClickListener(v ->
-                android.widget.Toast.makeText(requireContext(), R.string.mini_app_coming_soon_desc, android.widget.Toast.LENGTH_SHORT).show()
-            );
+            audioVision.setOnClickListener(v -> OverlayNavUtil.show(requireActivity(),
+                new com.fadcam.kcam.vision.AudioVisionFragment(), "kcam_audio_vision"));
+            com.fadcam.kcam.miniapps.MiniApps.hideComingSoonBadges(audioVision);
         }
         View scheduledRecording = view.findViewById(R.id.row_scheduled_recording);
         if (scheduledRecording != null) {
@@ -75,9 +75,9 @@ public class AdvancedSettingsFragment extends Fragment {
         }
         View fadcrypt = view.findViewById(R.id.row_fadcrypt);
         if (fadcrypt != null) {
-            fadcrypt.setOnClickListener(v ->
-                android.widget.Toast.makeText(requireContext(), R.string.mini_app_coming_soon_desc, android.widget.Toast.LENGTH_SHORT).show()
-            );
+            fadcrypt.setOnClickListener(v -> OverlayNavUtil.show(requireActivity(),
+                new com.fadcam.kcam.crypt.FadCryptFragment(), "kcam_fadcrypt"));
+            com.fadcam.kcam.miniapps.MiniApps.hideComingSoonBadges(fadcrypt);
         }
     }
 

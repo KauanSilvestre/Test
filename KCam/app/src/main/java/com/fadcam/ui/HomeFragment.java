@@ -4648,9 +4648,8 @@ public class HomeFragment extends BaseFragment {
                     FLog.e(TAG, "Error marking pro as seen", e);
                 }
                 
-                // Open FadCam Pro Activity
-                Intent intent = new Intent(getActivity(), FadCamProActivity.class);
-                startActivity(intent);
+                // KCam: show this build's edition instead of upstream's FadCam Pro store page
+                OverlayNavUtil.show(requireActivity(), new com.fadcam.kcam.EditionFragment(), "kcam_edition");
             });
             // ShimmerTextView handles its own shimmer animation
         }

@@ -474,6 +474,8 @@
             <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
                 android:value="Detects a double press of the power button (screen off/on) to start a user-requested recording" />
         </service>
+        <!-- KCam: Audio Vision (sound-activated recording) -->
+        <service android:name=".kcam.vision.AudioVisionService" android:exported="false" android:foregroundServiceType="microphone" />
         <!-- KCam: FadMic audio-only recorder -->
         <service android:name=".kcam.audio.AudioRecordService" android:exported="false" android:foregroundServiceType="microphone" />
         <!-- KCam: scheduled recording alarms + re-arm after reboot / clock change -->

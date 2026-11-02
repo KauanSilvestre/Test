@@ -1316,12 +1316,8 @@ public class RecordsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
             items.add(OptionItem.withLigature("action_open_with", ctx.getString(R.string.video_menu_open_with),
                     "open_in_new"));
         }
-        // New: Upload to FadDrive (coming soon) — badge only, no helper line
-        if (!isImage) {
-            items.add(OptionItem.withLigatureBadge("action_upload_faddrive",
-                    ctx.getString(R.string.video_menu_upload_faddrive, "Upload to FadDrive"), "cloud",
-                    ctx.getString(R.string.remote_coming_soon_badge), R.drawable.badge_background_green, true, null));
-        }
+        // KCam: FadDrive (upstream cloud) is not part of the fork; offer local FadCrypt encryption instead
+        items.add(OptionItem.withLigature("action_kcam_encrypt", ctx.getString(R.string.kcam_crypt_menu), "lock"));
         // Edit with Faditor Mini
         if (!isImage) {
             items.add(OptionItem.withLigature("action_edit_faditorx", ctx.getString(R.string.edit_with_faditorx),
@@ -1342,8 +1338,11 @@ public class RecordsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
                 case "action_edit_faditorx":
                     launchFaditorMini(ctx, videoItem);
                     break;
-                case "action_upload_faddrive":
-                    Toast.makeText(ctx, R.string.remote_toast_coming_soon, Toast.LENGTH_SHORT).show();
+                case "action_kcam_encrypt":
+                    if (videoItem.uri != null) {
+                        com.fadcam.ui.OverlayNavUtil.show((FragmentActivity) ctx,
+                                com.fadcam.kcam.crypt.FadCryptFragment.forUri(videoItem.uri), "kcam_fadcrypt");
+                    }
                     break;
                 case "action_save":
                     showSaveOptionsSheet(videoItem, ctx);
