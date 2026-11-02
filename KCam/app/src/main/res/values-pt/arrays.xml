@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- KCam: Brazilian Portuguese translation (generated from tools; edit freely) -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="languages_array">
+        <item>Inglês (English) 🇬🇧</item>
+        <item>Chinês (中文) 🇨🇳</item>
+        <item>Árabe (العربية) 🇸🇦</item>
+        <item>Francês (Français) 🇲🇫</item>
+        <item>Turco (Türkiye) 🇹🇷</item>
+        <item>Pashto (پښتو) 🏳️</item>
+        <item>Indonésio (Bahasa) 🇮🇩</item>
+        <item>Italiano (Italiano) 🇮🇹</item>
+        <item>Grego (Ελληνικά) 🇬🇷</item>
+        <item>Alemão (Deutsch) 🇩🇪</item>
+        <item>Espanhol (Español) 🇪🇸</item>
+        <item>Estoniano (Eesti) 🇪🇪</item>
+        <item>Russo (Русский) 🇷🇺</item>
+        <item>Português (Brasil) 🇧🇷</item>
+    </string-array>
+    <string-array name="watermark_options">
+        <item>@string/array_watermark_time_fadcam</item>
+        <item>@string/array_watermark_timeonly</item>
+        <item>@string/array_watermark_nomark</item>
+    </string-array>
+    <string-array name="watermark_values">
+        <item>timestamp_fadcam</item>
+        <item>timestamp</item>
+        <item>no_watermark</item>
+    </string-array>
+</resources>

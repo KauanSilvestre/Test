@@ -637,6 +637,8 @@ public class OnboardingActivity extends AppIntro {
                 return 11; // Added for Estonian
             case "ru":
                 return 12; // Added for Russian
+            case "pt":
+                return 13; // KCam: Portuguese
             default:
                 return 0;
         }
@@ -673,6 +675,8 @@ public class OnboardingActivity extends AppIntro {
                 return "et"; // Added for Estonian
             case 12:
                 return "ru"; // Added for Russian
+            case 13:
+                return "pt"; // KCam: Portuguese
             default:
                 return "en";
         }
