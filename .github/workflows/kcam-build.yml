@@ -53,7 +53,7 @@ jobs:
 
       - name: Checksums (SHA-256)
         run: |
-          cd KCam/app/build/outputs/apk/default/debug
+          cd app/build/outputs/apk/default/debug
           sha256sum *.apk | tee SHA256SUMS.txt
           {
             echo "### APKs Sentinela (debug) — SHA-256"
@@ -123,7 +123,7 @@ jobs:
 
       - name: Checksums (SHA-256)
         run: |
-          cd KCam/app/build/outputs/apk/default/release
+          cd app/build/outputs/apk/default/release
           sha256sum *.apk | tee SHA256SUMS.txt
           {
             echo "### APKs Sentinela (release) — SHA-256"
