@@ -11,11 +11,15 @@ import android.provider.Settings;
 
 import androidx.core.app.NotificationCompat;
 
+import com.fadcam.Constants;
 import com.fadcam.FLog;
 import com.fadcam.R;
 import com.fadcam.RecordingStartActivity;
 import com.fadcam.RecordingStopActivity;
 import com.fadcam.SharedPreferencesManager;
+import com.fadcam.dualcam.service.DualCameraRecordingService;
+import com.fadcam.services.RecordingService;
+import com.fadcam.utils.ServiceUtils;
 
 /**
  * Fires scheduled start/stop alarms and restores alarms after reboot or clock changes.
@@ -98,12 +102,25 @@ public class ScheduleReceiver extends BroadcastReceiver {
         if (store.getActive() != id) return; // recording was started by something else
         store.setActive(-1);
         if (!SharedPreferencesManager.getInstance(context).isRecordingInProgress()) return;
-        Intent stop = new Intent(context, RecordingStopActivity.class)
-                .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        // Same logic as RecordingStopActivity, but sent straight to the service: while a
+        // recording runs the app holds a foreground service, so this start is allowed even
+        // when activity launches from the background are blocked.
+        SharedPreferencesManager sp = SharedPreferencesManager.getInstance(context);
+        boolean dual = ServiceUtils.isServiceRunning(context, DualCameraRecordingService.class)
+                || (sp.getCameraSelection() != null && sp.getCameraSelection().isDual());
+        Intent stop = dual
+                ? new Intent(context, DualCameraRecordingService.class).setAction(Constants.INTENT_ACTION_STOP_DUAL_RECORDING)
+                : new Intent(context, RecordingService.class).setAction(Constants.INTENT_ACTION_STOP_RECORDING);
         try {
-            context.startActivity(stop);
+            context.startService(stop);
         } catch (Exception e) {
-            FLog.w(TAG, "Could not stop scheduled recording", e);
+            FLog.w(TAG, "Service stop refused, trying the stop activity", e);
+            try {
+                context.startActivity(new Intent(context, RecordingStopActivity.class)
+                        .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_NO_ANIMATION));
+            } catch (Exception e2) {
+                FLog.w(TAG, "Could not stop scheduled recording", e2);
+            }
         }
     }
 

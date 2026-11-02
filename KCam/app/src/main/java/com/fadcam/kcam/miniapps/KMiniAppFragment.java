@@ -136,7 +136,8 @@ public abstract class KMiniAppFragment extends BaseFragment {
     }
 
     protected void close() {
-        if (getActivity() != null) OverlayNavUtil.dismiss(requireActivity());
+        // Back to the screen that opened us (e.g. Settings); dismiss if we are the only overlay.
+        if (getActivity() != null) OverlayNavUtil.popLevel(requireActivity());
     }
 
     // ── Permissions ─────────────────────────────────────────────────
