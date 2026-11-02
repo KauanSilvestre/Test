@@ -489,7 +489,7 @@ public class RemoteStreamService extends Service {
         if (isCloudMode) {
             // Cloud mode - show cloud dashboard URL with device ID (even if activePort == -1)
             String deviceId = android.provider.Settings.Secure.getString(getContentResolver(), android.provider.Settings.Secure.ANDROID_ID);
-            dashboardUrl = "https://fadcam.fadseclab.com/stream/" + deviceId + "/";
+            dashboardUrl = com.fadcam.BuildConfig.CLOUD_DASHBOARD_URL + "/stream/" + deviceId + "/";
             
             if (fragmentCount > 0) {
                 contentText = "Cloud Streaming: " + dashboardUrl + " (" + fragmentCount + " fragments)";
@@ -557,7 +557,7 @@ public class RemoteStreamService extends Service {
         if (isCloudMode) {
             // Cloud mode - return cloud dashboard URL with device ID
             String deviceId = android.provider.Settings.Secure.getString(getContentResolver(), android.provider.Settings.Secure.ANDROID_ID);
-            return "https://fadcam.fadseclab.com/stream/" + deviceId + "/";
+            return com.fadcam.BuildConfig.CLOUD_DASHBOARD_URL + "/stream/" + deviceId + "/";
         } else {
             // Local mode - return local dashboard URL (root)
             String ipAddress = getLocalIpAddress();

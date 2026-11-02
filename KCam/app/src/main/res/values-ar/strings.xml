@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="check_for_updates">التحقق من التحديثات</string>
-    <string name="fadsec_info">FadCam هو جزء من مجموعة أدوات FadSec. لمزيد من التفاصيل، يرجى النقر على زر "عرض الشيفرة المصدرية" أدناه</string>
-    <string name="app_description">\n    <![CDATA[
-    FadCam هو برنامج تسجيل فيديو مفتوح المصدر يركز على الخصوصية ولا يحتوي على إعلانات. يمكن الحصول على البرنامج من خلال روابط GitHub وREADME الرسمية.
-    <br/><br/>
-    تم عرض FadCam في قنوات يوتيوب الشهيرة <font color="#cfbafd">HowToMen</font> و <font color="#cfbafd">Xtream Droid</font>، وتم ذكره أيضًا في أنظمة <font color="#cfbafd">GrapheneOS</font> و+55 من الأنظمة الأخرى المعروفة.
-    ]]>\n</string>
     <string name="view_source_code">عرض الشيفرة المصدرية</string>
     <string name="buy_me_a_coffee">اشترِ لي قهوة ☕</string>
     <string name="contact">جهة الاتصال</string>
@@ -89,13 +83,13 @@
     </string-array>
     <string-array name="questions_array" tools:ignore="InconsistentArrays">
         <item>إخلاء المسؤولية</item>
-        <item>هل يجمع FadCam بيانات المستخدمين؟</item>
-        <item>هل يحتوي FadCam على إعلانات؟</item>
-        <item>لماذا يطلب FadCam الوصول إلى بيانات الموقع؟</item>
-        <item>هل يتصل FadCam بالإنترنت؟</item>
+        <item>هل يجمع KCam بيانات المستخدمين؟</item>
+        <item>هل يحتوي KCam على إعلانات؟</item>
+        <item>لماذا يطلب KCam الوصول إلى بيانات الموقع؟</item>
+        <item>هل يتصل KCam بالإنترنت؟</item>
         <item>هل سيتم تخزين البيانات على خوادم خارجية؟</item>
         <item>ماذا يحدث بعد تسجيل الفيديو؟</item>
-        <item>هل يشارك FadCam بياناتي مع أطراف ثالثة؟</item>
+        <item>هل يشارك KCam بياناتي مع أطراف ثالثة؟</item>
         <item> </item>
         <item> </item>
         <item>أسئلة الاستخدام</item>
@@ -110,14 +104,14 @@
         <item> </item>
     </string-array>
     <string-array name="answers_array" tools:ignore="InconsistentArrays">
-        <item>لا يدعم FadCam أي استخدام غير أخلاقي أو غير قانوني للبرنامج. تتعارض التصرفات مثل المراقبة غير المصرح بها أو انتهاك الخصوصية مع مبادئنا بشدة. لا يتحمل مؤلفو FadCam أي مسؤولية عن أي إساءة استخدام للبرنامج والنتائج التي تترتب عليها.</item>
-        <item>لا، FadCam لا يجمع أي بيانات للمستخدمين.</item>
-        <item>لا، FadCam خالٍ من الإعلانات.</item>
+        <item>لا يدعم KCam أي استخدام غير أخلاقي أو غير قانوني للبرنامج. تتعارض التصرفات مثل المراقبة غير المصرح بها أو انتهاك الخصوصية مع مبادئنا بشدة. لا يتحمل مؤلفو KCam أي مسؤولية عن أي إساءة استخدام للبرنامج والنتائج التي تترتب عليها.</item>
+        <item>لا، KCam لا يجمع أي بيانات للمستخدمين.</item>
+        <item>لا، KCam خالٍ من الإعلانات.</item>
         <item>لاستخدام وظيفة إضافة علامة مائية لبيانات الموقع.</item>
-        <item>لا، FadCam لا يتصل بالإنترنت.</item>
+        <item>لا، KCam لا يتصل بالإنترنت.</item>
         <item>لا، جميع البيانات تُخزن على جهازك.</item>
         <item>الفيديوهات التي تسجلها سيتم تخزينها فقط على هاتفك.</item>
-        <item>لا، FadCam لا يخزن أو يشارك أي معلومات.</item>
+        <item>لا، KCam لا يخزن أو يشارك أي معلومات.</item>
         <item> </item>
         <item> </item>
         <item> </item>
@@ -131,20 +125,20 @@
         <item>انتقل إلى مستودع GitHub الرسمي لدينا للحصول على التحديثات.</item>
         <item> </item>
     </string-array>
-    <string name="dialog_welcome_title">مرحبًا بك في FadCam!</string>
+    <string name="dialog_welcome_title">مرحبًا بك في KCam!</string>
     <string name="note_under_dev">تنبيه هام: هذا البرنامج لا يزال في مرحلة التطوير. سيتم إضافة ميزات جديدة تدريجياً</string>
     <!-- removed: rencent_updates_title and upcoming_features_title (centralized changelog) -->
     <string name="stay_updated_title">ابقَ على اطلاع</string>
     <string name="button_readme_github">مستودع GitHub</string>
     <string name="community_title">انضم إلى المجتمع الرسمي:</string>
     <string name="discord_title">خادم Discord</string>
-    <string name="thankyou_msg">شكرًا لك على استخدام FadCam!</string>
+    <string name="thankyou_msg">شكرًا لك على استخدام KCam!</string>
     <string name="settings_title">الإعدادات</string>
     <string name="array_watermark_time_fadcam">الوقت و"Fadcam"</string>
     <string name="array_watermark_timeonly">الوقت فقط</string>
     <string name="array_watermark_nomark">بدون علامة مائية</string>
     <string name="toast_video_not_found">خطأ: لم يتم العثور على الفيديو</string>
-    <string name="toast_video_saved">تم حفظ الفيديو في مجلد FadCam داخل دليل التنزيلات</string>
+    <string name="toast_video_saved">تم حفظ الفيديو في مجلد KCam داخل دليل التنزيلات</string>
     <string name="toast_video_save_fail">فشل حفظ الفيديو</string>
     <string name="rename_video_title">إعادة تسمية الفيديو</string>
     <string name="toast_rename_name_empty">لا يمكن أن يكون الاسم فارغًا</string>
@@ -287,17 +281,17 @@
     <string name="note_debug_extra">عند التفعيل، سيتم إنشاء ملف سجل تصحيح في مجلد التنزيلات/FadCam. يمكن أن يساعد ذلك في تشخيص مشاكل التطبيق.</string>
     <!-- Onboarding Settings -->
     <string name="setting_onboarding_title">عرض التوجيه عند التشغيل التالي</string>
-    <string name="note_onboarding">قم بالتفعيل لرؤية مقدمة التطبيق ودليل الأذونات في المرة القادمة التي تفتح فيها FadCam.</string>
+    <string name="note_onboarding">قم بالتفعيل لرؤية مقدمة التطبيق ودليل الأذونات في المرة القادمة التي تفتح فيها KCam.</string>
     <!-- Auto Update Settings -->
     <string name="setting_auto_update_check_title">فحص التحديثات التلقائي عند بدء التشغيل</string>
-    <string name="note_auto_update_check">إذا كان مفعلاً، سيقوم FadCam بالتحقق من التحديثات في كل مرة تفتح فيها التطبيق. قم بإيقاف التشغيل لتعطيل فحص التحديثات التلقائي عند بدء التشغيل.\n(الافتراضي: مفعل)</string>
+    <string name="note_auto_update_check">إذا كان مفعلاً، سيقوم KCam بالتحقق من التحديثات في كل مرة تفتح فيها التطبيق. قم بإيقاف التشغيل لتعطيل فحص التحديثات التلقائي عند بدء التشغيل.\n(الافتراضي: مفعل)</string>
     <!-- Storage Location Settings -->
     <string name="storage_location_title">موقع التخزين</string>
     <string name="storage_location_description">اختر مكان حفظ التسجيلات.</string>
     <string name="storage_location_internal">تخزين التطبيق الداخلي (افتراضي، خاص)</string>
     <string name="storage_location_custom">موقع مخصص (بطاقة SD/أخرى، مرئي في المعرض)</string>
     <string name="storage_location_choose_folder">اختيار المجلد</string>
-    <string name="storage_location_note">ملاحظة: استخدام مواقع مخصصة يجعل مقاطع الفيديو متاحة للتطبيقات الأخرى (مثل المعرض). التخزين الداخلي يبقيها خاصة بـ FadCam.</string>
+    <string name="storage_location_note">ملاحظة: استخدام مواقع مخصصة يجعل مقاطع الفيديو متاحة للتطبيقات الأخرى (مثل المعرض). التخزين الداخلي يبقيها خاصة بـ KCam.</string>
     <string name="storage_icon_description">أيقونة التخزين</string>
     <string name="location_icon_description">أيقونة الموقع</string>
     <string name="location_embedding_icon_description">أيقونة تضمين الموقع</string>
@@ -326,16 +320,16 @@
     <string name="onboarding_intro_line3">مصمم من أجلك — وليس للمعلنين.</string>
     <string name="language_change_later_note">يمكنك تغيير هذا لاحقًا في الإعدادات.</string>
     <string name="permissions_required">الأذونات المطلوبة</string>
-    <string name="permissions_description">تحتاج FadCam إلى الوصول إلى الكاميرا والميكروفون والتخزين لتسجيل وحفظ مقاطع الفيديو.</string>
+    <string name="permissions_description">تحتاج KCam إلى الوصول إلى الكاميرا والميكروفون والتخزين لتسجيل وحفظ مقاطع الفيديو.</string>
     <string name="grant_permissions">منح الأذونات</string>
     <string name="permissions_note">يجب عليك منح جميع الأذونات للمتابعة.</string>
     <string name="permissions_granted">تم منح جميع الأذونات!</string>
     <string name="open_settings">فتح الإعدادات</string>
     <string name="disable_battery_optimization">تعطيل تحسين البطارية</string>
     <string name="onboarding_human_title">تحقق إذا كنت إنسانًا</string>
-    <string name="onboarding_human_desc">هممم... حسنًا. هذه القواعد غير قابلة للتفاوض. إذا لم تتمكن من الموافقة، يرجى إلغاء تثبيت FadCam الآن.</string>
-    <string name="onboarding_human_checkbox1">لن أستخدم FadCam لخرق أي قوانين، أو انتهاك خصوصية أي شخص، أو أكون مزعجًا. المطور غير مسؤول إذا أخطأت. (هذا على عاتقي.)</string>
-    <string name="onboarding_human_checkbox2">أنا بالفعل أحب FadCam قبل حتى استخدامه. (غير اختياري)</string>
+    <string name="onboarding_human_desc">هممم... حسنًا. هذه القواعد غير قابلة للتفاوض. إذا لم تتمكن من الموافقة، يرجى إلغاء تثبيت KCam الآن.</string>
+    <string name="onboarding_human_checkbox1">لن أستخدم KCam لخرق أي قوانين، أو انتهاك خصوصية أي شخص، أو أكون مزعجًا. المطور غير مسؤول إذا أخطأت. (هذا على عاتقي.)</string>
+    <string name="onboarding_human_checkbox2">أنا بالفعل أحب KCam قبل حتى استخدامه. (غير اختياري)</string>
     <string name="onboarding_human_button">دعني أدخل!</string>
     <!-- Records Options and Empty State Strings -->
     <string name="sort_by">ترتيب حسب</string>
@@ -348,8 +342,8 @@
     <!-- Remote Tab Strings -->
     <string name="remote_access_title">التحكم عن بعد</string>
     <string name="remote_toast_coming_soon">قريباً! إن شاء الله</string>
-    <string name="remote_coming_soon">التحكم عن بعد لتطبيق FadCam قادم قريباً.</string>
-    <string name="remote_feature_description">قم بإقران أجهزة FadCam باستخدام رمز QR للتحكم عن بعد الآمن عبر الشبكة المحلية: بدء/إيقاف التسجيل، المعاينة، التكبير، تبديل الكاميرا، والمزيد - كل ذلك مع تشفير من طرف إلى طرف.</string>
+    <string name="remote_coming_soon">التحكم عن بعد لتطبيق KCam قادم قريباً.</string>
+    <string name="remote_feature_description">قم بإقران أجهزة KCam باستخدام رمز QR للتحكم عن بعد الآمن عبر الشبكة المحلية: بدء/إيقاف التسجيل، المعاينة، التكبير، تبديل الكاميرا، والمزيد - كل ذلك مع تشفير من طرف إلى طرف.</string>
     <!-- Strings for TrashFragment -->
     <string name="trash_auto_deleted_toast">تم حذف %1$d عنصر قديم تلقائيًا.</string>
     <string name="trash_empty_toast_message">لا توجد عناصر للحذف.</string>
@@ -490,9 +484,6 @@
     <string name="full_changelog_info">لعرض سجل التغييرات الكامل، انتقل إلى تبويب الرئيسية، افتح قائمة الهامبورغر، ثم اختر «ما الجديد».</string>
 
     <!-- ===== NEW TRANSLATED ENTRIES ===== -->
-
-    <string name="app_name" translatable="false">FadCam</string>
-
     <string name="accessibility_thumbnail_progress">تمت مشاهدة %1$d%%</string>
 
     <string name="readme_github_subtitle">الشيفرة المصدرية والإصدارات</string>
@@ -1155,7 +1146,7 @@
     <string name="records_filter_all">الكل</string>
     <string name="mode_all">الكل</string>
 
-    <string name="records_filter_camera">FadCam</string>
+    <string name="records_filter_camera">KCam</string>
 
     <string name="records_filter_dual">مزدوج</string>
 
@@ -1666,7 +1657,7 @@
 
     <string name="torch_both">كلا الفلاشين</string>
 
-    <string name="note_debug_detailed">عند التمكين، يكتب FadCam ملف سجل تصحيح HTML (FADCAM_debug.html) في مجلد التنزيلات العام/FadCam/. شارك هذا الملف عند الإبلاغ عن مشاكل. أوقف لإيقاف الكتابات المستقبلية.\nملاحظة: قد يضيف تسجيل التصحيح عبئًا على الأداء أثناء التسجيل — أبقه معطلًا إلا إذا كنت تستكشف مشكلة.</string>
+    <string name="note_debug_detailed">عند التمكين، يكتب KCam ملف سجل تصحيح HTML (FADCAM_debug.html) في مجلد التنزيلات العام/FadCam/. شارك هذا الملف عند الإبلاغ عن مشاكل. أوقف لإيقاف الكتابات المستقبلية.\nملاحظة: قد يضيف تسجيل التصحيح عبئًا على الأداء أثناء التسجيل — أبقه معطلًا إلا إذا كنت تستكشف مشكلة.</string>
 
     <string name="watermark_preview_heading">معاينة</string>
 
@@ -1674,11 +1665,11 @@
 
     <string name="watermark_style_row_title">نمط العلامة المائية</string>
 
-    <string name="watermark_preview_sample_fadcam">التقط بواسطة FadCam - %1$s</string>
+    <string name="watermark_preview_sample_fadcam">التقط بواسطة KCam - %1$s</string>
 
     <string name="watermark_preview_sample_timeonly">%1$s</string>
 
-    <string name="watermark_style_time_fadcam_label">الوقت مع FadCam</string>
+    <string name="watermark_style_time_fadcam_label">الوقت مع KCam</string>
 
     <string name="watermark_style_timeonly_label">الطابع الزمني</string>
 
@@ -1686,7 +1677,7 @@
 
     <string name="watermark_style_none_label">بدون علامة مائية</string>
 
-    <string name="helper_watermark_preview">هكذا ستظهر العلامة المائية في أعلى يسار الفيديو المسجل.\nحقيقة ممتعة: 10/يوليو/2024 04:47 م هو تاريخ إطلاق FadCam v1.0 لأول مرة.</string>
+    <string name="helper_watermark_preview">هكذا ستظهر العلامة المائية في أعلى يسار الفيديو المسجل.\nحقيقة ممتعة: 10/يوليو/2024 04:47 م هو تاريخ إطلاق KCam v1.0 لأول مرة.</string>
 
     <string name="helper_location_watermark_option">تبديل إضافة موقع جهازك كطبقة. يتطلب إذن الموقع.</string>
 
@@ -1737,7 +1728,7 @@
     <string name="widget_clock_title">أداة الساعة</string>
     <string name="widget_label_clock">الساعة</string>
 
-    <string name="widgets_pin_fallback">إذا لم يظهر مربع حوار، اضغط مطولاً على شاشتك الرئيسية، افتح الأدوات، واسحب أداة ساعة FadCam.</string>
+    <string name="widgets_pin_fallback">إذا لم يظهر مربع حوار، اضغط مطولاً على شاشتك الرئيسية، افتح الأدوات، واسحب أداة ساعة KCam.</string>
 
     <string name="widget_customize_title">تخصيص أداة الساعة</string>
 
@@ -2377,11 +2368,11 @@
 
     <string name="faditor_info_how_title">كيف يعمل</string>
 
-    <string name="faditor_info_how_desc">اختر أي فيديو من جهازك أو تسجيلات FadCam. قصه إطارًا بإطار باستخدام الجدول الزمني، ثم صدر. تحدث كل المعالجة محليًا على جهازك — لا يتم رفع أي شيء.\n\nيتم حفظ تقدم التحرير تلقائيًا كل بضع ثوانٍ وعند مغادرة المحرر، لذا لا يضيع أي عمل إذا أغلق التطبيق بشكل غير متوقع.</string>
+    <string name="faditor_info_how_desc">اختر أي فيديو من جهازك أو تسجيلات KCam. قصه إطارًا بإطار باستخدام الجدول الزمني، ثم صدر. تحدث كل المعالجة محليًا على جهازك — لا يتم رفع أي شيء.\n\nيتم حفظ تقدم التحرير تلقائيًا كل بضع ثوانٍ وعند مغادرة المحرر، لذا لا يضيع أي عمل إذا أغلق التطبيق بشكل غير متوقع.</string>
 
     <string name="faditor_info_convert_title">التحويل الذكي</string>
 
-    <string name="faditor_info_convert_desc">يسجل FadCam بتنسيق آمن من الأعطال يسمى MP4 المجزأ (fMP4). على عكس MP4 القياسي الذي يحتوي على حاوية واحدة نهائية، يكتب fMP4 الفيديو في قطع صغيرة مستقلة. هذا يعني أن لقطاتك تبقى سليمة حتى لو تعطل التطبيق أو توقف التسجيل فجأة.\n\nومع ذلك، لن تتمكن مشغلات الفيديو الخارجية وتطبيقات المعرض ومديري الملفات من البحث أو التقديم أو عرض المدة الصحيحة لهذه الملفات. هذا ليس خطأ — إنه مقايضة تصميم متعمدة للموثوقية.\n\nإذا كنت تخطط لتخزين فيديوهاتك خارج FadCam — على Google Drive أو جهاز كمبيوتر أو أي موقع آخر — يجب تحويلها أولاً. وإلا ستكون الملفات غير قابلة للاستخدام للتشغيل العادي.\n\nللتحويل: افتح الفيديو هنا في Faditor Mini واضغط تصدير ببساطة. سيظهر MP4 القياسي المحول في تبويب التسجيلات، جاهزًا للحفظ في المعرض أو المشاركة في أي مكان. العملية فورية وبدون فقدان — بدون إعادة ترميز أو فقدان جودة.</string>
+    <string name="faditor_info_convert_desc">يسجل KCam بتنسيق آمن من الأعطال يسمى MP4 المجزأ (fMP4). على عكس MP4 القياسي الذي يحتوي على حاوية واحدة نهائية، يكتب fMP4 الفيديو في قطع صغيرة مستقلة. هذا يعني أن لقطاتك تبقى سليمة حتى لو تعطل التطبيق أو توقف التسجيل فجأة.\n\nومع ذلك، لن تتمكن مشغلات الفيديو الخارجية وتطبيقات المعرض ومديري الملفات من البحث أو التقديم أو عرض المدة الصحيحة لهذه الملفات. هذا ليس خطأ — إنه مقايضة تصميم متعمدة للموثوقية.\n\nإذا كنت تخطط لتخزين فيديوهاتك خارج KCam — على Google Drive أو جهاز كمبيوتر أو أي موقع آخر — يجب تحويلها أولاً. وإلا ستكون الملفات غير قابلة للاستخدام للتشغيل العادي.\n\nللتحويل: افتح الفيديو هنا في Faditor Mini واضغط تصدير ببساطة. سيظهر MP4 القياسي المحول في تبويب التسجيلات، جاهزًا للحفظ في المعرض أو المشاركة في أي مكان. العملية فورية وبدون فقدان — بدون إعادة ترميز أو فقدان جودة.</string>
 
     <string name="faditor_info_export_title">الملفات المصدرة</string>
 
@@ -2399,11 +2390,11 @@
 
     <string name="faditor_browse_device">تصفح الجهاز</string>
 
-    <string name="faditor_no_recordings">لم يتم العثور على تسجيلات بعد. ابدأ التسجيل مع FadCam لرؤية فيديوهاتك هنا.</string>
+    <string name="faditor_no_recordings">لم يتم العثور على تسجيلات بعد. ابدأ التسجيل مع KCam لرؤية فيديوهاتك هنا.</string>
 
     <string name="faditor_video_count">%1$d فيديو</string>
 
-    <string name="faditor_fadcam_source">FadCam</string>
+    <string name="faditor_fadcam_source">KCam</string>
 
     <string name="faditor_fadrec_source">FadRec</string>
 
@@ -2411,9 +2402,9 @@
 
     <string name="faditor_scanning">جارٍ مسح التسجيلات…</string>
 
-    <string name="faditor_source_chooser_desc">اختر فيديو من معرضك أو اختر واحدًا من تسجيلات FadCam</string>
+    <string name="faditor_source_chooser_desc">اختر فيديو من معرضك أو اختر واحدًا من تسجيلات KCam</string>
 
-    <string name="faditor_recordings_helper">فيديوهات مسجلة بـ FadCam من موقع التخزين النشط</string>
+    <string name="faditor_recordings_helper">فيديوهات مسجلة بـ KCam من موقع التخزين النشط</string>
 
     <string name="helper_record_audio">تبديل التقاط صوت الميكروفون في الفيديوهات.</string>
 
@@ -2510,7 +2501,7 @@
 
     <string name="saf_permission_missing_dialog_title">مطلوب إذن SAF</string>
 
-    <string name="saf_permission_missing_dialog_message_for_start_recording">لحفظ التسجيلات في موقع مخصص، يحتاج FadCam إلى إذن للوصول إلى المجلد المحدد. يرجى منح الوصول عند المطالبة.</string>
+    <string name="saf_permission_missing_dialog_message_for_start_recording">لحفظ التسجيلات في موقع مخصص، يحتاج KCam إلى إذن للوصول إلى المجلد المحدد. يرجى منح الوصول عند المطالبة.</string>
 
     <string name="grant_permission_button">منح الإذن</string>
 
@@ -2566,11 +2557,11 @@
 
     <string name="setting_header_logo_desc">اختر نمط شعار الرأس</string>
 
-    <string name="header_logo_default" translatable="false">FadCam</string>
+    <string name="header_logo_default" translatable="false">KCam</string>
 
     <string name="header_logo_avatar" translatable="false">Avatar</string>
 
-    <string name="app_icon_default" translatable="false">FadCam</string>
+    <string name="app_icon_default" translatable="false">KCam</string>
 
     <string name="app_icon_alternative" translatable="false">Camera</string>
 
@@ -2578,13 +2569,13 @@
 
     <string name="app_icon_palestine" translatable="false">I❤️Palestine</string>
 
-    <string name="app_icon_pakistan" translatable="false">FadCam</string>
+    <string name="app_icon_pakistan" translatable="false">KCam</string>
 
     <string name="app_icon_fadseclab" translatable="false">FadSec Lab</string>
 
-    <string name="app_icon_nooristic" translatable="false">FadCam ++</string>
+    <string name="app_icon_nooristic" translatable="false">KCam ++</string>
 
-    <string name="app_icon_bat" translatable="false">FadCam</string>
+    <string name="app_icon_bat" translatable="false">KCam</string>
 
     <string name="app_icon_redbinary" translatable="false">$ ~/r00t</string>
 
@@ -2660,7 +2651,7 @@
 
     <string name="digital_forensics_helper">التحليل الجنائي الرقمي له جزأين: تراكب المعاينة المباشرة والأدلة المحفوظة. إذا كنت تريد فقط تسميات AI بصرية مباشرة، أبقِ جمع الأدلة معطلاً. إذا كنت تحتاج تاريخ جنائي، فعّل جمع الأدلة واختر ما يجب تخزينه.</string>
 
-    <string name="digital_forensics_enable_helper">فكر فيه كمستشعر أدلة ذكي. عند التمكين، يحتفظ FadCam بجدول زمني للنشاط المكتشف حتى تتمكن من القفز إلى اللحظات المهمة لاحقًا.</string>
+    <string name="digital_forensics_enable_helper">فكر فيه كمستشعر أدلة ذكي. عند التمكين، يحتفظ KCam بجدول زمني للنشاط المكتشف حتى تتمكن من القفز إلى اللحظات المهمة لاحقًا.</string>
 
     <string name="digital_forensics_evidence_enable">تمكين جمع الأدلة</string>
 
@@ -2976,7 +2967,7 @@
 
     <string name="storage_helper_current_custom_uri_prefix">URI:</string>
 
-    <string name="app_icon_minimal" translatable="false">FadCam</string>
+    <string name="app_icon_minimal" translatable="false">KCam</string>
 
     <string name="onboarding_intro_line4">مفتوح المصدر. بدون إعلانات. لك.</string>
 
@@ -3032,7 +3023,7 @@
 
     <string name="setting_notification_appearance">مظهر الإشعار</string>
 
-    <string name="note_notification_appearance">تخصيص مظهر إشعار التسجيل\n(الافتراضي: FadCam)</string>
+    <string name="note_notification_appearance">تخصيص مظهر إشعار التسجيل\n(الافتراضي: KCam)</string>
 
     <string name="hide_stop_button">إخفاء زر الإيقاف</string>
 
@@ -3055,7 +3046,7 @@
     <string name="notification_custom_text_placeholder">الوصف (مثال: التحديث قيد التقدم)</string>
 
     <string-array name="notification_appearance_options">
-        <item>FadCam (افتراضي)</item>
+        <item>KCam (افتراضي)</item>
         <item>تحديث النظام</item>
         <item>تنزيل</item>
         <item>مزامنة</item>
@@ -3189,11 +3180,11 @@
 
     <string name="delete">حذف</string>
 
-    <string name="fadcam_pro_title">FadCam Pro</string>
+    <string name="fadcam_pro_title">KCam Pro</string>
 
     <string name="fadcam_pro_subtitle">ميزات مميزة للتقدير الكامل</string>
 
-    <string name="fadcam_pro_get_button">احصل على FadCam Pro</string>
+    <string name="fadcam_pro_get_button">احصل على KCam Pro</string>
 
     <string name="fadcam_pro_free">مجاني</string>
 
@@ -3217,9 +3208,9 @@
 
     <string name="fadcam_pro_coming_soon">ميزات Pro+ و Lab قادمة قريبًا مع تحميلات أيقونات مخصصة وأسماء تطبيقات مخصصة ومزامنة سحابة FadDrive.</string>
 
-    <string name="fadcam_pro_support_message">سيظل FadCam مجانيًا دائمًا، بدون إعلانات وبدون تتبع. أدير المشروع بنفسي بالكامل، ويستغرق وقتًا وجهدًا مستمرًا. الترقية إلى Pro (مجاني حاليًا) تساعد في دعم التطوير، وفي المقابل أقدم قيمة إضافية من خلال ميزات Pro بالإضافة إلى النسخة المجانية الكاملة. شكرًا لدعمك للمشروع :)</string>
+    <string name="fadcam_pro_support_message">سيظل KCam مجانيًا دائمًا، بدون إعلانات وبدون تتبع. أدير المشروع بنفسي بالكامل، ويستغرق وقتًا وجهدًا مستمرًا. الترقية إلى Pro (مجاني حاليًا) تساعد في دعم التطوير، وفي المقابل أقدم قيمة إضافية من خلال ميزات Pro بالإضافة إلى النسخة المجانية الكاملة. شكرًا لدعمك للمشروع :)</string>
 
-    <string name="fadcam_pro_separate_apk">تطبيق مستقل • يعمل جنبًا إلى جنب مع FadCam</string>
+    <string name="fadcam_pro_separate_apk">تطبيق مستقل • يعمل جنبًا إلى جنب مع KCam</string>
 
     <string name="fadcam_pro_feature_everything_icon">كل شيء</string>
 
@@ -3241,7 +3232,7 @@
 
     <string name="player_info_content"><![CDATA[
 <b>تنسيق MP4 المجزأ</b><br/><br/>
-يستخدم FadCam تنسيق MP4 مجزأ للتسجيلات. هذا يعني أن الفيديوهات تُحفظ في أجزاء صغيرة بدلاً من ملف واحد كامل. الفائدة هي أنه إذا حدث خطأ أثناء التسجيل، تفقد آخر بضع ثوانٍ فقط بدلاً من الفيديو بأكمله.<br/><br/>
+يستخدم KCam تنسيق MP4 مجزأ للتسجيلات. هذا يعني أن الفيديوهات تُحفظ في أجزاء صغيرة بدلاً من ملف واحد كامل. الفائدة هي أنه إذا حدث خطأ أثناء التسجيل، تفقد آخر بضع ثوانٍ فقط بدلاً من الفيديو بأكمله.<br/><br/>
 إذا كانت آخر بضع ثوانٍ من الفيديو تبدو مجمدة أو قديمة، لا تقلق — ليس خطأ! عند إيقاف التسجيل، قد يكمل الجزء الحالي دورته (~3 ثوانٍ)، مما يترك إطارًا قديمًاBrief في النهاية.<br/><br/>
 <b>قيود المشغل</b><br/><br/>
 يحتوي مشغل الفيديو المدمج على بعض قيود نظام Android. قد تلاحظ أن شريط التقدم أو الموجة يبدو متقطعًا قليلاً — هذا سلوك طبيعي وليس خطأ.<br/><br/>
@@ -3396,7 +3387,7 @@
 
     <string name="stream_notes_resolution">• اتجاه البث ودقته مأخوذان من إعدادات التسجيل العادية (إعدادات الفيديو &gt; الدقة &amp; الاتجاه). عدّلها إذا أردت تغيير أبعاد البث</string>
 
-    <string name="stream_notes_cellular">⚠️ قيد WiFi فقط: شبكات الهاتف تمنع الاتصالات الواردة. للبث السلس من أي شبكة (WiFi، LTE، في أي مكان)، قم بالترقية إلى FadCam Pro+. بث من أي مكان عالميًا برابط خاص مولّد — بدون إعادة توجيه المنافذ، بدون تغييرات الراوتر، بدون قيود الشبكة</string>
+    <string name="stream_notes_cellular">⚠️ قيد WiFi فقط: شبكات الهاتف تمنع الاتصالات الواردة. للبث السلس من أي شبكة (WiFi، LTE، في أي مكان)، قم بالترقية إلى KCam Pro+. بث من أي مكان عالميًا برابط خاص مولّد — بدون إعادة توجيه المنافذ، بدون تغييرات الراوتر، بدون قيود الشبكة</string>
 
     <string name="stream_notes_android14_screen">⚠️ Android 14+: قيد النظام يمنع التسجيل عند إطفاء الشاشة. الحلول: (1) فعّل \"وضع الشاشة السوداء\" في الإعدادات &gt; الأمان، أو (2) عطّل قفل الشاشة (بدون PIN/كلمة مرور/بصمة). كلاهما يسمح بالتسجيل عن بعد بسلاسة</string>
 
@@ -3458,7 +3449,7 @@
 
     <string name="e2e_encryption_setup_hint">أدخل كلمة مرور FadSec ID</string>
 
-    <string name="e2e_encryption_setup_desc">تُستخدم كلمة مرور FadSec ID لاشتقاق مفتاح تشفير البث. يجب أن تطابق كلمة المرور التي تستخدمها في لوحة تحكم FadCam لعرض البث.</string>
+    <string name="e2e_encryption_setup_desc">تُستخدم كلمة مرور FadSec ID لاشتقاق مفتاح تشفير البث. يجب أن تطابق كلمة المرور التي تستخدمها في لوحة تحكم KCam لعرض البث.</string>
 
     <string name="e2e_encryption_change_title">تغيير كلمة مرور تشفير E2E</string>
 
@@ -3480,7 +3471,7 @@
 
     <string name="streaming_mode_helper">اختر كيفية بث الكاميرا</string>
 
-    <string name="fullscreen_preview_enter">معاينة FadCam</string>
+    <string name="fullscreen_preview_enter">معاينة KCam</string>
 
     <string name="fullscreen_preview_close">إغلاق الشاشة الكاملة</string>
 
@@ -3536,7 +3527,7 @@
     <string name="automation_row_subtitle">ربط الأزرار، أجهزة التحكم عن بعد بلوتوث، أزرار الصوت</string>
     <string name="setting_volume_shutter_title">مصراع أزرار الصوت</string>
     <string name="setting_volume_shutter_summary">تعمل أزرار الصوت كشتر للكاميرا في علامة التبويب الرئيسية</string>
-    <string name="setting_volume_shutter_footer">أزرار الصوت تصبح شتر الكاميرا في علامة التبويب الرئيسية:\n• نقرة — التقاط صورة\n• نقرة مزدوجة — تبديل الكاميرا\n• ضغطة مطولة — بدء أو إيقاف التسجيل\n\nأجهزة البلوتوث عن بُعد تعمل أيضًا وتُفعّل نفس الإجراءات. الأزرار تعمل أثناء فتح علامة التبويب الرئيسية لتطبيق FadCam — الإصدارات المستقبلية ستسمح لأي زر بتفعيل إجراءات FadCam حتى في الخلفية.\n\nحاليًا، استخدم MacroDroid لربط اختصارات FadCam — ستجدها في الإعدادات ← الاختصارات والأدوات.</string>
+    <string name="setting_volume_shutter_footer">أزرار الصوت تصبح شتر الكاميرا في علامة التبويب الرئيسية:\n• نقرة — التقاط صورة\n• نقرة مزدوجة — تبديل الكاميرا\n• ضغطة مطولة — بدء أو إيقاف التسجيل\n\nأجهزة البلوتوث عن بُعد تعمل أيضًا وتُفعّل نفس الإجراءات. الأزرار تعمل أثناء فتح علامة التبويب الرئيسية لتطبيق KCam — الإصدارات المستقبلية ستسمح لأي زر بتفعيل إجراءات KCam حتى في الخلفية.\n\nحاليًا، استخدم MacroDroid لربط اختصارات KCam — ستجدها في الإعدادات ← الاختصارات والأدوات.</string>
     <string name="shortcuts_macrodroid_template">قالب MacroDroid الرسمي: https://templates.macrodroid.com/view/28194</string>
 
     <string name="thermal_guardian_title">الوصي الحراري</string>
@@ -3639,7 +3630,7 @@
 
     <string name="motion_lab_info_title">تسجيل تلقائي عند الحركة</string>
 
-    <string name="motion_lab_info_body">هذه ميزة التسجيل التلقائي عند الحركة في FadCam.\n\nكيف تعمل بكلمات بسيطة:\n- تبقى كاميرتك نشطة وتحلل الإطارات على الجهاز في الوقت الفعلي.\n- نموذج التعلم الآلي على الجهاز ومنطق الحركة يبحثان عن الحركة.\n- عند اكتشاف حركة صالحة، يبدأ/يستأنف التسجيل.\n- يستمر التسجيل بينما تستمر الحركة.\n- بعد توقف الحركة، يستمر Post-roll في التسجيل للثواني الإضافية المحددة.\n- ثم يتوقف التسجيل مؤقتًا وينتظر حدث الحركة التالي.\n\nعندما يكون التسجيل متوقفًا مؤقتًا، لا يزال التطبيق يحلل الإطارات في الذاكرة، لكنه لا يكتب بيانات فيديو جديدة حتى يتم اكتشاف الحركة مرة أخرى.\n\nكيفية الاستخدام (معظم المستخدمين):\n- أبقِ جميع الخيارات على القيم الافتراضية.\n- فعّل مستشعر الحركة في هذه الشاشة.\n- انتقل إلى تبويب الصفحة الرئيسية وابدأ التسجيل عادةً.\n- سيعمل التسجيل التلقائي بالحركة تلقائيًا.\n\nاختبار سهل من مسافة بعيدة:\n- فعّل الفلاش التلقائي في هذه الشاشة.\n- ابدأ التسجيل من تبويب الصفحة الرئيسية.\n- ضع الهاتف مائلًا على طاولة أو رف مواجهًا للغرفة.\n- غادر الغرفة، ثم ادخل وامشِ.\n- تشغيل الفلاش يساعدك في ملاحظة ذلك فورًا من بعيد أن التسجيل بدأ.\n- سيستمر التسجيل لمدة Post-roll المحددة بعد توقف الحركة.\n\nنصيحة: هذه الميزة تعمل باستمرار، لذا القيم المتقدمة العالية جدًا قد تزيد الحرارة وتقلل من صحة الجهاز بمرور الوقت. للجلسات الطويلة، أبقِ الافتراضيات إلا إذا كان لديك سبب محدد.</string>
+    <string name="motion_lab_info_body">هذه ميزة التسجيل التلقائي عند الحركة في KCam.\n\nكيف تعمل بكلمات بسيطة:\n- تبقى كاميرتك نشطة وتحلل الإطارات على الجهاز في الوقت الفعلي.\n- نموذج التعلم الآلي على الجهاز ومنطق الحركة يبحثان عن الحركة.\n- عند اكتشاف حركة صالحة، يبدأ/يستأنف التسجيل.\n- يستمر التسجيل بينما تستمر الحركة.\n- بعد توقف الحركة، يستمر Post-roll في التسجيل للثواني الإضافية المحددة.\n- ثم يتوقف التسجيل مؤقتًا وينتظر حدث الحركة التالي.\n\nعندما يكون التسجيل متوقفًا مؤقتًا، لا يزال التطبيق يحلل الإطارات في الذاكرة، لكنه لا يكتب بيانات فيديو جديدة حتى يتم اكتشاف الحركة مرة أخرى.\n\nكيفية الاستخدام (معظم المستخدمين):\n- أبقِ جميع الخيارات على القيم الافتراضية.\n- فعّل مستشعر الحركة في هذه الشاشة.\n- انتقل إلى تبويب الصفحة الرئيسية وابدأ التسجيل عادةً.\n- سيعمل التسجيل التلقائي بالحركة تلقائيًا.\n\nاختبار سهل من مسافة بعيدة:\n- فعّل الفلاش التلقائي في هذه الشاشة.\n- ابدأ التسجيل من تبويب الصفحة الرئيسية.\n- ضع الهاتف مائلًا على طاولة أو رف مواجهًا للغرفة.\n- غادر الغرفة، ثم ادخل وامشِ.\n- تشغيل الفلاش يساعدك في ملاحظة ذلك فورًا من بعيد أن التسجيل بدأ.\n- سيستمر التسجيل لمدة Post-roll المحددة بعد توقف الحركة.\n\nنصيحة: هذه الميزة تعمل باستمرار، لذا القيم المتقدمة العالية جدًا قد تزيد الحرارة وتقلل من صحة الجهاز بمرور الوقت. للجلسات الطويلة، أبقِ الافتراضيات إلا إذا كان لديك سبب محدد.</string>
 
     <string name="motion_lab_percent_value">%1$d%%</string>
 
@@ -3665,7 +3656,7 @@
 
     <string name="privacy_black_mode_title">شاشة الخصوصية السوداء</string>
 
-    <string name="privacy_black_mode_helper">إذا كان جهازك يقتل التطبيق في الخلفية، يمكنك استخدام هذه الميزة لإبقاء التطبيق يعمل في المقدمة.\n\nيظهر تراكب شاشة سوداء، مما يجعله يبدو وكأن الشاشة مطفأة بينما يستمر التسجيل.\n\nاضغط على أيقونة FadCam في أعلى رأس تبويب الصفحة الرئيسية لتنشيطه.</string>
+    <string name="privacy_black_mode_helper">إذا كان جهازك يقتل التطبيق في الخلفية، يمكنك استخدام هذه الميزة لإبقاء التطبيق يعمل في المقدمة.\n\nيظهر تراكب شاشة سوداء، مما يجعله يبدو وكأن الشاشة مطفأة بينما يستمر التسجيل.\n\nاضغط على أيقونة KCam في أعلى رأس تبويب الصفحة الرئيسية لتنشيطه.</string>
 
     <string name="privacy_black_mode_enable_title">تمكين وضع الخصوصية الأسود</string>
 
@@ -4100,7 +4091,7 @@
 
     <string name="mini_apps_planned_shortcuts_title">مخطط: الاختصارات &amp; الأتمتة</string>
 
-    <string name="mini_apps_planned_shortcuts_desc">اختصارات الشاشة الرئيسية للوصول الفوري إلى أي تطبيق مصغر بدون فتح FadCam أولاً.\n\nدعم الأتمتة القائمة على Intent (Tasker، MacroDroid، إلخ) لتشغيل التطبيقات المصغرة برمجيًا — استخدم مسح QR والفلاش والمزيد من سير العمل الآلي الخاص بك.</string>
+    <string name="mini_apps_planned_shortcuts_desc">اختصارات الشاشة الرئيسية للوصول الفوري إلى أي تطبيق مصغر بدون فتح KCam أولاً.\n\nدعم الأتمتة القائمة على Intent (Tasker، MacroDroid، إلخ) لتشغيل التطبيقات المصغرة برمجيًا — استخدم مسح QR والفلاش والمزيد من سير العمل الآلي الخاص بك.</string>
     <string name="export_center">مركز التصدير</string>
 
     <string name="remote_server_status">حالة الخادم</string>
@@ -4229,7 +4220,7 @@
 
     <string name="remote_access_endpoints_desc">الوصول إلى خادم البث عبر نقاط HTTP هذه</string>
 
-    <string name="remote_control_via_api_desc">التحكم في FadCam عن بُعد عبر استدعاءات API</string>
+    <string name="remote_control_via_api_desc">التحكم في KCam عن بُعد عبر استدعاءات API</string>
 
     <string name="remote_buffered_segments_desc">مقاطع مخزنة مؤقتًا جاهزة للبث</string>
 
@@ -4249,21 +4240,21 @@
 
     <string name="sidebar_beta_release">إصدار تجريبي</string>
 
-    <string name="sidebar_fadcam_pro">FadCam Pro</string>
+    <string name="sidebar_fadcam_pro">KCam Pro</string>
 
     <string name="badge_new">جديد</string>
 
-    <string name="update_pro_title">تحديث FadCam Pro</string>
+    <string name="update_pro_title">تحديث KCam Pro</string>
 
-    <string name="update_pro_desc">يتوفر إصدار جديد من FadCam Pro.\n\nللمستخدمين المجانيين، سيصل الإصدار المستقر بعد حوالي 60 يومًا. يتلقى مستخدمو Pro التحديثات فورًا.</string>
+    <string name="update_pro_desc">يتوفر إصدار جديد من KCam Pro.\n\nللمستخدمين المجانيين، سيصل الإصدار المستقر بعد حوالي 60 يومًا. يتلقى مستخدمو Pro التحديثات فورًا.</string>
 
-    <string name="update_get_pro">احصل على FadCam Pro</string>
+    <string name="update_get_pro">احصل على KCam Pro</string>
 
     <string name="update_maybe_later">ربما لاحقًا</string>
 
     <string name="update_beta_title">تحديث تجريبي متاح</string>
 
-    <string name="update_beta_desc">الإصدار التجريبي من FadCam هو تطبيق مستقل يمكن تثبيته بجانب الإصدار المستقر. لن يتعارض مع تطبيقك المستقر أو بياناته.\n\nقم بتثبيت الإصدار التجريبي لاختبار الميزات الجديدة قبل وصولها إلى الإصدار المستقر.</string>
+    <string name="update_beta_desc">الإصدار التجريبي من KCam هو تطبيق مستقل يمكن تثبيته بجانب الإصدار المستقر. لن يتعارض مع تطبيقك المستقر أو بياناته.\n\nقم بتثبيت الإصدار التجريبي لاختبار الميزات الجديدة قبل وصولها إلى الإصدار المستقر.</string>
 
     <string name="update_get_beta">احصل على الإصدار التجريبي</string>
 
@@ -4380,7 +4371,7 @@
     <string name="about_dialog_error">خطأ</string>
     <string name="about_dialog_ok">موافق</string>
     <string name="about_get_beta">الحصول على الإصدار التجريبي</string>
-    <string name="about_fadcam_feedback">ملاحظات FadCam</string>
+    <string name="about_fadcam_feedback">ملاحظات KCam</string>
 
     <!-- Video split sizes -->
     <string name="video_split_enabled_format">مفعل (%s)</string>
@@ -4393,7 +4384,7 @@
     <string name="video_split_custom_title">حجم التقسيم المخصص (ميجابايت)</string>
 
     <!-- Screen recording values -->
-    <string name="screen_rec_splitting_value_format">%s (FadCam + FadRec)</string>
+    <string name="screen_rec_splitting_value_format">%s (KCam + FadRec)</string>
 
     <!-- Settings home tabs -->
     <string name="settings_tab_all">الكل</string>
@@ -4503,7 +4494,7 @@
     <string name="channel_security_alarm">إنذار الأمان</string>
     <string name="channel_remote_streaming">البث عن بعد</string>
     <string name="channel_annotation_service">خدمة التعليقات التوضيحية</string>
-    <string name="channel_fadcam_file_ops">عمليات ملفات FadCam</string>
+    <string name="channel_fadcam_file_ops">عمليات ملفات KCam</string>
 
     <!-- ScreenRecordingService -->
     <string name="screen_rec_failed">فشل التسجيل: %s</string>
@@ -4629,17 +4620,17 @@
     <string name="tutorial_dashcam_setup">إعداد داش كام</string>
 
     <!-- iOS Promo -->
-    <string name="fadcam_for_ios_title">FadCam لنظام iOS</string>
-    <string name="ios_promo_title">FadCam متوفر الآن على iOS!</string>
+    <string name="fadcam_for_ios_title">KCam لنظام iOS</string>
+    <string name="ios_promo_title">KCam متوفر الآن على iOS!</string>
     <string name="ios_promo_subtitle">نفس تطبيق الكاميرا الذي يحترم خصوصيتك والذي تحبه، متوفر الآن لـ iPhone</string>
 
     <!-- Trash section in Settings -->
     <string name="trash_settings_title">المهملات</string>
     <string name="trash_settings_subtitle">استعادة التسجيلات والملفات المحذوفة</string>
-    <string name="trash_settings_info">هذه الميزة كانت متوفرة بالفعل — لكنها مخفية خلف ضغطة مطولة على شعار FadCam في الشريط العلوي للشاشة الرئيسية. أظهرناها هنا لتكون أسهل في الاكتشاف.</string>
+    <string name="trash_settings_info">هذه الميزة كانت متوفرة بالفعل — لكنها مخفية خلف ضغطة مطولة على شعار KCam في الشريط العلوي للشاشة الرئيسية. أظهرناها هنا لتكون أسهل في الاكتشاف.</string>
     <string name="trash_settings_hide_button">إخفاء هذا القسم</string>
     <string name="trash_settings_hide_dialog_title">إخفاء قسم المهملات؟</string>
-    <string name="trash_settings_hide_dialog_message">سيختفي قسم المهملات من الإعدادات. لإعادته، افتح المهملات بالضغط المطول على شعار FadCam في الشريط العلوي للشاشة الرئيسية، ثم فعّل "إظهار المهملات في الإعدادات" بالداخل.</string>
+    <string name="trash_settings_hide_dialog_message">سيختفي قسم المهملات من الإعدادات. لإعادته، افتح المهملات بالضغط المطول على شعار KCam في الشريط العلوي للشاشة الرئيسية، ثم فعّل "إظهار المهملات في الإعدادات" بالداخل.</string>
     <string name="trash_settings_hide_dialog_confirm">إخفاء</string>
 
     <!-- Trash: Show in Settings toggle -->

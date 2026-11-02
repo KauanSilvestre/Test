@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Strings owned by the KCam fork. Kept in a separate file so upstream FadCam
+  updates to strings.xml never conflict with them (see tools/rebrand.py).
+-->
+<resources>
+    <string name="fadsec_info">KCam is an independent fork of FadCam by FadSec Lab, licensed under GPL-3.0. Upstream credit and source: github.com/anonfaded/FadCam.</string>
+    <string name="app_description">
+        <![CDATA[
+    KCam is an ad-free, open-source recording app based on FadCam. No trackers, no ads, no analytics.
+    <br/><br/>
+    It is a GPL-3.0 fork: the original project is <font color="#cfbafd">FadCam</font> by FadSec Lab. KCam is not affiliated with or endorsed by FadSec Lab.
+    ]]>
+    </string>
+
+    <string name="kcam_cloud_not_configured">Cloud mode is not configured in this build. Local (Wi-Fi) remote still works.</string>
+    <string name="kcam_feature_locked">This is a Pro feature in this edition.</string>
+    <string name="kcam_edition_personal">Personal</string>
+    <string name="kcam_edition_free">Free</string>
+    <string name="kcam_edition_pro">Pro</string>
+</resources>

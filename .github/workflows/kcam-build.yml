@@ -1,0 +1,50 @@
+name: KCam build
+
+on:
+  push:
+    branches: [main, "claude/**"]
+    paths: ["KCam/**", ".github/workflows/kcam-build.yml"]
+  pull_request:
+    paths: ["KCam/**", ".github/workflows/kcam-build.yml"]
+  workflow_dispatch:
+    inputs:
+      edition:
+        description: "Edition to build (personal, free, pro)"
+        required: false
+        default: personal
+
+concurrency:
+  group: kcam-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    defaults:
+      run:
+        working-directory: KCam
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Clone patched Media3 (fMP4 muxer fixes used by upstream FadCam)
+        run: git clone --depth 1 https://github.com/anonfaded/media3-patched.git /tmp/media3-patched
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Assemble debug APKs
+        run: |
+          chmod +x gradlew
+          ./gradlew :app:assembleDefaultDebug -Pkcam.edition=${{ inputs.edition || 'personal' }} --stacktrace --no-configuration-cache
+
+      - name: Upload APKs
+        uses: actions/upload-artifact@v4
+        with:
+          name: KCam-debug-${{ github.sha }}
+          path: KCam/app/build/outputs/apk/default/debug/*.apk
+          if-no-files-found: error

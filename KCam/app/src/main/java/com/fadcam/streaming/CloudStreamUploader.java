@@ -53,7 +53,7 @@ public class CloudStreamUploader {
     private static final String TAG = "CloudStreamUploader";
     
     // Relay server configuration
-    public static final String RELAY_BASE_URL = "https://live.fadseclab.com:8443";
+    public static final String RELAY_BASE_URL = com.fadcam.BuildConfig.CLOUD_RELAY_URL;
     
     // Media types
     private static final MediaType MEDIA_TYPE_MP4 = MediaType.parse("video/mp4");

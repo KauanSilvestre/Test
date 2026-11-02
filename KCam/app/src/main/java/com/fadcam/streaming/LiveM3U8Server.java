@@ -1905,7 +1905,7 @@ import fi.iki.elonen.NanoHTTPD;
      */
     private Response fetchGitHubNotification() {
         try {
-            String githubUrl = "https://raw.githubusercontent.com/anonfaded/FadCam/master/app/src/main/assets/web/fadex/pushnotification.jsonc";
+            String githubUrl = com.fadcam.BuildConfig.REMOTE_NOTIFICATION_URL; // fork: empty = disabled
             
             // Create URL connection
             java.net.URL url = new java.net.URL(githubUrl);

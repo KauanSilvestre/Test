@@ -15,9 +15,13 @@ import java.util.regex.Pattern;
 public class UpdateCheckService {
 
     private static final String TAG = "UpdateCheckService";
-    private static final String ORG = "anonfaded";
-    private static final String FREE_REPO = "FadCam";
-    private static final String PRO_REPO = "FadCamPro";
+    // Fork: release feed comes from BuildConfig (gradle.properties → kcam.updateRepo,
+    // "owner/repo"). Empty disables update checks entirely. There is no separate
+    // Pro repo in the fork, so the Pro feed is always skipped.
+    private static final String UPDATE_REPO = com.fadcam.BuildConfig.UPDATE_REPO;
+    private static final String ORG = UPDATE_REPO.contains("/") ? UPDATE_REPO.substring(0, UPDATE_REPO.indexOf('/')) : "";
+    private static final String FREE_REPO = UPDATE_REPO.contains("/") ? UPDATE_REPO.substring(UPDATE_REPO.indexOf('/') + 1) : "";
+    private static final String PRO_REPO = "";
     private static final String FREE_FEED = feedUrl(FREE_REPO);
     private static final String PRO_FEED = feedUrl(PRO_REPO);
 
@@ -55,13 +59,18 @@ public class UpdateCheckService {
 
     public static UpdateCheckResult checkForUpdate(String currentVersion) {
         FLog.d(TAG, "Checking updates — current: " + currentVersion);
+        if (FREE_REPO.isEmpty()) {
+            lastResult = new UpdateCheckResult(null, null, null, null, null, null,
+                    false, false, false, false);
+            return lastResult;
+        }
 
         // Fetch both feeds in parallel on a small thread pool
         ExecutorService pool = Executors.newFixedThreadPool(2);
         final String[] freeXml = {null}, proXml = {null};
         try {
             pool.execute(() -> freeXml[0] = fetchFeed(FREE_FEED, FREE_REPO));
-            pool.execute(() -> proXml[0] = fetchFeed(PRO_FEED, PRO_REPO));
+            if (!PRO_REPO.isEmpty()) pool.execute(() -> proXml[0] = fetchFeed(PRO_FEED, PRO_REPO));
             pool.shutdown();
             pool.awaitTermination(15, java.util.concurrent.TimeUnit.SECONDS);
         } catch (InterruptedException e) {

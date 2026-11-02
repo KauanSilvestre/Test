@@ -4,12 +4,6 @@
     <string name="trash_auto_delete_info_immediate">项目将立即删除。</string>
     <string name="app_icon_description">为您的应用选择图标和名称。这将更改其在主屏幕上的显示方式。</string>
     <string name="check_for_updates">检查更新</string>
-    <string name="fadsec_info">FadCam是FadSec实验室套件的一部分。欲了解更多详情，请点击下方查看源码按钮。</string>
-    <string name="app_description"><![CDATA[
-    FadCam是一个以隐私为首要重心的开源无广告的视频录制软件. 此软件能通过Github和README中的官方链接获取.
-    <br/><br/>
-    FadCam 已在热门的 YouTube 频道中亮相，如 <font color="#cfbafd">HowToMen</font> 和 <font color="#cfbafd">Xtream Droid</font>，还在 <font color="#cfbafd">GrapheneOS</font> 及其他 55+ 著名平台上被讨论。
-    ]]></string>
     <string name="view_source_code">查看源码</string>
     <string name="buy_me_a_coffee">请我一杯咖啡 ☕</string>
     <string name="contact">联系方式</string>
@@ -121,7 +115,7 @@
         <item>用于自动检查更新。</item>
         <item>不, 所有数据都会存储在你的设备上.</item>
         <item>你录制的视频都只会存储在手机里.</item>
-        <item>不，FadCam 不会共享或收集任何数据，甚至不会收集崩溃日志。</item>
+        <item>不，KCam 不会共享或收集任何数据，甚至不会收集崩溃日志。</item>
         <item> </item>
         <item> </item>
         <item> </item>
@@ -649,11 +643,11 @@
     <string name="watermark_preview_heading">预览</string>
     <string name="watermark_options_heading">选项</string>
     <string name="watermark_style_row_title">水印样式</string>
-    <string name="watermark_style_time_fadcam_label">FadCam 时间</string>
+    <string name="watermark_style_time_fadcam_label">KCam 时间</string>
     <string name="watermark_style_timeonly_label">时间戳</string>
     <string name="watermark_style_badge_label">仅品牌标签</string>
     <string name="watermark_style_none_label">无水印</string>
-    <string name="helper_watermark_preview">水印将以此样式显示在录制视频的左上角。\n冷知识：FadCam v1.0 的首发时间为 2024年7月10日 下午04:47。</string>
+    <string name="helper_watermark_preview">水印将以此样式显示在录制视频的左上角。\n冷知识：KCam v1.0 的首发时间为 2024年7月10日 下午04:47。</string>
     <string name="helper_location_watermark_option">切换是否将设备位置信息叠加在视频上，需要位置权限。</string>
     <string name="location_watermark_sheet_title">位置叠加</string>
     <string name="location_watermark_switch_label">位置叠加</string>
@@ -667,7 +661,7 @@
     <string name="widgets_pin_unsupported">您的启动器不支持固定小组件</string>
     <string name="widget_clock_title">时钟小组件</string>
     <string name="widget_label_clock">时钟</string>
-    <string name="widgets_pin_fallback">若未出现提示，请长按主屏幕，打开“小组件”菜单，并拖拽 FadCam 时钟小组件。</string>
+    <string name="widgets_pin_fallback">若未出现提示，请长按主屏幕，打开“小组件”菜单，并拖拽 KCam 时钟小组件。</string>
     <string name="widget_customize_title">自定义时钟小组件</string>
     <string name="widget_customize_description">自定义时钟小组件显示时间与日期的方式</string>
     <string name="widget_time_format_title">时间格式</string>
@@ -838,7 +832,7 @@
     <string name="records_search_hint">搜索录制内容…</string>
     <string name="saf_permission_missing_dialog_instructions">缺少存储访问权限。请授予对所选文件夹的访问权。</string>
     <string name="saf_permission_missing_dialog_title">需要存储访问权限</string>
-    <string name="saf_permission_missing_dialog_message_for_start_recording">为将录制内容保存到自定义位置，FadCam 需要权限以访问您所选的文件夹。请在系统提示时授予访问权限。</string>
+    <string name="saf_permission_missing_dialog_message_for_start_recording">为将录制内容保存到自定义位置，KCam 需要权限以访问您所选的文件夹。请在系统提示时授予访问权限。</string>
     <string name="grant_permission_button">授予权限</string>
     <string name="trash_auto_delete_picker_helper">选择何时自动删除垃圾箱中的项目。</string>
     <string name="support_ko_fi">在 Ko-fi 上支持我们</string>
@@ -895,7 +889,7 @@
     <string name="universal_paused">已暂停</string>
     <string name="universal_stop">停止</string>
     <string name="setting_notification_appearance">通知外观</string>
-    <string name="note_notification_appearance">自定义录制通知的外观\n（默认值：FadCam）</string>
+    <string name="note_notification_appearance">自定义录制通知的外观\n（默认值：KCam）</string>
     <string name="hide_stop_button">隐藏停止按钮</string>
     <string name="note_hide_stop_button">隐藏通知中的停止按钮\n（默认值：已禁用）</string>
     <string name="notification_style_row_title">通知样式</string>
@@ -995,7 +989,7 @@
     <string name="quick_speed_option_1_75">1.75x</string>
     <string name="quick_speed_option_2">2x</string>
     <string name="quick_speed_option_2_5">2.5x</string>
-    <string name="watermark_preview_sample_fadcam">由 FadCam 拍摄 - %1$s</string>
+    <string name="watermark_preview_sample_fadcam">由 KCam 拍摄 - %1$s</string>
     <string name="watermark_preview_sample_timeonly">%1$s</string>
     <string name="controls_hide_delay_subtitle">%1$ds</string>
     <string name="seek_amount_subtitle">%1$ds</string>
@@ -1092,9 +1086,9 @@
     <string name="delete_all">删除全部</string>
     <string name="new_project">新建项目</string>
     <string name="delete">删除</string>
-    <string name="fadcam_pro_title">FadCam Pro</string>
+    <string name="fadcam_pro_title">KCam Pro</string>
     <string name="fadcam_pro_subtitle">完全私密的高级功能</string>
-    <string name="fadcam_pro_get_button">获取 FadCam Pro</string>
+    <string name="fadcam_pro_get_button">获取 KCam Pro</string>
     <string name="fadcam_pro_free">免费</string>
     <string name="fadcam_pro_lab_label">实验室 (Lab)</string>
     <string name="fadcam_pro_early_bird">🎉 在 2025 年 12 月 23 日之前免费！之后，只需 $15 即可获取终身访问权限。</string>
@@ -1103,8 +1097,8 @@
     <string name="fadcam_pro_benefit_lifetime_updates">终身更新：持续获取新功能、性能改进和错误修复</string>
     <string name="fadcam_pro_benefit_support">即时支持：通过 Discord 提供直接的工单帮助</string>
     <string name="fadcam_pro_coming_soon">Pro+ 和 Lab 功能即将到来，包括自定义图标上传、自定义应用名称和 FadDrive 云同步。</string>
-    <string name="fadcam_pro_support_message">FadCam 将永远保持免费，无广告、无追踪。这个项目完全由我一个人独立维护，需要持续的时间和精力。升级到 Pro（目前免费）有助于支持开发，作为回报，我能够在完整的免费版本之外，通过 Pro 功能提供额外价值。感谢您支持这个项目 :)</string>
-    <string name="fadcam_pro_separate_apk">独立应用 • 与 FadCam 配合使用</string>
+    <string name="fadcam_pro_support_message">KCam 将永远保持免费，无广告、无追踪。这个项目完全由我一个人独立维护，需要持续的时间和精力。升级到 Pro（目前免费）有助于支持开发，作为回报，我能够在完整的免费版本之外，通过 Pro 功能提供额外价值。感谢您支持这个项目 :)</string>
+    <string name="fadcam_pro_separate_apk">独立应用 • 与 KCam 配合使用</string>
     <string name="fadcam_pro_feature_everything_icon">全部</string>
     <string name="fadcam_pro_feature_everything">全部</string>
     <string name="fadcam_pro_feature_custom_icon">自定义应用图标</string>
@@ -1115,7 +1109,7 @@
     <string name="player_info_title">关于视频播放器</string>
     <string name="player_info_content"><![CDATA[
 <b>分段式 MP4 格式</b><br/><br/>
-FadCam 为录制使用分段式 MP4 格式。这意味着视频被保存为多个小片段，而不是一个完整的文件。这样做的好处是，如果在录制过程中出现问题，您只丢失最后几秒钟，而不是整个视频。<br/><br/>
+KCam 为录制使用分段式 MP4 格式。这意味着视频被保存为多个小片段，而不是一个完整的文件。这样做的好处是，如果在录制过程中出现问题，您只丢失最后几秒钟，而不是整个视频。<br/><br/>
 如果您视频的最后几秒看起来卡住或静止，请不要担心——这不是一个错误！当您停止录制时，当前片段可能仍在完成其循环（约 3 秒），这可能会在结尾留下一个短暂的静止画面。<br/><br/>
 <b>播放器限制</b><br/><br/>
 内置视频播放器存在一些安卓系统限制。您可能会注意到进度条或波形图看起来有些卡顿——这是正常行为，并非错误。<br/><br/>
@@ -1840,7 +1834,7 @@ FadCam 为录制使用分段式 MP4 格式。这意味着视频被保存为多�
 <string name="faditor_exporting_percent">正在导出… %1$d%%</string>
 
 <!-- faditor_fadcam_source -->
-<string name="faditor_fadcam_source">FadCam</string>
+<string name="faditor_fadcam_source">KCam</string>
 
 <!-- faditor_fadrec_source -->
 <string name="faditor_fadrec_source">FadRec</string>
@@ -3146,7 +3140,7 @@ FadCam 为录制使用分段式 MP4 格式。这意味着视频被保存为多�
 <string name="automation_row_subtitle">按键映射、蓝牙遥控器、音量键</string>
 <string name="setting_volume_shutter_title">音量键快门</string>
 <string name="setting_volume_shutter_summary">音量键在主标签页用作相机快门</string>
-<string name="setting_volume_shutter_footer">在主标签页，音量键就是您的快门：\n• 单击 — 拍照\n• 双击 — 切换相机\n• 长按 — 开始或停止录制\n\n蓝牙遥控快门同样适用，可触发相同的操作。按键在 FadCam 主标签页打开时有效 — 未来版本将允许任意按键触发 FadCam 操作，即使在后台也可以。\n\n目前，可使用 MacroDroid 映射 FadCam 快捷方式 — 可在“设置 → 快捷方式和微件”中找到。</string>
+<string name="setting_volume_shutter_footer">在主标签页，音量键就是您的快门：\n• 单击 — 拍照\n• 双击 — 切换相机\n• 长按 — 开始或停止录制\n\n蓝牙遥控快门同样适用，可触发相同的操作。按键在 KCam 主标签页打开时有效 — 未来版本将允许任意按键触发 KCam 操作，即使在后台也可以。\n\n目前，可使用 MacroDroid 映射 KCam 快捷方式 — 可在“设置 → 快捷方式和微件”中找到。</string>
 <string name="shortcuts_macrodroid_template">MacroDroid 官方模板：https://templates.macrodroid.com/view/28194</string>
 <string name="thermal_guardian_title">热力守护</string>
 <string name="thermal_guardian_row_subtitle">自动调整录制设置以防止过热</string>
@@ -3189,7 +3183,7 @@ FadCam 为录制使用分段式 MP4 格式。这意味着视频被保存为多�
 
 <!-- notification_appearance_options -->
 <string-array name="notification_appearance_options">
-        <item>FadCam（默认）</item>
+        <item>KCam（默认）</item>
         <item>系统更新</item>
         <item>下载</item>
         <item>同步</item>
@@ -3534,7 +3528,7 @@ FadCam 为录制使用分段式 MP4 格式。这意味着视频被保存为多�
 <string name="mode_all">全部</string>
 
 <!-- records_filter_camera -->
-<string name="records_filter_camera">FadCam</string>
+<string name="records_filter_camera">KCam</string>
 
 <!-- records_filter_camera_all -->
 <string name="records_filter_camera_all">全部</string>
@@ -4452,7 +4446,7 @@ FadCam 为录制使用分段式 MP4 格式。这意味着视频被保存为多�
     <string name="remote_pages">页面</string>
     <string name="remote_layers">图层</string>
     <string name="remote_access_endpoints_desc">通过以下 HTTP 端点访问您的流媒体服务器</string>
-    <string name="remote_control_via_api_desc">通过 API 调用远程控制 FadCam</string>
+    <string name="remote_control_via_api_desc">通过 API 调用远程控制 KCam</string>
     <string name="remote_buffered_segments_desc">已缓冲的片段，准备进行流式传输</string>
     <string name="remote_battery_low_warning">⚠️ 电量不足 - 请立即连接充电器</string>
     <string name="remote_enter_percentage_hint">输入百分比</string>
@@ -4462,14 +4456,14 @@ FadCam 为录制使用分段式 MP4 格式。这意味着视频被保存为多�
     <string name="sidebar_update_available">有可用更新</string>
     <string name="sidebar_stable_release">稳定版</string>
     <string name="sidebar_beta_release">测试版</string>
-    <string name="sidebar_fadcam_pro">FadCam Pro</string>
+    <string name="sidebar_fadcam_pro">KCam Pro</string>
     <string name="badge_new">新</string>
-    <string name="update_pro_title">FadCam Pro 更新</string>
-    <string name="update_pro_desc">新版本的 FadCam Pro 已可用。\n\n对于免费用户，稳定版将在约 60 天后发布。Pro 用户可立即收到更新。</string>
-    <string name="update_get_pro">获取 FadCam Pro</string>
+    <string name="update_pro_title">KCam Pro 更新</string>
+    <string name="update_pro_desc">新版本的 KCam Pro 已可用。\n\n对于免费用户，稳定版将在约 60 天后发布。Pro 用户可立即收到更新。</string>
+    <string name="update_get_pro">获取 KCam Pro</string>
     <string name="update_maybe_later">稍后再说</string>
     <string name="update_beta_title">测试版更新可用</string>
-    <string name="update_beta_desc">FadCam 测试版是一款独立应用，可与稳定版同时安装。它不会影响您的稳定版应用或其数据。\n\n安装测试版，在功能到达稳定版之前抢先体验。</string>
+    <string name="update_beta_desc">KCam 测试版是一款独立应用，可与稳定版同时安装。它不会影响您的稳定版应用或其数据。\n\n安装测试版，在功能到达稳定版之前抢先体验。</string>
     <string name="update_get_beta">获取测试版</string>
     <string name="mini_apps_about_title">关于迷你应用</string>
     <string name="mini_apps_current_tools">当前工具</string>
@@ -4565,7 +4559,7 @@ FadCam 为录制使用分段式 MP4 格式。这意味着视频被保存为多�
     <string name="about_dialog_error">错误</string>
     <string name="about_dialog_ok">确定</string>
     <string name="about_get_beta">获取测试版</string>
-    <string name="about_fadcam_feedback">FadCam 反馈</string>
+    <string name="about_fadcam_feedback">KCam 反馈</string>
 
     <!-- Video split sizes -->
     <string name="video_split_enabled_format">已启用 (%s)</string>
@@ -4581,15 +4575,15 @@ FadCam 为录制使用分段式 MP4 格式。这意味着视频被保存为多�
     <string name="screen_rec_resolution_value" translatable="false">1920×1080</string>
     <string name="screen_rec_framerate_value" translatable="false">30 fps</string>
     <string name="screen_rec_bitrate_value" translatable="false">8 Mbps</string>
-    <string name="screen_rec_splitting_value_format">%s (FadCam + FadRec)</string>
+    <string name="screen_rec_splitting_value_format">%s (KCam + FadRec)</string>
 
     <!-- Settings home tabs -->
     <string name="settings_tab_all">全部</string>
-    <string name="settings_tab_fadcam" translatable="false">FadCam</string>
+    <string name="settings_tab_fadcam" translatable="false">KCam</string>
     <string name="settings_tab_fadrec" translatable="false">FadRec</string>
 
     <!-- Watermark preview labels -->
-    <string name="watermark_preview_fadcam" translatable="false">FadCam</string>
+    <string name="watermark_preview_fadcam" translatable="false">KCam</string>
     <string name="watermark_preview_fadrec" translatable="false">FadRec</string>
     <string name="settings_location_update_interval_5s">5.0 秒</string>
 
@@ -4695,7 +4689,7 @@ FadCam 为录制使用分段式 MP4 格式。这意味着视频被保存为多�
     <string name="channel_security_alarm">安全警报</string>
     <string name="channel_remote_streaming">远程直播</string>
     <string name="channel_annotation_service">标注服务</string>
-    <string name="channel_fadcam_file_ops">FadCam 文件操作</string>
+    <string name="channel_fadcam_file_ops">KCam 文件操作</string>
 
     <!-- ScreenRecordingService -->
     <string name="screen_rec_failed">录制失败: %s</string>
@@ -4821,17 +4815,17 @@ FadCam 为录制使用分段式 MP4 格式。这意味着视频被保存为多�
     <string name="tutorial_dashcam_setup">行车记录仪设置</string>
 
     <!-- iOS Promo -->
-    <string name="fadcam_for_ios_title">FadCam iOS版</string>
-    <string name="ios_promo_title">FadCam 现已登陆 iOS！</string>
+    <string name="fadcam_for_ios_title">KCam iOS版</string>
+    <string name="ios_promo_title">KCam 现已登陆 iOS！</string>
     <string name="ios_promo_subtitle">你喜爱的同样注重隐私的相机应用，现已支持 iPhone</string>
 
     <!-- Trash section in Settings -->
     <string name="trash_settings_title">回收站</string>
     <string name="trash_settings_subtitle">恢复已删除的录制和文件</string>
-    <string name="trash_settings_info">此功能早已可用 — 只是隐藏在长按主屏幕顶部栏中的 FadCam 徽标之后。我们将其放在此处以便更容易发现。</string>
+    <string name="trash_settings_info">此功能早已可用 — 只是隐藏在长按主屏幕顶部栏中的 KCam 徽标之后。我们将其放在此处以便更容易发现。</string>
     <string name="trash_settings_hide_button">隐藏此部分</string>
     <string name="trash_settings_hide_dialog_title">隐藏回收站部分？</string>
-    <string name="trash_settings_hide_dialog_message">回收站部分将从设置中消失。要恢复它，请通过长按主屏幕顶部栏中的 FadCam 徽标打开回收站，然后在其中启用「在设置中显示回收站」。</string>
+    <string name="trash_settings_hide_dialog_message">回收站部分将从设置中消失。要恢复它，请通过长按主屏幕顶部栏中的 KCam 徽标打开回收站，然后在其中启用「在设置中显示回收站」。</string>
     <string name="trash_settings_hide_dialog_confirm">隐藏</string>
 
     <!-- Trash: Show in Settings toggle -->

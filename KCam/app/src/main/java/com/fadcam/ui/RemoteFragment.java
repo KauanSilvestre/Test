@@ -650,10 +650,10 @@ public class RemoteFragment extends BaseFragment {
                 // Cloud mode - show dashboard URL
                 String deviceId = cloudAuthManager.getDeviceId();
                 if (deviceId != null) {
-                    String cloudUrl = "https://fadcam.fadseclab.com/stream/" + deviceId + "/";
+                    String cloudUrl = com.fadcam.BuildConfig.CLOUD_DASHBOARD_URL + "/stream/" + deviceId + "/";
                     rootUrlText.setText(cloudUrl);
                 } else {
-                    rootUrlText.setText("https://fadcam.fadseclab.com/...");
+                    rootUrlText.setText(com.fadcam.BuildConfig.CLOUD_DASHBOARD_URL + "/...");
                 }
             } else {
                 // Local mode - show local IP
@@ -674,7 +674,7 @@ public class RemoteFragment extends BaseFragment {
             int streamingMode = prefs.getInt(KEY_STREAMING_MODE, MODE_LOCAL);
             
             if (streamingMode == MODE_CLOUD) {
-                rootUrlText.setText("https://fadcam.fadseclab.com/...");
+                rootUrlText.setText(com.fadcam.BuildConfig.CLOUD_DASHBOARD_URL + "/...");
             } else {
                 rootUrlText.setText("http://---.---.---.---:----/");
             }
@@ -1430,6 +1430,11 @@ public class RemoteFragment extends BaseFragment {
      * Launch the CloudAccountActivity WebView for device linking
      */
     private void launchCloudAccountWebView(String deviceName) {
+        if (!com.fadcam.streaming.CloudAuthManager.isCloudConfigured()) {
+            android.widget.Toast.makeText(requireContext(),
+                    R.string.kcam_cloud_not_configured, android.widget.Toast.LENGTH_LONG).show();
+            return;
+        }
         Intent intent = new Intent(requireContext(), CloudAccountActivity.class);
         intent.putExtra(CloudAccountActivity.EXTRA_DEVICE_NAME, deviceName);
         cloudAccountLauncher.launch(intent);

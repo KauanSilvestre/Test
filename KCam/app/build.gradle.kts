@@ -4,6 +4,16 @@ plugins {
     alias(libs.plugins.androidApplication)
 }
 
+// ── KCam fork configuration (see gradle.properties) ──
+fun kcamProp(name: String, default: String = ""): String =
+    (project.findProperty("kcam.$name") as String?)?.trim() ?: default
+fun quoted(v: String) = "\"" + v.replace("\\", "\\\\").replace("\"", "\\\"") + "\""
+
+val kcamAppName = kcamProp("appName", "KCam")
+val kcamApplicationId = kcamProp("applicationId", "io.github.kauansilvestre.kcam")
+val kcamEdition = kcamProp("edition", "personal").lowercase()
+val kcamForkVersion = kcamProp("forkVersion", "1")
+
 android {
     namespace = "com.fadcam"
     compileSdk = 36
@@ -28,13 +38,27 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.fadcam"
+        applicationId = kcamApplicationId
         minSdk = 24
         targetSdk = 36
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         versionCode = 52
         versionName = "4.0.0"
         vectorDrawables.useSupportLibrary = true
+
+        resValue("string", "app_name", kcamAppName)
+        buildConfigField("String", "FORK_NAME", quoted(kcamAppName))
+        buildConfigField("String", "FORK_VERSION", quoted(kcamForkVersion))
+        buildConfigField("String", "UPSTREAM_COMMIT", quoted("e59f58edefdf622079f79c340c72fb30244eea9f"))
+        buildConfigField("String", "EDITION", quoted(kcamEdition))
+        buildConfigField("String", "UPDATE_REPO", quoted(kcamProp("updateRepo")))
+        buildConfigField("String", "CHANGELOG_URL", quoted(kcamProp("changelogUrl")))
+        buildConfigField("String", "REMOTE_NOTIFICATION_URL", quoted(kcamProp("remoteNotificationUrl")))
+        buildConfigField("String", "CLOUD_SUPABASE_URL", quoted(kcamProp("cloud.supabaseUrl")))
+        buildConfigField("String", "CLOUD_SUPABASE_KEY", quoted(kcamProp("cloud.supabaseKey")))
+        buildConfigField("String", "CLOUD_RELAY_URL", quoted(kcamProp("cloud.relayUrl")))
+        buildConfigField("String", "CLOUD_AUTH_URL", quoted(kcamProp("cloud.authUrl")))
+        buildConfigField("String", "CLOUD_DASHBOARD_URL", quoted(kcamProp("cloud.dashboardUrl")))
         
         // Fix 16KB native library alignment for Android 15
         // Generate full native debug symbols so they can be uploaded to Play Console
@@ -68,7 +92,7 @@ android {
             applicationIdSuffix = ".beta"
             isDebuggable = true
             versionNameSuffix = "-beta10.6" // Increment the beta version suffix for each release. Use `beta1` for the first beta release, then `beta2`, etc.
-            resValue("string", "app_name", "FadCam Beta")
+            resValue("string", "app_name", "$kcamAppName Beta")
         }
         
         release {
@@ -111,7 +135,7 @@ android {
             }
             versionNameSuffix = "-Pro+"
             // Custom app name via gradle property
-            val customAppName = project.findProperty("customAppName")?.toString() ?: "FadCam Pro+"
+            val customAppName = project.findProperty("customAppName")?.toString() ?: "$kcamAppName Pro+"
             resValue("string", "app_name", customAppName)
         }
     }
@@ -178,7 +202,7 @@ android {
                 ?.identifier
                 ?: "universal"
             output.outputFileName =
-                "FadCam_${flavor}v${versionName}-${abiType}.apk"
+                "${kcamAppName}_${flavor}v${versionName}-${abiType}.apk"
         }
     }
 

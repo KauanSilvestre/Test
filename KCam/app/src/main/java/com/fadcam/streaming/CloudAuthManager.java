@@ -43,14 +43,17 @@ public class CloudAuthManager {
     private static final String KEY_E2E_VERIFY_TAG = "e2e_verify_tag";
     
     // Supabase configuration
-    static final String SUPABASE_URL = "https://vfhehknmxxedvesdvpew.supabase.co";
-    static final String SUPABASE_PUBLISHABLE_KEY = "sb_publishable_PwOotJZQHwS9xnCFwUjHsQ_uXLNqkk9";
+    // Fork: cloud endpoints come from BuildConfig (gradle.properties → kcam.cloud.*).
+    // They are empty by default: the upstream FadSecLab cloud belongs to upstream and
+    // is not used by this fork. Point these at your own backend to enable cloud mode.
+    static final String SUPABASE_URL = com.fadcam.BuildConfig.CLOUD_SUPABASE_URL;
+    static final String SUPABASE_PUBLISHABLE_KEY = com.fadcam.BuildConfig.CLOUD_SUPABASE_KEY;
     
     // Relay server — handles stream token issuance & verification locally
-    static final String RELAY_BASE_URL = "https://live.fadseclab.com:8443";
+    static final String RELAY_BASE_URL = com.fadcam.BuildConfig.CLOUD_RELAY_URL;
     
     // Cloud service URLs
-    public static final String AUTH_BASE_URL = "https://id.fadseclab.com";
+    public static final String AUTH_BASE_URL = com.fadcam.BuildConfig.CLOUD_AUTH_URL;
     public static final String DEVICE_LINK_URL = AUTH_BASE_URL + "/device-link";
     
     // Token refresh deduplication - prevents multiple simultaneous refresh calls
@@ -107,7 +110,13 @@ public class CloudAuthManager {
      * Check if device is linked to a cloud account
      */
     public boolean isLinked() {
+        if (!isCloudConfigured()) return false;
         return prefs.getBoolean(KEY_IS_LINKED, false);
+    }
+
+    /** True when this build has a cloud backend configured (see kcam.cloud.* in gradle.properties). */
+    public static boolean isCloudConfigured() {
+        return !SUPABASE_URL.isEmpty() && !RELAY_BASE_URL.isEmpty() && !AUTH_BASE_URL.isEmpty();
     }
     
     /**
