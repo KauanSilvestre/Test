@@ -103,7 +103,11 @@ android {
                 "proguard-rules.pro"
             )
             isDebuggable = false
-            signingConfig = signingConfigs.getByName("release")
+            // KCam: sign only when a keystore is configured (CI secrets / local.properties);
+            // otherwise produce an unsigned APK instead of failing the build.
+            if (releaseSigningConfigValid) {
+                signingConfig = signingConfigs.getByName("release")
+            }
         }
         
         create("pro") {
