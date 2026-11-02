@@ -11,10 +11,11 @@ Não é afiliado nem endossado pela FadSec Lab. Nome provisório — troque em u
 
 1. Abra **Actions → KCam build** no GitHub e entre na execução mais recente com ✅.
 2. Em **Artifacts**, baixe `KCam-debug-<commit>` (zip).
-3. Dentro do zip, instale `KCam_v4.0.0-beta10.6-arm64-v8a.apk` (celulares atuais)
-   ou `...-universal.apk` se não tiver certeza.
-4. O app instala como **KCam Beta** (`io.github.kauansilvestre.kcam.beta`) e **não conflita**
-   com o FadCam original.
+3. Dentro do zip, instale `Sentinela_v4.0.0-beta10.6-arm64-v8a.apk` (celulares atuais)
+   ou `...-universal.apk` se não tiver certeza. O `SHA256SUMS.txt` no mesmo zip
+   (e no resumo da execução do Actions) permite conferir o arquivo.
+4. O app instala como **Sentinela Beta** (`io.github.kauansilvestre.sentinela.beta`)
+   e **não conflita** com o FadCam original nem com outros apps.
 
 Para gerar outra edição: Actions → KCam build → *Run workflow* → `edition` = `free` / `pro` / `personal`.
 
