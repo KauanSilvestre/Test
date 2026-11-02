@@ -3507,13 +3507,27 @@ public class RecordsFragment extends BaseFragment implements
         if (btnActionSelectAll != null) {
             btnActionSelectAll.setOnClickListener(v -> toggleSelectAllVisibleItems());
         }
+        // KCam: the batch sheets already existed (reachable from the batch menu); the
+        // toolbar buttons were still placeholders — wire them to the same actions.
         if (btnActionBatchSave != null) {
-            btnActionBatchSave.setOnClickListener(v -> Toast.makeText(requireContext(),
-                    getString(R.string.records_batch_coming_soon), Toast.LENGTH_SHORT).show());
+            btnActionBatchSave.setOnClickListener(v -> {
+                if (selectedUris.isEmpty()) {
+                    Toast.makeText(requireContext(), getString(R.string.records_batch_select_items_first),
+                            Toast.LENGTH_SHORT).show();
+                } else {
+                    showBatchSaveOptionsSheet();
+                }
+            });
         }
         if (btnActionBatchFaditor != null) {
-            btnActionBatchFaditor.setOnClickListener(v -> Toast.makeText(requireContext(),
-                    getString(R.string.records_batch_coming_soon), Toast.LENGTH_SHORT).show());
+            btnActionBatchFaditor.setOnClickListener(v -> {
+                if (selectedUris.isEmpty()) {
+                    Toast.makeText(requireContext(), getString(R.string.records_batch_select_items_first),
+                            Toast.LENGTH_SHORT).show();
+                } else {
+                    showBatchFaditorOptionsSheet();
+                }
+            });
         }
         if (btnActionBatchDelete != null) {
             btnActionBatchDelete.setOnClickListener(v -> {
