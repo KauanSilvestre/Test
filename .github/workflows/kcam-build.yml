@@ -27,6 +27,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    permissions:
+      contents: write
     defaults:
       run:
         working-directory: KCam
@@ -71,6 +73,24 @@ jobs:
             KCam/app/build/outputs/apk/default/debug/*.apk
             KCam/app/build/outputs/apk/default/debug/SHA256SUMS.txt
           if-no-files-found: error
+
+      # Direct-download link for the installable debug APK (artifacts need login
+      # and come zipped; a prerelease asset is a plain downloadable file). Updated
+      # in place on every push to the working branch or main.
+      - name: Publish beta-latest release (installable debug APK)
+        if: github.ref == 'refs/heads/claude/practical-cray-pconk0' || github.ref == 'refs/heads/main'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: beta-latest
+          name: Sentinela Beta (último build)
+          prerelease: true
+          files: |
+            KCam/app/build/outputs/apk/default/debug/*.apk
+            KCam/app/build/outputs/apk/default/debug/SHA256SUMS.txt
+          body: |
+            APK de teste (debug, **instalável**) do último build do Sentinela.
+            Assinado com chave de debug efêmera — pode exigir desinstalar para atualizar.
+            Confira os hashes em `SHA256SUMS.txt`.
 
   release:
     # Signed release APKs (single "default" flavor; no disguised variants).
