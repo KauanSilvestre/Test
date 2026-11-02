@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  Strings owned by the KCam fork. Kept in a separate file so upstream FadCam
+  Strings owned by the Sentinela fork. Kept in a separate file so upstream FadCam
   updates to strings.xml never conflict with them (see tools/rebrand.py).
 -->
 <resources>
-    <string name="fadsec_info">KCam is an independent fork of FadCam by FadSec Lab, licensed under GPL-3.0. Upstream credit and source: github.com/anonfaded/FadCam.</string>
+    <string name="fadsec_info">Sentinela is an independent fork of FadCam by FadSec Lab, licensed under GPL-3.0. Upstream credit and source: github.com/anonfaded/FadCam.</string>
     <string name="app_description">
         <![CDATA[
-    KCam is an ad-free, open-source recording app based on FadCam. No trackers, no ads, no analytics.
+    Sentinela is an ad-free, open-source recording app based on FadCam. No trackers, no ads, no analytics.
     <br/><br/>
-    It is a GPL-3.0 fork: the original project is <font color="#cfbafd">FadCam</font> by FadSec Lab. KCam is not affiliated with or endorsed by FadSec Lab.
+    It is a GPL-3.0 fork: the original project is <font color="#cfbafd">FadCam</font> by FadSec Lab. Sentinela is not affiliated with or endorsed by FadSec Lab.
     ]]>
     </string>
 
@@ -157,7 +157,7 @@
     <string name="kcam_fadmic_play_error">Could not play this file</string>
 
     <!-- Quick record -->
-    <string name="kcam_quick_launcher_label">KCam Rec</string>
+    <string name="kcam_quick_launcher_label">Sentinela Rec</string>
     <string name="kcam_quick_title">Start recording</string>
     <string name="kcam_quick_back">Back camera</string>
     <string name="kcam_quick_front">Front camera</string>
@@ -185,17 +185,17 @@
     <string name="kcam_quick_add_shortcut">Add home-screen button</string>
     <string name="kcam_quick_toggle_stops">Trigger again to stop all recordings</string>
     <string name="kcam_quick_vibrate">Vibrate on start/stop</string>
-    <string name="kcam_quick_show_launcher">Show "KCam Rec" in the app list</string>
+    <string name="kcam_quick_show_launcher">Show "Sentinela Rec" in the app list</string>
     <string name="kcam_quick_power_watch">Detect double press of the power button (experimental)</string>
-    <string name="kcam_quick_power_watch_desc">For phones without a side-key setting. Android does not let apps read the power key, so KCam watches the screen switching off and on twice quickly. Needs "Display over other apps" and shows a small permanent notification.</string>
-    <string name="kcam_quick_need_overlay">Allow "Display over other apps" so the power-button trigger can open KCam.</string>
+    <string name="kcam_quick_power_watch_desc">For phones without a side-key setting. Android does not let apps read the power key, so Sentinela watches the screen switching off and on twice quickly. Needs "Display over other apps" and shows a small permanent notification.</string>
+    <string name="kcam_quick_need_overlay">Allow "Display over other apps" so the power-button trigger can open Sentinela.</string>
     <string name="kcam_quick_power_channel">Power button trigger</string>
     <string name="kcam_quick_power_title">Quick record is ready</string>
     <string name="kcam_quick_power_text">Double press the power button to record</string>
     <string name="kcam_quick_samsung_title">Samsung (recommended)</string>
-    <string name="kcam_quick_samsung_steps">Settings → Advanced features → Side key → Double press → Open app → choose "KCam Rec". Pressing twice again stops the recording.</string>
+    <string name="kcam_quick_samsung_steps">Settings → Advanced features → Side key → Double press → Open app → choose "Sentinela Rec". Pressing twice again stops the recording.</string>
     <string name="kcam_quick_other_title">Pixel and other phones</string>
-    <string name="kcam_quick_other_steps">If your phone has "Double press power button to open camera", choose KCam Rec as the camera when asked (or as default camera). Otherwise enable the experimental power-button detection above, or use the home-screen button.</string>
+    <string name="kcam_quick_other_steps">If your phone has "Double press power button to open camera", choose Sentinela Rec as the camera when asked (or as default camera). Otherwise enable the experimental power-button detection above, or use the home-screen button.</string>
     <string name="kcam_quick_open_settings">Open phone settings</string>
 
     <!-- FadCrypt -->
@@ -263,5 +263,5 @@
     <string name="kcam_edition_feature_miniapps">Mini apps</string>
     <string name="kcam_edition_feature_batch">Batch export</string>
     <string name="kcam_edition_feature_disguise">Disguised app variants</string>
-    <string name="kcam_edition_gpl">KCam is free software (GPL-3.0), based on FadCam by FadSec Lab. Source code: github.com/KauanSilvestre/Test</string>
+    <string name="kcam_edition_gpl">Sentinela is free software (GPL-3.0), based on FadCam by FadSec Lab. Source code: github.com/KauanSilvestre/Test</string>
 </resources>

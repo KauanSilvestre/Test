@@ -332,7 +332,7 @@
     <string name="records_title">Gravações</string>
     <string name="records_filter_all">Todas</string>
     <string name="mode_all">Todas</string>
-    <string name="records_filter_camera">KCam</string>
+    <string name="records_filter_camera">Sentinela</string>
     <string name="records_filter_dual">Dupla</string>
     <string name="records_filter_screen">FadRec</string>
     <string name="records_filter_faditor">Faditor</string>
@@ -487,7 +487,7 @@
     <string name="setting_codec_title">Codec de vídeo</string>
     <string name="note_codec">Escolha o codec\n(Padrão: %1$s)\nDica: com H.265 (HEVC) você pode usar cerca de metade da taxa de bits do H.264 com a mesma qualidade. Exemplo: em FHD, use 8 Mbps em vez de 16 Mbps.</string>
     <string name="setting_watermark">Marca d\'água</string>
-    <string name="note_watermark">Escolha a marca d\'água\n(Padrão: data/hora com KCam)</string>
+    <string name="note_watermark">Escolha a marca d\'água\n(Padrão: data/hora com Sentinela)</string>
     <string name="note_watermark_extra">Para salvar mais rápido, escolha \'Sem marca d\'água\'. Com marca d\'água o processamento demora só um pouco mais!</string>
     <string name="setting_location_title">Dados de localização</string>
     <string name="note_location">Incluir localização na marca d\'água. \nRequer GPS ativado \n(Padrão: desativado)</string>
@@ -509,7 +509,7 @@
     <string name="ae_lock_helper">Quando ativada, a exposição automática fica travada no brilho atual e a câmera não reajusta durante a gravação. Use o bloco Exposição para ajustes manuais.</string>
     <string name="ae_lock_switch_label">Travar exposição</string>
     <string name="exposure_title">Compensação de exposição (EV)</string>
-    <string name="dialog_welcome_title">Bem-vindo ao KCam!</string>
+    <string name="dialog_welcome_title">Bem-vindo ao Sentinela!</string>
     <string name="note_from_developer_title">Nota do desenvolvedor</string>
     <string name="note_from_developer_subtitle">LEIA-ME, links &amp; atualizações</string>
     <string name="note_under_dev">Importante: este app está em desenvolvimento. Novos recursos são adicionados com frequência.</string>
@@ -518,7 +518,7 @@
     <string name="button_readme_github">Repositório no GitHub</string>
     <string name="community_title">Participe da comunidade:</string>
     <string name="discord_title">Servidor no Discord</string>
-    <string name="thankyou_msg">Obrigado por usar o KCam!</string>
+    <string name="thankyou_msg">Obrigado por usar o Sentinela!</string>
     <string name="settings_title">Configurações</string>
     <string name="array_watermark_time_fadcam">Hora com Fadcam</string>
     <string name="array_watermark_timeonly">Data e hora</string>
@@ -528,7 +528,7 @@
     <string name="quick_speed_title">Velocidade rápida</string>
     <string name="quick_speed_option_default">2x (padrão)</string>
     <string name="quick_speed_option_custom">Personalizado</string>
-    <string name="toast_video_saved">Vídeo salvo na pasta KCam em Downloads</string>
+    <string name="toast_video_saved">Vídeo salvo na pasta Sentinela em Downloads</string>
     <string name="toast_video_save_fail">Falha ao salvar o vídeo</string>
     <string name="rename_video_title">Renomear vídeo</string>
     <string name="rename_video_hint">Digite o novo nome</string>
@@ -707,17 +707,17 @@
     <string name="torch_both">Ambas as lanternas</string>
     <string name="setting_debug_title">Log de depuração</string>
     <string name="note_debug">Gerar arquivo de log de depuração \n(Padrão: desativado)</string>
-    <string name="note_debug_detailed">Quando ativado, o KCam grava um arquivo de log HTML (FADCAM_debug.html) na pasta pública Downloads/FadCam/. Compartilhe esse arquivo ao relatar problemas. Desative para parar de gravar.\nObs.: o log pode pesar no desempenho durante a gravação — deixe desligado, a menos que esteja investigando um problema.</string>
+    <string name="note_debug_detailed">Quando ativado, o Sentinela grava um arquivo de log HTML (FADCAM_debug.html) na pasta pública Downloads/FadCam/. Compartilhe esse arquivo ao relatar problemas. Desative para parar de gravar.\nObs.: o log pode pesar no desempenho durante a gravação — deixe desligado, a menos que esteja investigando um problema.</string>
     <string name="note_debug_extra">Quando ativado, um arquivo de log é criado na pasta Downloads/FadCam. Isso ajuda a diagnosticar problemas.</string>
     <string name="watermark_preview_heading">Prévia</string>
     <string name="watermark_options_heading">Opções</string>
     <string name="watermark_style_row_title">Estilo da marca d\'água</string>
-    <string name="watermark_preview_sample_fadcam">Gravado com KCam - %1$s</string>
-    <string name="watermark_style_time_fadcam_label">Hora com KCam</string>
+    <string name="watermark_preview_sample_fadcam">Gravado com Sentinela - %1$s</string>
+    <string name="watermark_style_time_fadcam_label">Hora com Sentinela</string>
     <string name="watermark_style_timeonly_label">Data e hora</string>
     <string name="watermark_style_badge_label">Só a marca</string>
     <string name="watermark_style_none_label">Sem marca d\'água</string>
-    <string name="helper_watermark_preview">É assim que a marca d\'água aparece no canto superior esquerdo do vídeo.\nCuriosidade: 10/jul/2024 16:47 foi quando a v1.0 do KCam foi lançada.</string>
+    <string name="helper_watermark_preview">É assim que a marca d\'água aparece no canto superior esquerdo do vídeo.\nCuriosidade: 10/jul/2024 16:47 foi quando a v1.0 do Sentinela foi lançada.</string>
     <string name="helper_location_watermark_option">Adiciona a localização do aparelho como sobreposição. Requer permissão de localização.</string>
     <string name="location_format_title">Formato da localização</string>
     <string name="location_format_coordinates">Só coordenadas</string>
@@ -741,7 +741,7 @@
     <string name="widgets_pin_unsupported">Seu launcher não permite fixar widgets.</string>
     <string name="widget_clock_title">Widget de relógio</string>
     <string name="widget_label_clock">Relógio</string>
-    <string name="widgets_pin_fallback">Se nada aparecer, pressione e segure a tela inicial, abra Widgets e arraste o widget Relógio do KCam.</string>
+    <string name="widgets_pin_fallback">Se nada aparecer, pressione e segure a tela inicial, abra Widgets e arraste o widget Relógio do Sentinela.</string>
     <string name="widget_customize_title">Personalizar widget de relógio</string>
     <string name="widget_customize_description">Personalize como o widget mostra a hora e a data</string>
     <string name="widget_time_format_title">Formato da hora</string>
@@ -941,8 +941,8 @@
     <string name="remote_access_title">Acesso/controle remoto</string>
     <string name="remote_toast_coming_soon">Em breve!</string>
     <string name="coming_soon_toast">Em breve!</string>
-    <string name="remote_coming_soon">O controle remoto do KCam chega em breve.</string>
-    <string name="remote_feature_description">Pareie clientes do KCam com um QR code para controle remoto seguro na rede local: iniciar/parar gravação, prévia, zoom, trocar câmera e mais — tudo com criptografia de ponta a ponta.</string>
+    <string name="remote_coming_soon">O controle remoto do Sentinela chega em breve.</string>
+    <string name="remote_feature_description">Pareie clientes do Sentinela com um QR code para controle remoto seguro na rede local: iniciar/parar gravação, prévia, zoom, trocar câmera e mais — tudo com criptografia de ponta a ponta.</string>
     <string name="faditor_mini_title">Faditor Mini</string>
     <string name="faditor_mini_coming_soon">Em breve — editor leve</string>
     <string name="faditor_mini_subtitle">Corte e exporte seus vídeos com precisão</string>
@@ -1066,9 +1066,9 @@
     <string name="faditor_info_title">Sobre o Faditor Mini</string>
     <string name="faditor_info_subtitle">Tudo o que você precisa saber sobre o editor embutido</string>
     <string name="faditor_info_how_title">Como funciona</string>
-    <string name="faditor_info_how_desc">Escolha qualquer vídeo do aparelho ou das gravações do KCam. Corte quadro a quadro na linha do tempo e exporte. Todo o processamento acontece no aparelho — nada é enviado.\n\nO progresso é salvo automaticamente a cada poucos segundos e sempre que você sai do editor, então nada se perde se o app fechar de repente.</string>
+    <string name="faditor_info_how_desc">Escolha qualquer vídeo do aparelho ou das gravações do Sentinela. Corte quadro a quadro na linha do tempo e exporte. Todo o processamento acontece no aparelho — nada é enviado.\n\nO progresso é salvo automaticamente a cada poucos segundos e sempre que você sai do editor, então nada se perde se o app fechar de repente.</string>
     <string name="faditor_info_convert_title">Conversão inteligente</string>
-    <string name="faditor_info_convert_desc">O KCam grava num formato à prova de falhas chamado MP4 fragmentado (fMP4). Diferente do MP4 padrão, que tem um único contêiner finalizado, o fMP4 grava o vídeo em pequenos pedaços independentes. Assim, a gravação continua íntegra mesmo se o app travar ou a gravação parar de repente.\n\nPorém, players externos, galerias e gerenciadores de arquivos não conseguem avançar, buscar ou mostrar a duração certa desses arquivos. Isso não é bug — é uma escolha deliberada em favor da confiabilidade.\n\nSe você vai guardar os vídeos fora do KCam — no Google Drive, num computador ou em outro lugar — converta-os antes. Caso contrário, os arquivos não vão tocar normalmente.\n\nPara converter: abra o vídeo aqui no Faditor Mini e toque em Exportar. O MP4 padrão convertido aparece na aba Gravações, pronto para salvar na galeria ou compartilhar. O processo é instantâneo e sem perdas — sem recodificação nem perda de qualidade.</string>
+    <string name="faditor_info_convert_desc">O Sentinela grava num formato à prova de falhas chamado MP4 fragmentado (fMP4). Diferente do MP4 padrão, que tem um único contêiner finalizado, o fMP4 grava o vídeo em pequenos pedaços independentes. Assim, a gravação continua íntegra mesmo se o app travar ou a gravação parar de repente.\n\nPorém, players externos, galerias e gerenciadores de arquivos não conseguem avançar, buscar ou mostrar a duração certa desses arquivos. Isso não é bug — é uma escolha deliberada em favor da confiabilidade.\n\nSe você vai guardar os vídeos fora do Sentinela — no Google Drive, num computador ou em outro lugar — converta-os antes. Caso contrário, os arquivos não vão tocar normalmente.\n\nPara converter: abra o vídeo aqui no Faditor Mini e toque em Exportar. O MP4 padrão convertido aparece na aba Gravações, pronto para salvar na galeria ou compartilhar. O processo é instantâneo e sem perdas — sem recodificação nem perda de qualidade.</string>
     <string name="faditor_info_export_title">Arquivos exportados</string>
     <string name="faditor_info_export_desc">Os vídeos exportados são salvos no local de armazenamento ativo (o mesmo das Configurações) com o prefixo \"Faditor_\" seguido da data e hora. Eles aparecem na aba Gravações junto com as gravações originais.</string>
     <string name="faditor_info_temp_title">Arquivos temporários e cache</string>
@@ -1077,14 +1077,14 @@
     <string name="faditor_info_projects_desc">Todas as suas sessões de edição aparecem aqui para acesso rápido. Cada projeto é um pequeno arquivo JSON no aparelho com a URI do vídeo, os pontos de corte e as datas — nenhuma cópia dos vídeos é feita. Os projetos são salvos automaticamente a cada poucos segundos.\n\nVocê pode excluir projetos que não precisa mais pelo ícone de seleção múltipla. Excluir um projeto remove só os dados da edição; os vídeos originais continuam intactos.</string>
     <string name="faditor_your_recordings">Suas gravações</string>
     <string name="faditor_browse_device">Procurar no aparelho</string>
-    <string name="faditor_no_recordings">Nenhuma gravação encontrada. Grave com o KCam para ver seus vídeos aqui.</string>
+    <string name="faditor_no_recordings">Nenhuma gravação encontrada. Grave com o Sentinela para ver seus vídeos aqui.</string>
     <string name="faditor_video_count">%1$d vídeo(s)</string>
-    <string name="faditor_fadcam_source">KCam</string>
+    <string name="faditor_fadcam_source">Sentinela</string>
     <string name="faditor_fadrec_source">FadRec</string>
     <string name="faditor_browse_device_desc">Escolha qualquer vídeo do aparelho</string>
     <string name="faditor_scanning">Procurando gravações…</string>
-    <string name="faditor_source_chooser_desc">Escolha um vídeo da galeria ou das gravações do KCam</string>
-    <string name="faditor_recordings_helper">Vídeos gravados com o KCam no local de armazenamento ativo</string>
+    <string name="faditor_source_chooser_desc">Escolha um vídeo da galeria ou das gravações do Sentinela</string>
+    <string name="faditor_recordings_helper">Vídeos gravados com o Sentinela no local de armazenamento ativo</string>
     <string name="setting_audio_title">Gravação de áudio</string>
     <string name="note_audio">Ativa ou desativa a gravação de áudio nos vídeos.\n(Padrão: ativada)</string>
     <string name="button_audio_settings">Configurações de áudio</string>
@@ -1196,7 +1196,7 @@ Recomendado: 192000 bps, 48000 Hz para a maioria.</string>
     <string name="records_search_hint">Buscar gravações…</string>
     <string name="saf_permission_missing_dialog_instructions">Falta a permissão SAF. Conceda acesso à pasta escolhida.</string>
     <string name="saf_permission_missing_dialog_title">Permissão SAF necessária</string>
-    <string name="saf_permission_missing_dialog_message_for_start_recording">Para salvar as gravações num local personalizado, o KCam precisa de acesso à pasta escolhida. Conceda o acesso quando for pedido.</string>
+    <string name="saf_permission_missing_dialog_message_for_start_recording">Para salvar as gravações num local personalizado, o Sentinela precisa de acesso à pasta escolhida. Conceda o acesso quando for pedido.</string>
     <string name="grant_permission_button">Conceder permissão</string>
     <string name="trash_auto_delete_info_manual">Itens na lixeira nunca são excluídos; exclua os
     vídeos manualmente.</string>
@@ -1234,20 +1234,20 @@ Recomendado: 192000 bps, 48000 Hz para a maioria.</string>
     <string name="choose">Escolher</string>
     <string name="audio_input_source_headphones_no_mic">Fone detectado (sem microfone)</string>
     <string name="setting_onboarding_title">Mostrar introdução</string>
-    <string name="note_onboarding">Ative para ver a introdução e o guia de permissões na próxima vez que abrir o KCam.</string>
+    <string name="note_onboarding">Ative para ver a introdução e o guia de permissões na próxima vez que abrir o Sentinela.</string>
     <string name="choose_language">Escolha o idioma</string>
     <string name="language_change_later_note">Você pode mudar isso depois em Configurações.</string>
     <string name="permissions_required">Permissões necessárias</string>
-    <string name="permissions_description">O KCam precisa de acesso à câmera, ao microfone e ao armazenamento para gravar e salvar vídeos.</string>
+    <string name="permissions_description">O Sentinela precisa de acesso à câmera, ao microfone e ao armazenamento para gravar e salvar vídeos.</string>
     <string name="grant_permissions">Conceder permissões</string>
     <string name="permissions_note">Você precisa conceder todas as permissões para continuar.</string>
     <string name="permissions_granted">Todas as permissões concedidas!</string>
     <string name="open_settings">Abrir configurações</string>
     <string name="disable_battery_optimization">Desativar otimização de bateria</string>
     <string name="onboarding_human_title">Confirme que você é humano</string>
-    <string name="onboarding_human_desc">Hmmm... beleza. Estas regras não são negociáveis. Se não concordar, desinstale o KCam agora.</string>
-    <string name="onboarding_human_checkbox1">Não vou usar o KCam para violar leis, invadir a privacidade de ninguém ou ser inconveniente. Se eu fizer besteira, a responsabilidade é minha, não do desenvolvedor.</string>
-    <string name="onboarding_human_checkbox2">Já amo o KCam antes mesmo de usar. (Não é opcional)</string>
+    <string name="onboarding_human_desc">Hmmm... beleza. Estas regras não são negociáveis. Se não concordar, desinstale o Sentinela agora.</string>
+    <string name="onboarding_human_checkbox1">Não vou usar o Sentinela para violar leis, invadir a privacidade de ninguém ou ser inconveniente. Se eu fizer besteira, a responsabilidade é minha, não do desenvolvedor.</string>
+    <string name="onboarding_human_checkbox2">Já amo o Sentinela antes mesmo de usar. (Não é opcional)</string>
     <string name="onboarding_human_checkbox3">Concordo com a Política de Privacidade</string>
     <string name="onboarding_human_button">Deixa eu entrar!</string>
     <string name="trash_select_all">Selecionar tudo</string>
@@ -1294,7 +1294,7 @@ Recomendado: 192000 bps, 48000 Hz para a maioria.</string>
     <string name="app_icon_preview">Prévia do ícone do app</string>
     <string name="changelog_label">Novidades</string>
     <string name="setting_auto_update_check_title">Verificar atualizações automaticamente</string>
-    <string name="note_auto_update_check">Se ativado, o KCam verifica atualizações sempre que você abre o app. Desative para não verificar ao abrir.\n(Padrão: ativado)</string>
+    <string name="note_auto_update_check">Se ativado, o Sentinela verifica atualizações sempre que você abre o app. Desative para não verificar ao abrir.\n(Padrão: ativado)</string>
     <string name="storage_location_title">Local de armazenamento</string>
     <string name="storage_location_description">Escolha onde as gravações são salvas.</string>
     <string name="general">Geral</string>
@@ -1325,7 +1325,7 @@ Recomendado: 192000 bps, 48000 Hz para a maioria.</string>
     <string name="digital_forensics_coming_soon_short">Em breve</string>
     <string name="digital_forensics_discord_coming_soon_toast">Os alertas no Discord chegam numa atualização futura.</string>
     <string name="digital_forensics_helper">A perícia digital tem duas partes: sobreposição na prévia ao vivo e evidências salvas. Se você só quer os rótulos de IA ao vivo, deixe a coleta de evidências desligada. Se precisa de histórico forense, ative a coleta e escolha o que guardar.</string>
-    <string name="digital_forensics_enable_helper">Pense nisto como um sensor inteligente de evidências. Quando ativado, o KCam mantém uma linha do tempo das atividades detectadas para você ir direto aos momentos importantes depois.</string>
+    <string name="digital_forensics_enable_helper">Pense nisto como um sensor inteligente de evidências. Quando ativado, o Sentinela mantém uma linha do tempo das atividades detectadas para você ir direto aos momentos importantes depois.</string>
     <string name="digital_forensics_evidence_enable">Ativar coleta de evidências</string>
     <string name="digital_forensics_evidence_helper">Quando ativada, as detecções são gravadas no banco forense com quadros de prova salvos em tempo real. Deixe desligado se só quer rótulos ao vivo sem ocupar espaço.</string>
     <string name="digital_forensics_capture_scope">Escopo da coleta</string>
@@ -1466,7 +1466,7 @@ Recomendado: 192000 bps, 48000 Hz para a maioria.</string>
     <string name="storage_location_internal">Armazenamento interno do app (padrão, privado)</string>
     <string name="storage_location_custom">Local personalizado (cartão SD/outro, visível na galeria)</string>
     <string name="storage_location_choose_folder">Escolher pasta</string>
-    <string name="storage_location_note">Obs.: locais personalizados deixam os vídeos acessíveis a outros apps (ex.: galeria). O armazenamento interno os mantém privados no KCam.</string>
+    <string name="storage_location_note">Obs.: locais personalizados deixam os vídeos acessíveis a outros apps (ex.: galeria). O armazenamento interno os mantém privados no Sentinela.</string>
     <string name="storage_sheet_title">Local de armazenamento</string>
     <string name="storage_option_use_internal">Usar armazenamento interno</string>
     <string name="storage_option_switch_internal">Mudar para armazenamento interno</string>
@@ -1565,7 +1565,7 @@ Recomendado: 192000 bps, 48000 Hz para a maioria.</string>
     <string name="universal_stop">Parar</string>
     <string name="notification_settings_saved">Configurações de notificação salvas</string>
     <string name="setting_notification_appearance">Aparência da notificação</string>
-    <string name="note_notification_appearance">Personalize a aparência da notificação de gravação\n(Padrão: KCam)</string>
+    <string name="note_notification_appearance">Personalize a aparência da notificação de gravação\n(Padrão: Sentinela)</string>
     <string name="hide_stop_button">Ocultar botão Parar</string>
     <string name="note_hide_stop_button">Oculta o botão Parar na notificação\n(Padrão: desativado)</string>
     <string name="notification_preview">Prévia da notificação</string>
@@ -1657,9 +1657,9 @@ Recomendado: 192000 bps, 48000 Hz para a maioria.</string>
     <string name="delete_all">Excluir tudo</string>
     <string name="new_project">Novo projeto</string>
     <string name="delete">Excluir</string>
-    <string name="fadcam_pro_title">KCam Pro</string>
+    <string name="fadcam_pro_title">Sentinela Pro</string>
     <string name="fadcam_pro_subtitle">Recursos premium para discrição total</string>
-    <string name="fadcam_pro_get_button">Obter o KCam Pro</string>
+    <string name="fadcam_pro_get_button">Obter o Sentinela Pro</string>
     <string name="fadcam_pro_free">Grátis</string>
     <string name="fadcam_pro_column_label">Pro</string>
     <string name="fadcam_pro_proplus_label">Pro+</string>
@@ -1671,8 +1671,8 @@ Recomendado: 192000 bps, 48000 Hz para a maioria.</string>
     <string name="fadcam_pro_benefit_lifetime_updates">Atualizações vitalícias: sempre receba novos recursos, melhorias e correções</string>
     <string name="fadcam_pro_benefit_support">Suporte imediato: ajuda direta por tickets no Discord</string>
     <string name="fadcam_pro_coming_soon">Recursos Pro+ e Lab em breve: ícones enviados por você, nomes de app personalizados e sincronização na nuvem FadDrive.</string>
-    <string name="fadcam_pro_support_message">O KCam sempre vai ser gratuito, sem anúncios e sem rastreamento. Cuido do projeto sozinho, e isso exige tempo e trabalho contínuos. Atualizar para o Pro (gratuito por enquanto) ajuda no desenvolvimento e, em troca, posso oferecer recursos extras além da versão gratuita completa. Obrigado pelo apoio :)</string>
-    <string name="fadcam_pro_separate_apk">App independente • Funciona junto com o KCam</string>
+    <string name="fadcam_pro_support_message">O Sentinela sempre vai ser gratuito, sem anúncios e sem rastreamento. Cuido do projeto sozinho, e isso exige tempo e trabalho contínuos. Atualizar para o Pro (gratuito por enquanto) ajuda no desenvolvimento e, em troca, posso oferecer recursos extras além da versão gratuita completa. Obrigado pelo apoio :)</string>
+    <string name="fadcam_pro_separate_apk">App independente • Funciona junto com o Sentinela</string>
     <string name="fadcam_pro_feature_everything_icon">Tudo</string>
     <string name="fadcam_pro_feature_everything">Tudo</string>
     <string name="fadcam_pro_feature_custom_icon">Ícone de app personalizado</string>
@@ -1684,7 +1684,7 @@ Recomendado: 192000 bps, 48000 Hz para a maioria.</string>
     <string name="player_info_title">Sobre o player de vídeo</string>
     <string name="player_info_content"><![CDATA[
 <b>Formato MP4 fragmentado</b><br/><br/>
-O KCam grava em MP4 fragmentado. Isso significa que o vídeo é salvo em pequenos segmentos, e não num único arquivo completo. A vantagem: se algo der errado durante a gravação, você perde só os últimos segundos, e não o vídeo inteiro.<br/><br/>
+O Sentinela grava em MP4 fragmentado. Isso significa que o vídeo é salvo em pequenos segmentos, e não num único arquivo completo. A vantagem: se algo der errado durante a gravação, você perde só os últimos segundos, e não o vídeo inteiro.<br/><br/>
 Se os últimos segundos do vídeo parecerem congelados, não se preocupe — não é bug! Quando você para a gravação, o fragmento atual ainda pode completar seu ciclo (~3 segundos), o que pode deixar um quadro parado no final.<br/><br/>
 <b>Limitações do player</b><br/><br/>
 O player embutido tem algumas limitações do próprio Android. A barra de progresso ou a forma de onda podem parecer um pouco "travadas" — isso é normal, não é bug.<br/><br/>
@@ -1764,7 +1764,7 @@ Para a reprodução mais suave, você pode usar um player externo como o VLC. Ma
     <string name="stream_notes_wifi">• Os clientes precisam estar na mesma rede Wi-Fi para acessar a transmissão</string>
     <string name="stream_notes_quality">• A qualidade (BAIXA/MÉDIA/ALTA/ULTRA) limita o FPS e a taxa de bits para evitar problemas de rede</string>
     <string name="stream_notes_resolution">• A orientação e a resolução da transmissão vêm das configurações normais de gravação (Vídeo → Resolução &amp; orientação). Ajuste lá para mudar as dimensões</string>
-    <string name="stream_notes_cellular">⚠️ Limitação do Wi-Fi: redes móveis bloqueiam conexões de entrada. Para transmitir de qualquer rede (Wi-Fi, 4G/5G, qualquer lugar) é preciso um servidor na nuvem — desativado nesta versão do KCam</string>
+    <string name="stream_notes_cellular">⚠️ Limitação do Wi-Fi: redes móveis bloqueiam conexões de entrada. Para transmitir de qualquer rede (Wi-Fi, 4G/5G, qualquer lugar) é preciso um servidor na nuvem — desativado nesta versão do Sentinela</string>
     <string name="stream_notes_android14_screen">⚠️ Android 14+: uma restrição do sistema impede gravar com a tela apagada. Alternativas: (1) ative o "Modo tela preta" em Configurações → Segurança, ou (2) desative o bloqueio de tela (sem PIN/senha/digital). Ambos permitem gravação remota sem interrupção</string>
     <string name="cloud_account_button_desc">FadSec Cloud</string>
     <string name="cloud_button_label">FadSec Cloud</string>
@@ -1806,7 +1806,7 @@ Para a reprodução mais suave, você pode usar um player externo como o VLC. Ma
     <string name="streaming_mode_link_required">Vincule o aparelho para ativar</string>
     <string name="streaming_mode_stream_url">URL da transmissão</string>
     <string name="streaming_mode_helper">Escolha como transmitir sua câmera</string>
-    <string name="fullscreen_preview_enter">Prévia do KCam</string>
+    <string name="fullscreen_preview_enter">Prévia do Sentinela</string>
     <string name="fullscreen_preview_close">Fechar tela cheia</string>
     <string name="fullscreen_preview_not_recording">Comece a gravar para usar a prévia em tela cheia</string>
     <string name="fullscreen_preview_tap_hint">Toque na tela para mostrar/ocultar os controles</string>
@@ -1836,7 +1836,7 @@ Para a reprodução mais suave, você pode usar um player externo como o VLC. Ma
     <string name="automation_row_subtitle">Mapeamento de botões, controles Bluetooth, teclas de volume</string>
     <string name="setting_volume_shutter_title">Obturador no volume</string>
     <string name="setting_volume_shutter_summary">As teclas de volume funcionam como obturador na aba Início</string>
-    <string name="setting_volume_shutter_footer">As teclas de volume viram o obturador na aba Início:\n• Toque — tira uma foto\n• Toque duplo — troca de câmera\n• Segurar — inicia ou para a gravação\n\nControles remotos Bluetooth também funcionam, com as mesmas ações. Os botões funcionam com a aba Início do KCam aberta — versões futuras vão permitir que qualquer botão acione o KCam, mesmo em segundo plano.\n\nPor enquanto, use o MacroDroid para mapear os atalhos do KCam — eles ficam em Configurações → Atalhos &amp; widgets.</string>
+    <string name="setting_volume_shutter_footer">As teclas de volume viram o obturador na aba Início:\n• Toque — tira uma foto\n• Toque duplo — troca de câmera\n• Segurar — inicia ou para a gravação\n\nControles remotos Bluetooth também funcionam, com as mesmas ações. Os botões funcionam com a aba Início do Sentinela aberta — versões futuras vão permitir que qualquer botão acione o Sentinela, mesmo em segundo plano.\n\nPor enquanto, use o MacroDroid para mapear os atalhos do Sentinela — eles ficam em Configurações → Atalhos &amp; widgets.</string>
     <string name="thermal_guardian_title">Thermal Guardian</string>
     <string name="thermal_guardian_row_subtitle">Ajusta a gravação para evitar superaquecimento</string>
     <string name="audio_vision_title">Audio Vision</string>
@@ -1853,15 +1853,15 @@ Para a reprodução mais suave, você pode usar um player externo como o VLC. Ma
     <string name="tutorial_advanced_features">Recursos avançados</string>
     <string name="tutorial_body_cam_setup">Configurar como câmera corporal</string>
     <string name="tutorial_dashcam_setup">Configurar como dashcam</string>
-    <string name="fadcam_for_ios_title">KCam para iOS</string>
-    <string name="ios_promo_title">O KCam chegou ao iOS!</string>
+    <string name="fadcam_for_ios_title">Sentinela para iOS</string>
+    <string name="ios_promo_title">O Sentinela chegou ao iOS!</string>
     <string name="ios_promo_subtitle">O mesmo app de câmera focado em privacidade, agora para iPhone</string>
     <string name="trash_settings_title">Lixeira</string>
     <string name="trash_settings_subtitle">Recupere gravações e arquivos excluídos</string>
-    <string name="trash_settings_info">Este recurso já existia — só ficava escondido num toque longo no logo do KCam, no topo da tela inicial. Colocamos aqui para ficar mais fácil de achar.</string>
+    <string name="trash_settings_info">Este recurso já existia — só ficava escondido num toque longo no logo do Sentinela, no topo da tela inicial. Colocamos aqui para ficar mais fácil de achar.</string>
     <string name="trash_settings_hide_button">Ocultar esta seção</string>
     <string name="trash_settings_hide_dialog_title">Ocultar a seção Lixeira?</string>
-    <string name="trash_settings_hide_dialog_message">A seção Lixeira vai sumir das Configurações. Para trazê-la de volta, abra a Lixeira com um toque longo no logo do KCam no topo da tela inicial e ative \"Mostrar Lixeira nas Configurações\".</string>
+    <string name="trash_settings_hide_dialog_message">A seção Lixeira vai sumir das Configurações. Para trazê-la de volta, abra a Lixeira com um toque longo no logo do Sentinela no topo da tela inicial e ative \"Mostrar Lixeira nas Configurações\".</string>
     <string name="trash_settings_hide_dialog_confirm">Ocultar</string>
     <string name="trash_show_in_settings_title">Mostrar nas Configurações</string>
     <string name="trash_show_in_settings_desc">Adiciona a Lixeira às Configurações para acesso rápido</string>
@@ -1909,7 +1909,7 @@ Para a reprodução mais suave, você pode usar um player externo como o VLC. Ma
     <string name="motion_lab_debug_metrics_value">Área %1$.3f, Forte %2$.3f, Média %3$.3f, Fundo %4$.3f, Máx %5$.3f, Global %6$s</string>
     <string name="motion_lab_info_cd">Sobre o Motion Lab</string>
     <string name="motion_lab_info_title">Gravar automaticamente com movimento</string>
-    <string name="motion_lab_info_body">Este é o recurso de gravação automática por movimento do KCam.\n\nComo funciona, em palavras simples:\n- A câmera fica ativa e analisa os quadros no próprio aparelho, em tempo real.\n- O modelo de aprendizado de máquina e a lógica de movimento procuram movimento.\n- Quando um movimento válido é detectado, a gravação começa/continua.\n- A gravação segue enquanto houver movimento.\n- Quando o movimento para, a pós-gravação continua pelos segundos escolhidos.\n- Depois a gravação pausa e espera o próximo movimento.\n\nCom a gravação pausada, o app continua analisando os quadros na memória, mas não grava vídeo até detectar movimento de novo.\n\nComo usar (para a maioria):\n- Deixe todas as opções no padrão.\n- Ative o Sensor de movimento nesta tela.\n- Vá à aba Início e grave normalmente.\n- A gravação por movimento funciona sozinha.\n\nTeste fácil à distância:\n- Ative a Lanterna automática nesta tela.\n- Comece a gravar pela aba Início.\n- Apoie o celular inclinado numa mesa ou estante, de frente para o cômodo.\n- Saia do cômodo, depois entre e ande.\n- A lanterna acendendo mostra de longe que a gravação começou.\n- A gravação continua pela pós-gravação escolhida depois que o movimento para.\n\nDica: este recurso roda sem parar; valores avançados muito altos aumentam o calor e podem desgastar o aparelho com o tempo. Em sessões longas, mantenha o padrão, a menos que tenha um motivo.</string>
+    <string name="motion_lab_info_body">Este é o recurso de gravação automática por movimento do Sentinela.\n\nComo funciona, em palavras simples:\n- A câmera fica ativa e analisa os quadros no próprio aparelho, em tempo real.\n- O modelo de aprendizado de máquina e a lógica de movimento procuram movimento.\n- Quando um movimento válido é detectado, a gravação começa/continua.\n- A gravação segue enquanto houver movimento.\n- Quando o movimento para, a pós-gravação continua pelos segundos escolhidos.\n- Depois a gravação pausa e espera o próximo movimento.\n\nCom a gravação pausada, o app continua analisando os quadros na memória, mas não grava vídeo até detectar movimento de novo.\n\nComo usar (para a maioria):\n- Deixe todas as opções no padrão.\n- Ative o Sensor de movimento nesta tela.\n- Vá à aba Início e grave normalmente.\n- A gravação por movimento funciona sozinha.\n\nTeste fácil à distância:\n- Ative a Lanterna automática nesta tela.\n- Comece a gravar pela aba Início.\n- Apoie o celular inclinado numa mesa ou estante, de frente para o cômodo.\n- Saia do cômodo, depois entre e ande.\n- A lanterna acendendo mostra de longe que a gravação começou.\n- A gravação continua pela pós-gravação escolhida depois que o movimento para.\n\nDica: este recurso roda sem parar; valores avançados muito altos aumentam o calor e podem desgastar o aparelho com o tempo. Em sessões longas, mantenha o padrão, a menos que tenha um motivo.</string>
     <string name="motion_lab_fps_value">%1$d fps</string>
     <string name="motion_lab_ms_value">%1$d ms</string>
     <string name="motion_lab_footer">Personalize os controles acima só se precisar de algo específico. Na maioria dos casos, o padrão é a escolha mais segura e confiável.</string>
@@ -1919,7 +1919,7 @@ Para a reprodução mais suave, você pode usar um player externo como o VLC. Ma
     <string name="home_sidebar_discord">Discord</string>
     <string name="home_sidebar_discord_sub">Entre na comunidade</string>
     <string name="privacy_black_mode_title">Tela preta de privacidade</string>
-    <string name="privacy_black_mode_helper">Se o aparelho fecha o app em segundo plano, use este recurso para manter o app em primeiro plano.\n\nUma tela preta aparece por cima, parecendo que a tela está apagada, enquanto a gravação continua.\n\nToque no ícone do KCam no topo da aba Início para ativar.</string>
+    <string name="privacy_black_mode_helper">Se o aparelho fecha o app em segundo plano, use este recurso para manter o app em primeiro plano.\n\nUma tela preta aparece por cima, parecendo que a tela está apagada, enquanto a gravação continua.\n\nToque no ícone do Sentinela no topo da aba Início para ativar.</string>
     <string name="privacy_black_mode_enable_title">Ativar modo tela preta</string>
     <string name="privacy_black_mode_enabled_toast">Modo privacidade ativado</string>
     <string name="privacy_black_mode_disabled_toast">Modo privacidade desativado</string>
@@ -2169,7 +2169,7 @@ Para a reprodução mais suave, você pode usar um player externo como o VLC. Ma
     <string name="mini_app_qr_generator_title">Gerador de QR</string>
     <string name="mini_app_qr_generator_desc">Crie QR codes de textos, links e contatos</string>
     <string name="mini_apps_planned_shortcuts_title">Planejado: atalhos &amp; automação</string>
-    <string name="mini_apps_planned_shortcuts_desc">Atalhos na tela inicial para abrir qualquer mini app sem abrir o KCam antes.\n\nSuporte a automação por intents (Tasker, MacroDroid etc.) para acionar mini apps — use o leitor de QR, a lanterna e mais nos seus fluxos automáticos.</string>
+    <string name="mini_apps_planned_shortcuts_desc">Atalhos na tela inicial para abrir qualquer mini app sem abrir o Sentinela antes.\n\nSuporte a automação por intents (Tasker, MacroDroid etc.) para acionar mini apps — use o leitor de QR, a lanterna e mais nos seus fluxos automáticos.</string>
     <string name="export_center">Central de exportação</string>
     <string name="remote_server_status">Status do servidor</string>
     <string name="remote_server_endpoints">Endpoints do servidor</string>
@@ -2234,7 +2234,7 @@ Para a reprodução mais suave, você pode usar um player externo como o VLC. Ma
     <string name="remote_pages">Páginas</string>
     <string name="remote_layers">Camadas</string>
     <string name="remote_access_endpoints_desc">Acesse o servidor de transmissão por estes endpoints HTTP</string>
-    <string name="remote_control_via_api_desc">Controle o KCam remotamente por chamadas de API</string>
+    <string name="remote_control_via_api_desc">Controle o Sentinela remotamente por chamadas de API</string>
     <string name="remote_buffered_segments_desc">Segmentos em buffer prontos para transmissão</string>
     <string name="remote_battery_low_warning">⚠️ Bateria fraca - ligue o carregador o quanto antes</string>
     <string name="remote_enter_percentage_hint">Digite a porcentagem</string>
@@ -2244,14 +2244,14 @@ Para a reprodução mais suave, você pode usar um player externo como o VLC. Ma
     <string name="sidebar_update_available">Atualização disponível</string>
     <string name="sidebar_stable_release">Versão estável</string>
     <string name="sidebar_beta_release">Versão beta</string>
-    <string name="sidebar_fadcam_pro">KCam Pro</string>
+    <string name="sidebar_fadcam_pro">Sentinela Pro</string>
     <string name="badge_new">NOVO</string>
-    <string name="update_pro_title">Atualização do KCam Pro</string>
-    <string name="update_pro_desc">Uma nova versão do KCam Pro está disponível.\n\nPara usuários gratuitos, a versão estável chega em cerca de 60 dias. Usuários Pro recebem na hora.</string>
-    <string name="update_get_pro">Obter o KCam Pro</string>
+    <string name="update_pro_title">Atualização do Sentinela Pro</string>
+    <string name="update_pro_desc">Uma nova versão do Sentinela Pro está disponível.\n\nPara usuários gratuitos, a versão estável chega em cerca de 60 dias. Usuários Pro recebem na hora.</string>
+    <string name="update_get_pro">Obter o Sentinela Pro</string>
     <string name="update_maybe_later">Talvez depois</string>
     <string name="update_beta_title">Atualização beta disponível</string>
-    <string name="update_beta_desc">O beta do KCam é um app separado que pode ser instalado junto com a versão estável, sem mexer no app estável nem nos dados dele.\n\nInstale o beta para testar novidades antes da versão estável.</string>
+    <string name="update_beta_desc">O beta do Sentinela é um app separado que pode ser instalado junto com a versão estável, sem mexer no app estável nem nos dados dele.\n\nInstale o beta para testar novidades antes da versão estável.</string>
     <string name="update_get_beta">Obter beta</string>
     <string name="mini_apps_about_title">Sobre os mini apps</string>
     <string name="mini_apps_current_tools">Ferramentas atuais</string>
@@ -2328,7 +2328,7 @@ Para a reprodução mais suave, você pode usar um player externo como o VLC. Ma
     <string name="about_dialog_error">Erro</string>
     <string name="about_dialog_ok">OK</string>
     <string name="about_get_beta">Obter beta</string>
-    <string name="about_fadcam_feedback">Feedback do KCam</string>
+    <string name="about_fadcam_feedback">Feedback do Sentinela</string>
     <string name="video_split_enabled_format">Ativado (%s)</string>
     <string name="video_split_size_500mb">500 MB</string>
     <string name="video_split_size_1gb">1 GB</string>
@@ -2337,7 +2337,7 @@ Para a reprodução mais suave, você pode usar um player externo como o VLC. Ma
     <string name="video_split_size_custom_format">Personalizado (%d MB)</string>
     <string name="video_split_change_format">Mudar tamanho da divisão (atual: %s)</string>
     <string name="video_split_custom_title">Tamanho de divisão personalizado (MB)</string>
-    <string name="screen_rec_splitting_value_format">%s (KCam + FadRec)</string>
+    <string name="screen_rec_splitting_value_format">%s (Sentinela + FadRec)</string>
     <string name="settings_tab_all">Todas</string>
     <string name="settings_location_update_interval_5s">5,0 segundos</string>
     <string name="annotation_by_fadsec_lab">por FadSec Lab</string>
@@ -2431,7 +2431,7 @@ Para a reprodução mais suave, você pode usar um player externo como o VLC. Ma
     <string name="channel_security_alarm">Alarme de segurança</string>
     <string name="channel_remote_streaming">Transmissão remota</string>
     <string name="channel_annotation_service">Serviço de anotação</string>
-    <string name="channel_fadcam_file_ops">Operações de arquivo do KCam</string>
+    <string name="channel_fadcam_file_ops">Operações de arquivo do Sentinela</string>
     <string name="screen_rec_failed">Falha na gravação: %s</string>
     <string name="screen_rec_permission_required">Permissão de gravação de tela necessária</string>
     <string name="screen_rec_file_error">Erro ao criar o arquivo da gravação de tela</string>
@@ -2553,13 +2553,13 @@ Para a reprodução mais suave, você pode usar um player externo como o VLC. Ma
     </string-array>
     <string-array name="questions_array" tools:ignore="InconsistentArrays">
         <item>AVISO</item>
-        <item>O KCam coleta dados dos usuários?</item>
-        <item>O KCam tem anúncios?</item>
-        <item>Por que o KCam pede acesso à localização?</item>
+        <item>O Sentinela coleta dados dos usuários?</item>
+        <item>O Sentinela tem anúncios?</item>
+        <item>Por que o Sentinela pede acesso à localização?</item>
         <item>Por que a permissão de internet é necessária?</item>
         <item>Algum dado fica em servidores externos?</item>
         <item>O que acontece com meus vídeos depois de gravar?</item>
-        <item>O KCam compartilha meus dados com terceiros?</item>
+        <item>O Sentinela compartilha meus dados com terceiros?</item>
         <item></item>
         <item></item>
         <item>Geral</item>
@@ -2571,15 +2571,15 @@ Para a reprodução mais suave, você pode usar um player externo como o VLC. Ma
         <item></item>
     </string-array>
     <string-array name="answers_array" tools:ignore="InconsistentArrays">
-        <item>O KCam não apoia nem incentiva nenhum uso antiético ou ilegal deste software. Mau uso, como vigilância sem autorização ou invasão de privacidade, é totalmente contra nossas diretrizes. O autor não se responsabiliza por qualquer mau uso do aplicativo.
+        <item>O Sentinela não apoia nem incentiva nenhum uso antiético ou ilegal deste software. Mau uso, como vigilância sem autorização ou invasão de privacidade, é totalmente contra nossas diretrizes. O autor não se responsabiliza por qualquer mau uso do aplicativo.
         </item>
-        <item>Não, o KCam não coleta nenhum dado dos usuários.</item>
-        <item>Não, o KCam não tem nenhum anúncio.</item>
+        <item>Não, o Sentinela não coleta nenhum dado dos usuários.</item>
+        <item>Não, o Sentinela não tem nenhum anúncio.</item>
         <item>Para adicionar a localização à marca d\'água.</item>
         <item>Para verificar atualizações automaticamente.</item>
         <item>Não, todos os dados ficam no seu aparelho.</item>
         <item>Seus vídeos são salvos localmente no aparelho.</item>
-        <item>Não, o KCam não compartilha nem coleta dados, nem mesmo relatórios de erro.</item>
+        <item>Não, o Sentinela não compartilha nem coleta dados, nem mesmo relatórios de erro.</item>
         <item></item>
         <item></item>
         <item></item>
@@ -2598,7 +2598,7 @@ Para a reprodução mais suave, você pode usar um player externo como o VLC. Ma
         <item>Correção chegando em breve™... o desenvolvedor está depurando a vida 🐛</item>
     </string-array>
     <string-array name="notification_appearance_options">
-        <item>KCam (padrão)</item>
+        <item>Sentinela (padrão)</item>
         <item>Atualização do sistema</item>
         <item>Download</item>
         <item>Sincronizando</item>

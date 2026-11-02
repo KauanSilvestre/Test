@@ -413,7 +413,7 @@
     <string name="records_title">Recordings</string>
     <string name="records_filter_all">All</string>
     <string name="mode_all">All</string>
-    <string name="records_filter_camera">KCam</string>
+    <string name="records_filter_camera">Sentinela</string>
     <string name="records_filter_dual">Dual</string>
     <string name="records_filter_screen">FadRec</string>
     <string name="records_filter_faditor">Faditor</string>
@@ -580,7 +580,7 @@
     <string name="setting_codec_title">Video Codec</string>
     <string name="note_codec">Choose codec\n(Default: %1$s)\nTip: With H.265 (HEVC), you can use about half the bitrate of H.264 for the same quality. Example: For FHD, use 8 Mbps instead of 16 Mbps.</string>
     <string name="setting_watermark">Watermark</string>
-    <string name="note_watermark">Select watermark option\n(Default: Timestamp with KCam)</string>
+    <string name="note_watermark">Select watermark option\n(Default: Timestamp with Sentinela)</string>
     <string name="note_watermark_extra">For a speedy save, pick \'No Watermark\'. Adding a watermark? It\'s worth the wait, just a little longer to process!</string>
     <string name="setting_location_title">Location Data</string>
     <string name="note_location">Include location data in watermark. \nRequires GPS enabled \n(Default: Disabled)</string>
@@ -613,13 +613,13 @@
     </string-array>
     <string-array name="questions_array" tools:ignore="InconsistentArrays">
         <item>DISCLAIMER</item>
-        <item>Does KCam collect any user data?</item>
-        <item>Are there any ads in KCam?</item>
-        <item>Why does KCam request location access?</item>
+        <item>Does Sentinela collect any user data?</item>
+        <item>Are there any ads in Sentinela?</item>
+        <item>Why does Sentinela request location access?</item>
         <item>Why the internet permission is required?</item>
         <item>Is any data stored on external servers?</item>
         <item>What happens to my videos after recording?</item>
-        <item>Does KCam share my data with third parties?</item>
+        <item>Does Sentinela share my data with third parties?</item>
         <item></item>
         <item></item>
         <item>General</item>
@@ -631,15 +631,15 @@
         <item></item>
     </string-array>
     <string-array name="answers_array" tools:ignore="InconsistentArrays">
-        <item>KCam does not condone or support any unethical or illegal use of this software. Misuse, such as unauthorized surveillance or invasion of privacy, is strictly against our guidelines. The author is not responsible for any misuse of the application.
+        <item>Sentinela does not condone or support any unethical or illegal use of this software. Misuse, such as unauthorized surveillance or invasion of privacy, is strictly against our guidelines. The author is not responsible for any misuse of the application.
         </item>
-        <item>No, KCam does not collect any user data.</item>
-        <item>No, KCam is completely ad-free.</item>
+        <item>No, Sentinela does not collect any user data.</item>
+        <item>No, Sentinela is completely ad-free.</item>
         <item>For adding location info to your watermarks.</item>
         <item>For auto update checking.</item>
         <item>No, all data is stored on your device.</item>
         <item>Your videos are saved locally on your device.</item>
-        <item>No, KCam does not share or collect any data, not even crash logs.</item>
+        <item>No, Sentinela does not share or collect any data, not even crash logs.</item>
         <item></item>
         <item></item>
         <item></item>
@@ -651,7 +651,7 @@
         <item>Check the official GitHub repo for updates.</item>
         <item></item>
     </string-array>
-    <string name="dialog_welcome_title">Welcome to KCam!</string>
+    <string name="dialog_welcome_title">Welcome to Sentinela!</string>
     <string name="note_from_developer_title">Note from Developer</string>
     <string name="note_from_developer_subtitle">README, links &amp; updates</string>
     <string name="note_under_dev">Important: This app is currently under development. New features are being added regularly.</string>
@@ -660,7 +660,7 @@
     <string name="button_readme_github">GitHub Repository</string>
     <string name="community_title">Join our Community:</string>
     <string name="discord_title">Discord Server</string>
-    <string name="thankyou_msg">Thank you for using KCam!</string>
+    <string name="thankyou_msg">Thank you for using Sentinela!</string>
     <string name="settings_title">Settings</string>
     <string name="array_watermark_time_fadcam">Time with Fadcam</string>
     <string name="array_watermark_timeonly">Timestamp</string>
@@ -675,7 +675,7 @@
     <string name="quick_speed_option_2">2x</string>
     <string name="quick_speed_option_2_5">2.5x</string>
     <string name="quick_speed_option_custom">Custom</string>
-    <string name="toast_video_saved">Video saved to KCam folder in Downloads</string>
+    <string name="toast_video_saved">Video saved to Sentinela folder in Downloads</string>
     <string name="toast_video_save_fail">Failed to save video</string>
     <string name="rename_video_title">Rename Video</string>
     <string name="rename_video_hint">Enter new name</string>
@@ -857,19 +857,19 @@
     <string name="torch_both">Both Torches</string>
     <string name="setting_debug_title">Debug Logging</string>
     <string name="note_debug">Enable debug log file generation \n(Default: Disabled)</string>
-    <string name="note_debug_detailed">When enabled, KCam writes a debug log HTML file (FADCAM_debug.html) into the public Downloads/FadCam/ folder. Share this file when reporting issues. Turn off to stop future writes.\nNote: Debug logging may add performance overhead during recording — keep it off unless you are troubleshooting.</string>
+    <string name="note_debug_detailed">When enabled, Sentinela writes a debug log HTML file (FADCAM_debug.html) into the public Downloads/FadCam/ folder. Share this file when reporting issues. Turn off to stop future writes.\nNote: Debug logging may add performance overhead during recording — keep it off unless you are troubleshooting.</string>
     <string name="note_debug_extra">When enabled, a debug log file will be created in the Downloads/FadCam folder. This can help diagnose app issues.</string>
     <!-- Watermark unified strings -->
     <string name="watermark_preview_heading">Preview</string>
     <string name="watermark_options_heading">Options</string>
     <string name="watermark_style_row_title">Watermark Style</string>
-    <string name="watermark_preview_sample_fadcam">Captured by KCam - %1$s</string>
+    <string name="watermark_preview_sample_fadcam">Captured by Sentinela - %1$s</string>
     <string name="watermark_preview_sample_timeonly">%1$s</string>
-    <string name="watermark_style_time_fadcam_label">Time with KCam</string>
+    <string name="watermark_style_time_fadcam_label">Time with Sentinela</string>
     <string name="watermark_style_timeonly_label">Timestamp</string>
     <string name="watermark_style_badge_label">Brand Label Only</string>
     <string name="watermark_style_none_label">No Watermark</string>
-    <string name="helper_watermark_preview">This is how the watermark will appear at the top-left of your recorded video.\nFun fact: 10/Jul/2024 04:47 PM is when KCam v1.0 first shipped.</string>
+    <string name="helper_watermark_preview">This is how the watermark will appear at the top-left of your recorded video.\nFun fact: 10/Jul/2024 04:47 PM is when Sentinela v1.0 first shipped.</string>
     <string name="helper_location_watermark_option">Toggle adding your device location as an overlay. Requires location permission.</string>
     <string name="location_format_title">Location Format</string>
     <string name="location_format_coordinates">Coordinates Only</string>
@@ -896,7 +896,7 @@
     <string name="widgets_pin_unsupported">Pinning widgets is not supported by your launcher.</string>
     <string name="widget_clock_title">Clock widget</string>
     <string name="widget_label_clock">Clock</string>
-    <string name="widgets_pin_fallback">If no prompt appears, long‑press your Home screen, open Widgets, and drag the KCam Clock widget.</string>
+    <string name="widgets_pin_fallback">If no prompt appears, long‑press your Home screen, open Widgets, and drag the Sentinela Clock widget.</string>
 
     <!-- Widget Customization -->
     <string name="widget_customize_title">Customize Clock Widget</string>
@@ -1146,8 +1146,8 @@
     <string name="remote_access_title">Remote Access/Control</string>
     <string name="remote_toast_coming_soon">Coming soon! In Sha Allah</string>
     <string name="coming_soon_toast">Coming soon! In Sha Allah</string>
-    <string name="remote_coming_soon">Remote control for KCam is coming soon.</string>
-    <string name="remote_feature_description">Pair KCam clients using a QR code for secure, local-network remote control: start/stop recording, preview, zoom, switch camera, and more—all with end-to-end encryption.</string>
+    <string name="remote_coming_soon">Remote control for Sentinela is coming soon.</string>
+    <string name="remote_feature_description">Pair Sentinela clients using a QR code for secure, local-network remote control: start/stop recording, preview, zoom, switch camera, and more—all with end-to-end encryption.</string>
     <string name="faditor_mini_title">Faditor Mini</string>
     <string name="faditor_mini_coming_soon">Coming soon — lightweight editor</string>
     <string name="faditor_mini_subtitle">Trim and export your videos with precision</string>
@@ -1283,9 +1283,9 @@
     <string name="faditor_info_title">About Faditor Mini</string>
     <string name="faditor_info_subtitle">Everything you need to know about the built-in editor</string>
     <string name="faditor_info_how_title">How it works</string>
-    <string name="faditor_info_how_desc">Pick any video from your device or your KCam recordings. Trim it frame-by-frame using the timeline, then export. All processing happens locally on your device — nothing is uploaded.\n\nYour editing progress is auto-saved every few seconds and whenever you leave the editor, so no work is lost if the app closes unexpectedly.</string>
+    <string name="faditor_info_how_desc">Pick any video from your device or your Sentinela recordings. Trim it frame-by-frame using the timeline, then export. All processing happens locally on your device — nothing is uploaded.\n\nYour editing progress is auto-saved every few seconds and whenever you leave the editor, so no work is lost if the app closes unexpectedly.</string>
     <string name="faditor_info_convert_title">Smart conversion</string>
-    <string name="faditor_info_convert_desc">KCam records in a crash-safe format called fragmented MP4 (fMP4). Unlike a standard MP4 which has one finalized container, fMP4 writes video in small independent chunks. This means your footage stays intact even if the app crashes or recording stops suddenly.\n\nHowever, external video players, gallery apps, and file managers will not be able to seek, scrub, or display the correct duration of these files. This is not a bug — it is a deliberate design trade-off for reliability.\n\nIf you plan to store your videos outside KCam — on Google Drive, a computer, or any other location — you must convert them first. Otherwise the files will be unusable for normal playback.\n\nTo convert: simply open the video here in Faditor Mini and tap Export. The converted standard MP4 will appear in your Records tab, ready to save to your gallery or share anywhere. The process is instant and lossless — no re-encoding or quality loss.</string>
+    <string name="faditor_info_convert_desc">Sentinela records in a crash-safe format called fragmented MP4 (fMP4). Unlike a standard MP4 which has one finalized container, fMP4 writes video in small independent chunks. This means your footage stays intact even if the app crashes or recording stops suddenly.\n\nHowever, external video players, gallery apps, and file managers will not be able to seek, scrub, or display the correct duration of these files. This is not a bug — it is a deliberate design trade-off for reliability.\n\nIf you plan to store your videos outside Sentinela — on Google Drive, a computer, or any other location — you must convert them first. Otherwise the files will be unusable for normal playback.\n\nTo convert: simply open the video here in Faditor Mini and tap Export. The converted standard MP4 will appear in your Records tab, ready to save to your gallery or share anywhere. The process is instant and lossless — no re-encoding or quality loss.</string>
     <string name="faditor_info_export_title">Exported files</string>
     <string name="faditor_info_export_desc">Exported videos are saved to your active storage location (the same one configured in Settings) with the prefix \"Faditor_\" followed by a timestamp. They appear in the Records tab alongside your original recordings.</string>
     <string name="faditor_info_temp_title">Temporary files and cache</string>
@@ -1294,14 +1294,14 @@
     <string name="faditor_info_projects_desc">All your editing sessions are shown for quick access. Each project is stored as a small JSON file on your device containing the video URI, trim points, and timestamps — no copies of your videos are made. Projects are auto-saved every few seconds, so your progress is never lost.\n\nYou can delete projects you no longer need using the multi-select checklist icon. Deleting a project only removes the editing session data; your original video files remain untouched.</string>
     <string name="faditor_your_recordings">Your Recordings</string>
     <string name="faditor_browse_device">Browse Device</string>
-    <string name="faditor_no_recordings">No recordings found yet. Start recording with KCam to see your videos here.</string>
+    <string name="faditor_no_recordings">No recordings found yet. Start recording with Sentinela to see your videos here.</string>
     <string name="faditor_video_count">%1$d video(s)</string>
-    <string name="faditor_fadcam_source">KCam</string>
+    <string name="faditor_fadcam_source">Sentinela</string>
     <string name="faditor_fadrec_source">FadRec</string>
     <string name="faditor_browse_device_desc">Select any video from your device</string>
     <string name="faditor_scanning">Scanning recordings…</string>
-    <string name="faditor_source_chooser_desc">Choose a video from your gallery or pick one from your KCam recordings</string>
-    <string name="faditor_recordings_helper">Videos recorded with KCam from your active storage location</string>
+    <string name="faditor_source_chooser_desc">Choose a video from your gallery or pick one from your Sentinela recordings</string>
+    <string name="faditor_recordings_helper">Videos recorded with Sentinela from your active storage location</string>
     <string name="setting_audio_title">Audio Recording</string>
     <string name="note_audio">Enable or disable audio recording for videos.\n(Default: Enabled)</string>
     <string name="button_audio_settings">Audio Settings</string>
@@ -1437,7 +1437,7 @@ Recommended: 192000 bps, 48000 Hz for most users.</string>
     <string name="records_search_hint">Search recordings…</string>
     <string name="saf_permission_missing_dialog_instructions">SAF permission missing. Please grant access to the chosen folder.</string>
     <string name="saf_permission_missing_dialog_title">SAF Permission Required</string>
-    <string name="saf_permission_missing_dialog_message_for_start_recording">To save recordings to a custom location, KCam needs permission to access the selected folder. Please grant access when prompted.</string>
+    <string name="saf_permission_missing_dialog_message_for_start_recording">To save recordings to a custom location, Sentinela needs permission to access the selected folder. Please grant access when prompted.</string>
     <string name="grant_permission_button">Grant Permission</string>
 
     <!-- Strings for Trash Auto-Delete Feature -->
@@ -1498,14 +1498,14 @@ Recommended: 192000 bps, 48000 Hz for most users.</string>
 
     <!-- Fix Start: Add onboarding toggle strings -->
     <string name="setting_onboarding_title">Show Intro</string>
-    <string name="note_onboarding">Enable to see the app introduction and permissions guide the next time you open KCam.</string>
+    <string name="note_onboarding">Enable to see the app introduction and permissions guide the next time you open Sentinela.</string>
     <!-- Fix End: Add onboarding toggle strings -->
 
     <string name="choose_language">Choose Language</string>
     <string name="language_change_later_note">You can change this later in Settings.</string>
 
     <string name="permissions_required">Permissions Required</string>
-    <string name="permissions_description">KCam needs access to your camera, microphone, and storage to record and save videos.</string>
+    <string name="permissions_description">Sentinela needs access to your camera, microphone, and storage to record and save videos.</string>
     <string name="grant_permissions">Grant Permissions</string>
     <string name="permissions_note">You must grant all permissions to continue.</string>
     <string name="permissions_granted">All permissions granted!</string>
@@ -1515,9 +1515,9 @@ Recommended: 192000 bps, 48000 Hz for most users.</string>
     <string name="disable_battery_optimization">Disable Battery Optimization</string>
 
     <string name="onboarding_human_title">Verify if you are a human</string>
-    <string name="onboarding_human_desc">Hmmmm... alright. These rules are non-negotiable. If you can\'t agree, please uninstall KCam right now.</string>
-    <string name="onboarding_human_checkbox1">I won\'t use KCam to break any laws, invade anyone\'s privacy, or be a creep. The dev\'s out of the picture if I mess up. (That\'s on me.)</string>
-    <string name="onboarding_human_checkbox2">I already love KCam before even using it. (Not optional)</string>
+    <string name="onboarding_human_desc">Hmmmm... alright. These rules are non-negotiable. If you can\'t agree, please uninstall Sentinela right now.</string>
+    <string name="onboarding_human_checkbox1">I won\'t use Sentinela to break any laws, invade anyone\'s privacy, or be a creep. The dev\'s out of the picture if I mess up. (That\'s on me.)</string>
+    <string name="onboarding_human_checkbox2">I already love Sentinela before even using it. (Not optional)</string>
     <string name="onboarding_human_checkbox3">I agree to the Privacy Policy</string>
     <string name="onboarding_human_button">Let me in!</string>
 
@@ -1601,19 +1601,19 @@ Recommended: 192000 bps, 48000 Hz for most users.</string>
     <!-- Header Logo Style Strings -->
     <string name="setting_header_logo_title">Header Logo</string>
     <string name="setting_header_logo_desc">Choose the header logo style</string>
-    <string name="header_logo_default" translatable="false">KCam</string>
+    <string name="header_logo_default" translatable="false">Sentinela</string>
     <string name="header_logo_avatar" translatable="false">Avatar</string>
 
     <string name="setting_app_icon_desc">Change the app\'s launcher icon and name</string>
     <string name="app_icon_dialog_title">Choose App Icon</string>
-    <string name="app_icon_default" translatable="false">KCam</string>
+    <string name="app_icon_default" translatable="false">Sentinela</string>
     <string name="app_icon_alternative" translatable="false">Camera</string>
     <string name="app_icon_faded" translatable="false">0xFF0000</string>
     <string name="app_icon_palestine" translatable="false">I❤️Palestine</string>
-    <string name="app_icon_pakistan" translatable="false">KCam</string>
+    <string name="app_icon_pakistan" translatable="false">Sentinela</string>
     <string name="app_icon_fadseclab" translatable="false">FadSec Lab</string>
-    <string name="app_icon_nooristic" translatable="false">KCam ++</string>
-    <string name="app_icon_bat" translatable="false">KCam</string>
+    <string name="app_icon_nooristic" translatable="false">Sentinela ++</string>
+    <string name="app_icon_bat" translatable="false">Sentinela</string>
     <string name="app_icon_redbinary" translatable="false">$ ~/r00t</string>
     <string name="app_icon_notes" translatable="false">Notes</string>
     <string name="app_icon_calculator" translatable="false">Calculator</string>
@@ -1632,7 +1632,7 @@ Recommended: 192000 bps, 48000 Hz for most users.</string>
 
     <!-- Fix Start: Add auto update check toggle strings -->
     <string name="setting_auto_update_check_title">Auto Update Check</string>
-    <string name="note_auto_update_check">If enabled, KCam will check for updates every time you open the app. Turn off to disable automatic update checks on launch.\n(Default: On)</string>
+    <string name="note_auto_update_check">If enabled, Sentinela will check for updates every time you open the app. Turn off to disable automatic update checks on launch.\n(Default: On)</string>
     <!-- Fix End: Add auto update check toggle strings -->
 
     <!-- Storage Location Settings -->
@@ -1668,7 +1668,7 @@ Recommended: 192000 bps, 48000 Hz for most users.</string>
     <string name="digital_forensics_coming_soon_short">Coming Soon</string>
     <string name="digital_forensics_discord_coming_soon_toast">Discord alerts will be added in a future update.</string>
     <string name="digital_forensics_helper">Digital Forensics has two parts: live preview overlay and saved evidence. If you only want live visual AI labels, keep Evidence Collection off. If you need forensic history, turn Evidence Collection on and choose what to store.</string>
-    <string name="digital_forensics_enable_helper">Think of this as your smart evidence sensor. When enabled, KCam keeps a timeline of detected activity so you can jump to important moments later.</string>
+    <string name="digital_forensics_enable_helper">Think of this as your smart evidence sensor. When enabled, Sentinela keeps a timeline of detected activity so you can jump to important moments later.</string>
     <string name="digital_forensics_evidence_enable">Enable Evidence Collection</string>
     <string name="digital_forensics_evidence_helper">When enabled, detections are written to the forensic database with saved proof frames in real time. Keep this off if you only want live preview labels without storage growth.</string>
     <string name="digital_forensics_capture_scope">Evidence Capture Scope</string>
@@ -1817,7 +1817,7 @@ Recommended: 192000 bps, 48000 Hz for most users.</string>
     <string name="storage_location_internal">Internal App Storage (Default, Private)</string>
     <string name="storage_location_custom">Custom Location (SD Card/Other, Gallery Visible)</string>
     <string name="storage_location_choose_folder">Choose Folder</string>
-    <string name="storage_location_note">Note: Using custom locations makes videos accessible by other apps (e.g., Gallery). Internal storage keeps them private to KCam.</string>
+    <string name="storage_location_note">Note: Using custom locations makes videos accessible by other apps (e.g., Gallery). Internal storage keeps them private to Sentinela.</string>
     <string name="storage_sheet_title">Storage Location</string>
     <string name="storage_option_use_internal">Use Internal Storage</string>
     <string name="storage_option_switch_internal">Switch to Internal Storage</string>
@@ -1836,7 +1836,7 @@ Recommended: 192000 bps, 48000 Hz for most users.</string>
     <string name="location_icon_description">Location Icon</string>
     <string name="location_embedding_icon_description">Location Embedding Icon</string>
 
-    <string name="app_icon_minimal" translatable="false">KCam</string>
+    <string name="app_icon_minimal" translatable="false">Sentinela</string>
 
     <!-- Onboarding Strings -->
     <string name="onboarding_swipe_instruction">Swipe right to continue</string>
@@ -1930,7 +1930,7 @@ Recommended: 192000 bps, 48000 Hz for most users.</string>
     <!-- Additional Notification Customization Strings -->
     <!-- Adding notification appearance strings -->
     <string name="setting_notification_appearance">Notification Appearance</string>
-    <string name="note_notification_appearance">Customize the appearance of the recording notification\n(Default: KCam)</string>
+    <string name="note_notification_appearance">Customize the appearance of the recording notification\n(Default: Sentinela)</string>
     <string name="hide_stop_button">Hide stop button</string>
     <string name="note_hide_stop_button">Hide the stop button in the notification\n(Default: Disabled)</string>
     <string name="notification_preview">Notification preview</string>
@@ -1946,7 +1946,7 @@ Recommended: 192000 bps, 48000 Hz for most users.</string>
     <string name="notification_custom_text_placeholder">Description (e.g. Update in progress)</string>
 
     <string-array name="notification_appearance_options">
-        <item>KCam (default)</item>
+        <item>Sentinela (default)</item>
         <item>System Update</item>
         <item>Download</item>
         <item>Syncing</item>
@@ -2049,9 +2049,9 @@ Recommended: 192000 bps, 48000 Hz for most users.</string>
     <string name="delete">Delete</string>
 
     <!-- FadCam Pro Strings -->
-    <string name="fadcam_pro_title">KCam Pro</string>
+    <string name="fadcam_pro_title">Sentinela Pro</string>
     <string name="fadcam_pro_subtitle">Premium features for complete discretion</string>
-    <string name="fadcam_pro_get_button">Get KCam Pro</string>
+    <string name="fadcam_pro_get_button">Get Sentinela Pro</string>
     <string name="fadcam_pro_free">Free</string>
     <string name="fadcam_pro_column_label">Pro</string>
     <string name="fadcam_pro_proplus_label">Pro+</string>
@@ -2063,8 +2063,8 @@ Recommended: 192000 bps, 48000 Hz for most users.</string>
     <string name="fadcam_pro_benefit_lifetime_updates">Lifetime updates: Always receive new features, improvements, and bug fixes</string>
     <string name="fadcam_pro_benefit_support">Instant support: Direct help through tickets via Discord</string>
     <string name="fadcam_pro_coming_soon">Pro+ and Lab features coming soon with custom icon uploads, custom app names, and FadDrive cloud sync.</string>
-    <string name="fadcam_pro_support_message">KCam will always remain free, with no ads and no tracking. I handle the entire project on my own, and it takes ongoing time and work. Upgrading to Pro (currently free) helps support development, and in return I’m able to offer additional value through the Pro features on top of the full free version. Thank you for supporting the project :)</string>
-    <string name="fadcam_pro_separate_apk">Standalone app • Works alongside KCam</string>
+    <string name="fadcam_pro_support_message">Sentinela will always remain free, with no ads and no tracking. I handle the entire project on my own, and it takes ongoing time and work. Upgrading to Pro (currently free) helps support development, and in return I’m able to offer additional value through the Pro features on top of the full free version. Thank you for supporting the project :)</string>
+    <string name="fadcam_pro_separate_apk">Standalone app • Works alongside Sentinela</string>
     <string name="fadcam_pro_feature_everything_icon">Everything</string>
     <string name="fadcam_pro_feature_everything">Everything</string>
     <string name="fadcam_pro_feature_custom_icon">Custom App Icon</string>
@@ -2078,7 +2078,7 @@ Recommended: 192000 bps, 48000 Hz for most users.</string>
     <string name="player_info_title">About the Video Player</string>
     <string name="player_info_content"><![CDATA[
 <b>Fragmented MP4 Format</b><br/><br/>
-KCam uses a fragmented MP4 format for recordings. This means videos are saved in small segments instead of one complete file. The benefit is that if something goes wrong during recording, you only lose the last few seconds instead of the entire video.<br/><br/>
+Sentinela uses a fragmented MP4 format for recordings. This means videos are saved in small segments instead of one complete file. The benefit is that if something goes wrong during recording, you only lose the last few seconds instead of the entire video.<br/><br/>
 If the last few seconds of your video appear frozen or stale, don\'t worry — it\'s not a bug! When you stop recording, the current fragment may still complete its cycle (~3 seconds), which can leave a brief stale frame at the end.<br/><br/>
 <b>Player Limitations</b><br/><br/>
 The built-in video player has some Android system limitations. You may notice the progress bar or waveform appearing slightly snappy — this is normal behavior and not a bug.<br/><br/>
@@ -2177,7 +2177,7 @@ For the smoothest playback experience, you can use an external player like VLC. 
     <string name="stream_notes_wifi">• Clients must be on the same WiFi network to access the stream</string>
     <string name="stream_notes_quality">• Stream quality (LOW/MEDIUM/HIGH/ULTRA) controls FPS cap and bitrate to prevent network issues</string>
     <string name="stream_notes_resolution">• Stream orientation and resolution are taken from your normal recording settings (Video Settings → Resolution &amp; Orientation). Adjust those if you want to change stream dimensions</string>
-    <string name="stream_notes_cellular">⚠️ WiFi-only limitation: Cellular networks block incoming connections. For seamless streaming from any network (WiFi, LTE, anywhere), upgrade to KCam Pro+. Stream from anywhere globally with a private generated link—no port forwarding, no router changes, no network restrictions</string>
+    <string name="stream_notes_cellular">⚠️ WiFi-only limitation: Cellular networks block incoming connections. For seamless streaming from any network (WiFi, LTE, anywhere), upgrade to Sentinela Pro+. Stream from anywhere globally with a private generated link—no port forwarding, no router changes, no network restrictions</string>
     <string name="stream_notes_android14_screen">⚠️ Android 14+: System restriction prevents recording when screen is off. Workarounds: (1) Enable "Black Screen Mode" in Settings → Security, or (2) Disable screen lock (no PIN/password/fingerprint). Both allow seamless remote recording</string>
     
     <!-- FadSec Cloud / Remote Streaming -->
@@ -2214,7 +2214,7 @@ For the smoothest playback experience, you can use an external player like VLC. 
     <string name="e2e_encryption_configured">Configured — segments are encrypted end-to-end</string>
     <string name="e2e_encryption_setup_title">Set E2E Encryption Password</string>
     <string name="e2e_encryption_setup_hint">Enter your FadSec ID password</string>
-    <string name="e2e_encryption_setup_desc">Your FadSec ID password is used to derive the stream encryption key. This must match the password you use on the KCam dashboard to view streams.</string>
+    <string name="e2e_encryption_setup_desc">Your FadSec ID password is used to derive the stream encryption key. This must match the password you use on the Sentinela dashboard to view streams.</string>
     <string name="e2e_encryption_change_title">Change E2E Encryption Password</string>
     
     <!-- Streaming Mode Selector -->
@@ -2229,7 +2229,7 @@ For the smoothest playback experience, you can use an external player like VLC. 
     <string name="streaming_mode_helper">Choose how you want to stream your camera</string>
 
     <!-- Fullscreen Preview -->
-    <string name="fullscreen_preview_enter">KCam Preview</string>
+    <string name="fullscreen_preview_enter">Sentinela Preview</string>
     <string name="fullscreen_preview_close">Close fullscreen</string>
     <string name="fullscreen_preview_not_recording">Start recording first to use fullscreen preview</string>
     <string name="fullscreen_preview_tap_hint">Tap screen to toggle controls</string>
@@ -2263,7 +2263,7 @@ For the smoothest playback experience, you can use an external player like VLC. 
     <string name="automation_row_subtitle">Button mapping, Bluetooth remotes, volume keys</string>
     <string name="setting_volume_shutter_title">Volume Shutter</string>
     <string name="setting_volume_shutter_summary">Volume keys act as a camera shutter on the home tab</string>
-    <string name="setting_volume_shutter_footer">Volume keys become your shutter on the home tab:\n• Tap — snap a photo\n• Double-tap — flip the camera\n• Hold — start or stop recording\n\nBluetooth remote shutters work too, triggering the same actions. Buttons work while the KCam home tab is open — future versions will let any button trigger KCam intents, even in the background.\n\nFor now, use MacroDroid to map KCam\u2019s shortcuts — find them in Settings → Shortcuts &amp; Widgets.</string>
+    <string name="setting_volume_shutter_footer">Volume keys become your shutter on the home tab:\n• Tap — snap a photo\n• Double-tap — flip the camera\n• Hold — start or stop recording\n\nBluetooth remote shutters work too, triggering the same actions. Buttons work while the Sentinela home tab is open — future versions will let any button trigger Sentinela intents, even in the background.\n\nFor now, use MacroDroid to map Sentinela\u2019s shortcuts — find them in Settings → Shortcuts &amp; Widgets.</string>
 
     <!-- Thermal Guardian - coming soon -->
     <string name="thermal_guardian_title">Thermal Guardian</string>
@@ -2292,17 +2292,17 @@ For the smoothest playback experience, you can use an external player like VLC. 
     <string name="tutorial_dashcam_setup">Dashcam Setup</string>
 
     <!-- iOS Promo -->
-    <string name="fadcam_for_ios_title">KCam for iOS</string>
-    <string name="ios_promo_title">KCam is now on iOS!</string>
+    <string name="fadcam_for_ios_title">Sentinela for iOS</string>
+    <string name="ios_promo_title">Sentinela is now on iOS!</string>
     <string name="ios_promo_subtitle">The same privacy-first camera app you love, now available for iPhone</string>
 
     <!-- Trash section in Settings -->
     <string name="trash_settings_title">Trash</string>
     <string name="trash_settings_subtitle">Recover deleted recordings and files</string>
-    <string name="trash_settings_info">This feature was already available — just hidden behind a long-press on the KCam logo in the top bar of the home screen. We\'ve surfaced it here so it\'s easier to discover.</string>
+    <string name="trash_settings_info">This feature was already available — just hidden behind a long-press on the Sentinela logo in the top bar of the home screen. We\'ve surfaced it here so it\'s easier to discover.</string>
     <string name="trash_settings_hide_button">Hide this section</string>
     <string name="trash_settings_hide_dialog_title">Hide Trash section?</string>
-    <string name="trash_settings_hide_dialog_message">The Trash section will disappear from Settings. To bring it back, open Trash by long-pressing the KCam logo in the top bar of the home screen, then turn on \"Show Trash in Settings\" inside.</string>
+    <string name="trash_settings_hide_dialog_message">The Trash section will disappear from Settings. To bring it back, open Trash by long-pressing the Sentinela logo in the top bar of the home screen, then turn on \"Show Trash in Settings\" inside.</string>
     <string name="trash_settings_hide_dialog_confirm">Hide</string>
 
     <!-- Trash: Show in Settings toggle -->
@@ -2353,7 +2353,7 @@ For the smoothest playback experience, you can use an external player like VLC. 
     <string name="motion_lab_debug_metrics_value">Area %1$.3f, Strong %2$.3f, Mean %3$.3f, BG %4$.3f, Max %5$.3f, Global %6$s</string>
     <string name="motion_lab_info_cd">Motion Lab info</string>
     <string name="motion_lab_info_title">Auto Record on Motion</string>
-    <string name="motion_lab_info_body">This is KCam\'s Auto Record on Motion feature.\n\nHow it works in simple words:\n- Your camera stays active and analyzes frames on-device in real time.\n- The on-device machine learning model and motion logic look for movement.\n- When valid motion is detected, recording starts/resumes.\n- Recording keeps going while motion continues.\n- After motion stops, Post-roll keeps recording for your selected extra seconds.\n- Then recording pauses and waits for the next motion event.\n\nWhen recording is paused, the app is still analyzing frames in memory, but it is not writing new video data until motion is detected again.\n\nHow to use (most users):\n- Keep all options at default values.\n- Turn ON Motion Sensor on this screen.\n- Go to Home tab and start recording normally.\n- Motion-based auto record will run automatically.\n\nEasy test from far distance:\n- Turn ON Auto Torch on this screen.\n- Start recording from Home tab.\n- Place the phone tilted on a table or shelf facing the room.\n- Leave the room, then enter and walk in.\n- Torch turning ON helps you instantly notice from far away that recording started.\n- Recording will continue for your selected Post-roll duration after motion stops.\n\nTip: This feature runs continuously, so very high advanced values can increase heat and can reduce device health over time. For long sessions, keep defaults unless you have a specific reason.</string>
+    <string name="motion_lab_info_body">This is Sentinela\'s Auto Record on Motion feature.\n\nHow it works in simple words:\n- Your camera stays active and analyzes frames on-device in real time.\n- The on-device machine learning model and motion logic look for movement.\n- When valid motion is detected, recording starts/resumes.\n- Recording keeps going while motion continues.\n- After motion stops, Post-roll keeps recording for your selected extra seconds.\n- Then recording pauses and waits for the next motion event.\n\nWhen recording is paused, the app is still analyzing frames in memory, but it is not writing new video data until motion is detected again.\n\nHow to use (most users):\n- Keep all options at default values.\n- Turn ON Motion Sensor on this screen.\n- Go to Home tab and start recording normally.\n- Motion-based auto record will run automatically.\n\nEasy test from far distance:\n- Turn ON Auto Torch on this screen.\n- Start recording from Home tab.\n- Place the phone tilted on a table or shelf facing the room.\n- Leave the room, then enter and walk in.\n- Torch turning ON helps you instantly notice from far away that recording started.\n- Recording will continue for your selected Post-roll duration after motion stops.\n\nTip: This feature runs continuously, so very high advanced values can increase heat and can reduce device health over time. For long sessions, keep defaults unless you have a specific reason.</string>
     <string name="motion_lab_percent_value">%1$d%%</string>
     <string name="motion_lab_fps_value">%1$d fps</string>
     <string name="motion_lab_ms_value">%1$d ms</string>
@@ -2372,7 +2372,7 @@ For the smoothest playback experience, you can use an external player like VLC. 
 
     <!-- Privacy Black Mode Settings -->
     <string name="privacy_black_mode_title">Privacy Black Screen</string>
-    <string name="privacy_black_mode_helper">If your device kills the app in the background, you can use this feature to keep the app running in the foreground.\n\nA black screen overlay appears, making it look like the screen is off while recording continues.\n\nTap the KCam icon in the top header of the Home tab to activate it.</string>
+    <string name="privacy_black_mode_helper">If your device kills the app in the background, you can use this feature to keep the app running in the foreground.\n\nA black screen overlay appears, making it look like the screen is off while recording continues.\n\nTap the Sentinela icon in the top header of the Home tab to activate it.</string>
     <string name="privacy_black_mode_enable_title">Enable Privacy Black Mode</string>
     <string name="privacy_black_mode_enabled_toast">Privacy Mode Enabled</string>
     <string name="privacy_black_mode_disabled_toast">Privacy Mode Disabled</string>
@@ -2654,7 +2654,7 @@ For the smoothest playback experience, you can use an external player like VLC. 
 
     <!-- Mini Apps Info Sheet -->
     <string name="mini_apps_planned_shortcuts_title">Planned: Shortcuts &amp; Automation</string>
-    <string name="mini_apps_planned_shortcuts_desc">Home screen shortcuts for instant access to any Mini App without opening KCam first.\n\nIntent-based automation support (Tasker, MacroDroid, etc.) for triggering Mini Apps programmatically — use QR scanning, torch, and more from your automated workflows.</string>
+    <string name="mini_apps_planned_shortcuts_desc">Home screen shortcuts for instant access to any Mini App without opening Sentinela first.\n\nIntent-based automation support (Tasker, MacroDroid, etc.) for triggering Mini Apps programmatically — use QR scanning, torch, and more from your automated workflows.</string>
 
     <!-- Lab Tab -->
     <string name="export_center">Export Center</string>
@@ -2725,7 +2725,7 @@ For the smoothest playback experience, you can use an external player like VLC. 
     <string name="remote_pages">Pages</string>
     <string name="remote_layers">Layers</string>
     <string name="remote_access_endpoints_desc">Access your streaming server via these HTTP endpoints</string>
-    <string name="remote_control_via_api_desc">Control KCam remotely via API calls</string>
+    <string name="remote_control_via_api_desc">Control Sentinela remotely via API calls</string>
     <string name="remote_buffered_segments_desc">Buffered segments ready for streaming</string>
     <string name="remote_battery_low_warning">⚠️ Low Battery - Plug charger ASAP</string>
     <string name="remote_enter_percentage_hint">Enter percentage</string>
@@ -2737,16 +2737,16 @@ For the smoothest playback experience, you can use an external player like VLC. 
     <string name="sidebar_update_available">Update Available</string>
     <string name="sidebar_stable_release">Stable Release</string>
     <string name="sidebar_beta_release">Beta Release</string>
-    <string name="sidebar_fadcam_pro">KCam Pro</string>
+    <string name="sidebar_fadcam_pro">Sentinela Pro</string>
     <string name="badge_new">NEW</string>
 
     <!-- Update Bottom Sheets -->
-    <string name="update_pro_title">KCam Pro Update</string>
-    <string name="update_pro_desc">A new version of KCam Pro is available.\n\nFor free users, the stable release will arrive after approximately 60 days. Pro users receive updates immediately.</string>
-    <string name="update_get_pro">Get KCam Pro</string>
+    <string name="update_pro_title">Sentinela Pro Update</string>
+    <string name="update_pro_desc">A new version of Sentinela Pro is available.\n\nFor free users, the stable release will arrive after approximately 60 days. Pro users receive updates immediately.</string>
+    <string name="update_get_pro">Get Sentinela Pro</string>
     <string name="update_maybe_later">Maybe Later</string>
     <string name="update_beta_title">Beta Update Available</string>
-    <string name="update_beta_desc">The KCam beta is a standalone app that can be installed alongside the stable version. It will not interfere with your stable app or its data.\n\nInstall the beta to test new features before they reach the stable release.</string>
+    <string name="update_beta_desc">The Sentinela beta is a standalone app that can be installed alongside the stable version. It will not interfere with your stable app or its data.\n\nInstall the beta to test new features before they reach the stable release.</string>
     <string name="update_get_beta">Get Beta</string>
 
     <!-- Mini Apps Info Sheet -->
@@ -2851,7 +2851,7 @@ For the smoothest playback experience, you can use an external player like VLC. 
     <string name="about_dialog_error">Error</string>
     <string name="about_dialog_ok">OK</string>
     <string name="about_get_beta">Get Beta</string>
-    <string name="about_fadcam_feedback">KCam Feedback</string>
+    <string name="about_fadcam_feedback">Sentinela Feedback</string>
 
     <!-- Video split sizes -->
     <string name="video_split_enabled_format">Enabled (%s)</string>
@@ -2867,15 +2867,15 @@ For the smoothest playback experience, you can use an external player like VLC. 
     <string name="screen_rec_resolution_value" translatable="false">1920×1080</string>
     <string name="screen_rec_framerate_value" translatable="false">30 fps</string>
     <string name="screen_rec_bitrate_value" translatable="false">8 Mbps</string>
-    <string name="screen_rec_splitting_value_format">%s (KCam + FadRec)</string>
+    <string name="screen_rec_splitting_value_format">%s (Sentinela + FadRec)</string>
 
     <!-- Settings home tabs -->
     <string name="settings_tab_all">All</string>
-    <string name="settings_tab_fadcam" translatable="false">KCam</string>
+    <string name="settings_tab_fadcam" translatable="false">Sentinela</string>
     <string name="settings_tab_fadrec" translatable="false">FadRec</string>
 
     <!-- Watermark preview labels -->
-    <string name="watermark_preview_fadcam" translatable="false">KCam</string>
+    <string name="watermark_preview_fadcam" translatable="false">Sentinela</string>
     <string name="watermark_preview_fadrec" translatable="false">FadRec</string>
     <string name="settings_location_update_interval_5s">5.0 seconds</string>
 
@@ -2981,7 +2981,7 @@ For the smoothest playback experience, you can use an external player like VLC. 
     <string name="channel_security_alarm">Security Alarm</string>
     <string name="channel_remote_streaming">Remote Streaming</string>
     <string name="channel_annotation_service">Annotation Service</string>
-    <string name="channel_fadcam_file_ops">KCam File Operations</string>
+    <string name="channel_fadcam_file_ops">Sentinela File Operations</string>
 
     <!-- ScreenRecordingService -->
     <string name="screen_rec_failed">Recording failed: %s</string>

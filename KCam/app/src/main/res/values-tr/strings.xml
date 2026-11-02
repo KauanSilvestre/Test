@@ -115,7 +115,7 @@
     <string name="resolution_helper_all">"Her İki Kamera" olarak işaretlenen çözünürlükler, hem ön hem arka kamera tarafından desteklenir ve kayıt sırasında canlı kamera değiştirmeye izin verir. "Mevcut Kamera" olarak işaretlenen çözünürlükler yalnızca seçili kamera ile çalışır.</string>
     <string name="note_quailty">Kalite seçin\n(Varsayılan: HD)</string>
     <string name="setting_watermark">Filigran</string>
-    <string name="note_watermark">Filigran seçeneğini belirleyin\n(Varsayılan: Zaman Damgası ile KCam)</string>
+    <string name="note_watermark">Filigran seçeneğini belirleyin\n(Varsayılan: Zaman Damgası ile Sentinela)</string>
     <string name="note_watermark_extra">Hızlı kaydetme için \'Filigran Yok\' seçeneğini tercih edin. Filigran eklemek mi istiyorsunuz? Beklemeye değer, sadece biraz daha uzun sürüyor!</string>
     <string name="setting_location_title">Konum Verileri</string>
     <string name="note_location">Filigrana konum verileri ekleyin. \nGPS\'in etkin olması gerekir \n(Varsayılan: Devre Dışı)</string>
@@ -136,13 +136,13 @@
     </string-array>
     <string-array name="questions_array" tools:ignore="InconsistentArrays">
         <item>FERAGATNAME</item>
-        <item>KCam kullanıcı verisi topluyor mu?</item>
-        <item>KCam\'de reklam var mı?</item>
-        <item>KCam neden konum erişimi istiyor?</item>
+        <item>Sentinela kullanıcı verisi topluyor mu?</item>
+        <item>Sentinela\'de reklam var mı?</item>
+        <item>Sentinela neden konum erişimi istiyor?</item>
         <item>İnternet izni neden gerekiyor?</item>
         <item>Herhangi bir veri harici sunucularda saklanıyor mu?</item>
         <item>Kayıttan sonra videolarıma ne oluyor?</item>
-        <item>KCam verilerimi üçüncü taraflarla paylaşıyor mu?</item>
+        <item>Sentinela verilerimi üçüncü taraflarla paylaşıyor mu?</item>
         <item> </item>
         <item> </item>
         <item>Genel</item>
@@ -156,15 +156,15 @@
         <item> </item>
     </string-array>
     <string-array name="answers_array" tools:ignore="InconsistentArrays">
-        <item>KCam, bu yazılımın etik dışı veya yasa dışı kullanımını onaylamaz veya desteklemez. Yetkisiz gözetim veya gizliliğin ihlali gibi kötüye kullanımlar kesinlikle kurallarımıza aykırıdır. Yazarlar, uygulamanın kötüye kullanımından sorumlu değildir.
+        <item>Sentinela, bu yazılımın etik dışı veya yasa dışı kullanımını onaylamaz veya desteklemez. Yetkisiz gözetim veya gizliliğin ihlali gibi kötüye kullanımlar kesinlikle kurallarımıza aykırıdır. Yazarlar, uygulamanın kötüye kullanımından sorumlu değildir.
         </item>
-        <item>Hayır, KCam herhangi bir kullanıcı verisi toplamaz.</item>
-        <item>Hayır, KCam tamamen reklamsızdır.</item>
+        <item>Hayır, Sentinela herhangi bir kullanıcı verisi toplamaz.</item>
+        <item>Hayır, Sentinela tamamen reklamsızdır.</item>
         <item>Filigranlarınıza konum bilgisi eklemek için.</item>
         <item>Otomatik güncelleme kontrolü için.</item>
         <item>Hayır, tüm veriler cihazınızda saklanır.</item>
         <item>Videolarınız cihazınızda yerel olarak saklanır.</item>
-        <item>Hayır, KCam hiç veri paylaşmaz veya toplamaz, çökme günlükleri bile dahil.</item>
+        <item>Hayır, Sentinela hiç veri paylaşmaz veya toplamaz, çökme günlükleri bile dahil.</item>
         <item> </item>
         <item> </item>
         <item> </item>
@@ -177,19 +177,19 @@
         <item>Güncellemeler için resmi GitHub deposunu kontrol edin.</item>
         <item> </item>
     </string-array>
-    <string name="dialog_welcome_title">KCam\'e Hoş Geldiniz!</string>
+    <string name="dialog_welcome_title">Sentinela\'e Hoş Geldiniz!</string>
     <string name="note_under_dev">Önemli: Bu uygulama şu anda geliştirme aşamasında. Yeni özellikler düzenli olarak ekleniyor.</string>
     <string name="stay_updated_title">Güncel Kalın:</string>
     <string name="button_readme_github">GitHub Deposu</string>
     <string name="community_title">Topluluğumuza Katılın:</string>
     <string name="discord_title">Discord Sunucusu</string>
-    <string name="thankyou_msg">KCam\'i kullandığınız için teşekkür ederiz!</string>
+    <string name="thankyou_msg">Sentinela\'i kullandığınız için teşekkür ederiz!</string>
     <string name="settings_title">Ayarlar</string>
-    <string name="array_watermark_time_fadcam">KCam ile Zaman</string>
+    <string name="array_watermark_time_fadcam">Sentinela ile Zaman</string>
     <string name="array_watermark_timeonly">Zaman Damgası</string>
     <string name="array_watermark_nomark">Filigran Yok</string>
     <string name="toast_video_not_found">Hata: Video bulunamadı</string>
-    <string name="toast_video_saved">Video, İndirilenler\'deki KCam klasörüne kaydedildi</string>
+    <string name="toast_video_saved">Video, İndirilenler\'deki Sentinela klasörüne kaydedildi</string>
     <string name="toast_video_save_fail">Video kaydedilemedi</string>
     <string name="rename_video_title">Videoyu Yeniden Adlandır</string>
     <string name="rename_video_hint">Yeni adı girin</string>
@@ -375,17 +375,17 @@
     <string name="note_debug_extra">Etkinleştirildiğinde, İndirilenler/FadCam klasöründe bir hata ayıklama günlüğü dosyası oluşturulur. Bu, uygulama sorunlarını teşhis etmeye yardımcı olabilir.</string>
     <!-- Onboarding Settings -->
     <string name="setting_onboarding_title">Sonraki Başlatmada Karşılama Ekranını Göster</string>
-    <string name="note_onboarding">KCam\'i bir sonraki açışınızda uygulama tanıtımını ve izin kılavuzunu görmek için etkinleştirin.</string>
+    <string name="note_onboarding">Sentinela\'i bir sonraki açışınızda uygulama tanıtımını ve izin kılavuzunu görmek için etkinleştirin.</string>
     <!-- Auto Update Settings -->
     <string name="setting_auto_update_check_title">Başlangıçta Otomatik Güncelleme Kontrolü</string>
-    <string name="note_auto_update_check">Etkinleştirilirse, KCam uygulamayı her açtığınızda güncellemeleri kontrol eder. Başlangıçta otomatik güncelleme kontrollerini devre dışı bırakmak için kapatın.\n(Varsayılan: Açık)</string>
+    <string name="note_auto_update_check">Etkinleştirilirse, Sentinela uygulamayı her açtığınızda güncellemeleri kontrol eder. Başlangıçta otomatik güncelleme kontrollerini devre dışı bırakmak için kapatın.\n(Varsayılan: Açık)</string>
     <!-- Storage Location Settings -->
     <string name="storage_location_title">Depolama Konumu</string>
     <string name="storage_location_description">Kayıtların nereye kaydedileceğini seçin.</string>
     <string name="storage_location_internal">Dahili Uygulama Depolama (Varsayılan, Özel)</string>
     <string name="storage_location_custom">Özel Konum (SD Kart/Diğer, Galeride Görünür)</string>
     <string name="storage_location_choose_folder">Klasör Seç</string>
-    <string name="storage_location_note">Not: Özel konumlar kullanmak, videoların diğer uygulamalar tarafından erişilebilir olmasını sağlar (örn., Galeri). Dahili depolama, videoları yalnızca KCam\'e özel tutar.</string>
+    <string name="storage_location_note">Not: Özel konumlar kullanmak, videoların diğer uygulamalar tarafından erişilebilir olmasını sağlar (örn., Galeri). Dahili depolama, videoları yalnızca Sentinela\'e özel tutar.</string>
     <string name="storage_icon_description">Depolama İkonu</string>
     <string name="location_icon_description">Konum İkonu</string>
     <string name="location_embedding_icon_description">Konum Gömme İkonu</string>
@@ -405,16 +405,16 @@
     <string name="onboarding_intro_line3">ve reklamcılar için değil, sizin için oluşturuldu.</string>
     <string name="language_change_later_note">Bunu daha sonra Ayarlar\'dan değiştirebilirsiniz.</string>
     <string name="permissions_required">İzinler Gerekli</string>
-    <string name="permissions_description">KCam, video kaydetmek ve kaydetmek için kameranıza, mikrofonunuza ve depolamanıza erişim gerektirir.</string>
+    <string name="permissions_description">Sentinela, video kaydetmek ve kaydetmek için kameranıza, mikrofonunuza ve depolamanıza erişim gerektirir.</string>
     <string name="grant_permissions">İzinleri Ver</string>
     <string name="permissions_note">Devam etmek için tüm izinleri vermeniz gerekir.</string>
     <string name="permissions_granted">Tüm izinler verildi!</string>
     <string name="open_settings">Ayarları Aç</string>
     <string name="disable_battery_optimization">Pil Optimizasyonunu Devre Dışı Bırak</string>
     <string name="onboarding_human_title">İnsan olduğunuzu doğrulayın</string>
-    <string name="onboarding_human_desc">Hmmmm... tamam. Bu kurallar pazarlık edilemez. Kabul edemiyorsanız, lütfen KCam\'i hemen kaldırın.</string>
-    <string name="onboarding_human_checkbox1">KCam\'i herhangi bir yasayı çiğnemek, birinin mahremiyetine saldırmak veya ürkütücü olmak için kullanmayacağım. Eğer hata yaparsam, geliştirici sorumlu değildir. (Bu benim sorumluluğum.)</string>
-    <string name="onboarding_human_checkbox2">KCam\'i kullanmadan önce bile seviyorum. (İsteğe bağlı değil)</string>
+    <string name="onboarding_human_desc">Hmmmm... tamam. Bu kurallar pazarlık edilemez. Kabul edemiyorsanız, lütfen Sentinela\'i hemen kaldırın.</string>
+    <string name="onboarding_human_checkbox1">Sentinela\'i herhangi bir yasayı çiğnemek, birinin mahremiyetine saldırmak veya ürkütücü olmak için kullanmayacağım. Eğer hata yaparsam, geliştirici sorumlu değildir. (Bu benim sorumluluğum.)</string>
+    <string name="onboarding_human_checkbox2">Sentinela\'i kullanmadan önce bile seviyorum. (İsteğe bağlı değil)</string>
     <string name="onboarding_human_button">İçeri girmeme izin ver!</string>
     <!-- Records Options and Empty State Strings -->
     <string name="sort_by">Sıralama Kriteri</string>
@@ -427,8 +427,8 @@
     <!-- Remote Tab Strings -->
     <string name="remote_access_title">Uzaktan Erişim/Kontrol</string>
     <string name="remote_toast_coming_soon">Yakında! İnşallah</string>
-    <string name="remote_coming_soon">KCam için uzaktan kontrol yakında geliyor.</string>
-    <string name="remote_feature_description">KCam cihazlarını QR kodu kullanarak güvenli, yerel ağ uzaktan kontrolü için eşleştirin: kaydetmeyi başlat/durdur, önizleme, yakınlaştırma, kamera değiştirme ve daha fazlası—hepsi uçtan uca şifreleme ile.</string>
+    <string name="remote_coming_soon">Sentinela için uzaktan kontrol yakında geliyor.</string>
+    <string name="remote_feature_description">Sentinela cihazlarını QR kodu kullanarak güvenli, yerel ağ uzaktan kontrolü için eşleştirin: kaydetmeyi başlat/durdur, önizleme, yakınlaştırma, kamera değiştirme ve daha fazlası—hepsi uçtan uca şifreleme ile.</string>
     <!-- Fix Start: Add camera cooldown message -->
     <!-- Fix End: Add camera cooldown message -->
 
@@ -632,13 +632,13 @@
     <string name="watermark_preview_heading">Önizleme</string>
     <string name="watermark_options_heading">Seçenekler</string>
     <string name="watermark_style_row_title">Filigran Stili</string>
-    <string name="watermark_preview_sample_fadcam">KCam tarafından kaydedildi - %1$s</string>
+    <string name="watermark_preview_sample_fadcam">Sentinela tarafından kaydedildi - %1$s</string>
     <string name="watermark_preview_sample_timeonly">%1$s</string>
-    <string name="watermark_style_time_fadcam_label">KCam ile Zaman</string>
+    <string name="watermark_style_time_fadcam_label">Sentinela ile Zaman</string>
     <string name="watermark_style_timeonly_label">Zaman Damgası</string>
     <string name="watermark_style_badge_label">Sadece Marka Etiketi</string>
     <string name="watermark_style_none_label">Filigran Yok</string>
-    <string name="helper_watermark_preview">Filigran, kaydedilen videonuzun sol üst köşesinde bu şekilde görünecek.\nKomik bilgi: 10/Tem/2024 16:47, KCam v1.0\'ın ilk yayınlandığı zamandır.</string>
+    <string name="helper_watermark_preview">Filigran, kaydedilen videonuzun sol üst köşesinde bu şekilde görünecek.\nKomik bilgi: 10/Tem/2024 16:47, Sentinela v1.0\'ın ilk yayınlandığı zamandır.</string>
     <string name="helper_location_watermark_option">Cihaz konumunuzu katman olarak eklemeyi açıp kapatır. Konum izni gerektirir.</string>
     <string name="helper_location_format">Konumun filigranda nasıl görüneceğini seçin: tam koordinatlar veya ters coğrafi kodlama ile tam adres (zoom=18, bina seviyesinde hassasiyet).</string>
     <string name="helper_location_overlay_short">Filigranın altına yaklaşık koordinatlar ekler.</string>
@@ -897,7 +897,7 @@
     <string name="stream_notes_wifi">• İstemciler yayına erişmek için aynı WiFi ağında olmalıdır</string>
     <string name="stream_notes_quality">• Yayın kalitesi (DÜŞÜK/ORTA/YÜKSEK/ULTRA), ağ sorunlarını önlemek için FPS sınırını ve bit hızını kontrol eder</string>
     <string name="stream_notes_resolution">• Yayın yönü ve çözünürlüğü normal kayıt ayarlarınızdan alınır (Video Ayarları → Çözünürlük ve Yön). Yayın boyutlarını değiştirmek için bunları ayarlayın</string>
-    <string name="stream_notes_cellular">⚠️ Yalnızca WiFi sınırlaması: Hücresel ağlar gelen bağlantıları engeller. Herhangi bir ağdan (WiFi, LTE, her yerden) kesintisiz yayın için KCam Pro+\'a yükseltin. Özel oluşturulmuş bağlantıyla dünyanın her yerinden yayın yapın—port yönlendirme yok, yönlendirici değişikliği yok, ağ kısıtlaması yok</string>
+    <string name="stream_notes_cellular">⚠️ Yalnızca WiFi sınırlaması: Hücresel ağlar gelen bağlantıları engeller. Herhangi bir ağdan (WiFi, LTE, her yerden) kesintisiz yayın için Sentinela Pro+\'a yükseltin. Özel oluşturulmuş bağlantıyla dünyanın her yerinden yayın yapın—port yönlendirme yok, yönlendirici değişikliği yok, ağ kısıtlaması yok</string>
     <string name="cloud_account_button_desc">FadSec Cloud</string>
     <string name="cloud_button_label">FadSec Cloud</string>
     <string name="cloud_button_title">FadSec Cloud</string>
@@ -927,7 +927,7 @@
     <string name="e2e_encryption_configured">Yapılandırıldı — segmentler uçtan uca şifrelenir</string>
     <string name="e2e_encryption_setup_title">E2E Şifreleme Şifresi Belirleyin</string>
     <string name="e2e_encryption_setup_hint">FadSec ID şifrenizi girin</string>
-    <string name="e2e_encryption_setup_desc">FadSec ID şifreniz, akış şifreleme anahtarını oluşturmak için kullanılır. Bu, akışları görüntülemek için KCam panosunda kullandığınız şifreyle eşleşmelidir.</string>
+    <string name="e2e_encryption_setup_desc">FadSec ID şifreniz, akış şifreleme anahtarını oluşturmak için kullanılır. Bu, akışları görüntülemek için Sentinela panosunda kullandığınız şifreyle eşleşmelidir.</string>
     <string name="e2e_encryption_change_title">E2E Şifreleme Şifresini Değiştir</string>
     <string name="streaming_mode_title">Akış Hedefi</string>
     <string name="streaming_mode_local">Yerel Ağ</string>
@@ -968,7 +968,7 @@
     <string name="home_sidebar_discord_sub">Topluluğa Katıl</string>
     <string name="home_sidebar_copyright" translatable="false">© FadSec Lab 2024 – 2026</string>
     <string name="privacy_black_mode_title">Gizlilik Siyah Ekranı</string>
-    <string name="privacy_black_mode_helper">Cihazınız uygulamayı arka planda kapatıyorsa, uygulamayı ön planda çalışır durumda tutmak için bu özelliği kullanabilirsiniz.\n\nKayıt devam ederken ekranın kapalı görünmesini sağlayan siyah bir ekran katmanı görünür.\n\nEtkinleştirmek için Ana Sayfa sekmesinin üst başlığındaki KCam simgesine dokunun.</string>
+    <string name="privacy_black_mode_helper">Cihazınız uygulamayı arka planda kapatıyorsa, uygulamayı ön planda çalışır durumda tutmak için bu özelliği kullanabilirsiniz.\n\nKayıt devam ederken ekranın kapalı görünmesini sağlayan siyah bir ekran katmanı görünür.\n\nEtkinleştirmek için Ana Sayfa sekmesinin üst başlığındaki Sentinela simgesine dokunun.</string>
     <string name="privacy_black_mode_enable_title">Gizlilik Siyah Modu\'nu Etkinleştir</string>
     <string name="privacy_black_gestures_title">Çıkış Yöntemleri</string>
     <string name="privacy_black_gestures_helper">Gizlilik Siyah Modu\'ndan çıkmak için hangi hareketlerin kullanılabileceğini seçin.\n\nNot: Takılıp kalmamak için en az bir çıkış yöntemi etkin kalmalıdır!</string>
@@ -1179,7 +1179,7 @@
     <string name="mini_app_qr_generator_title">QR Oluşturucu</string>
     <string name="mini_app_qr_generator_desc">Metin, URL ve kişilerden QR kodları oluşturun</string>
     <string name="mini_apps_planned_shortcuts_title">Planlanan: Kısayollar ve Otomasyon</string>
-    <string name="mini_apps_planned_shortcuts_desc">Herhangi bir Mini Uygulama\'ya KCam\'i açmadan anında erişim için ana ekran kısayolları.\n\nMini Uygulamaları programlı olarak tetiklemek için intent tabanlı otomasyon desteği (Tasker, MacroDroid, vb.) — otomatik iş akışlarınızdan QR tarama, fener ve daha fazlasını kullanın.</string>
+    <string name="mini_apps_planned_shortcuts_desc">Herhangi bir Mini Uygulama\'ya Sentinela\'i açmadan anında erişim için ana ekran kısayolları.\n\nMini Uygulamaları programlı olarak tetiklemek için intent tabanlı otomasyon desteği (Tasker, MacroDroid, vb.) — otomatik iş akışlarınızdan QR tarama, fener ve daha fazlasını kullanın.</string>
     <string name="accessibility_thumbnail_progress">%1$d%% izlendi</string>
     <string name="readme_github_subtitle">Kaynak kodu &amp; sürümler</string>
     <string name="readme_discord_subtitle">Topluluğa katıl</string>
@@ -1466,7 +1466,7 @@
     <string name="photo_capture_preview_unavailable">Ön izleme kullanılamıyor</string>
     <string name="records_filter_all">Tümü</string>
     <string name="mode_all">Tümü</string>
-    <string name="records_filter_camera">KCam</string>
+    <string name="records_filter_camera">Sentinela</string>
     <string name="records_filter_dual">Çift</string>
     <string name="records_filter_screen">FadRec</string>
     <string name="records_filter_faditor">Faditor</string>
@@ -1694,7 +1694,7 @@
 <string name="row_raw_audio_title">Ham ses</string>
 <string name="raw_audio_banner">Tamamen ham ses bu cihazda mevcut değil</string>
 <string name="delete_single_video_subtitle">Bu kaydı kaldır</string>
-<string name="note_debug_detailed">Etkinleştirildiğinde, KCam hata ayıklama günlüğü HTML dosyasını (FADCAM_debug.html) herkese açık İndirilenler/FadCam/ klasörüne yazar. Sorun bildirirken bu dosyayı paylaşın. Gelecekteki yazmaları durdurmak için kapatın.\nNot: Hata ayıklama günlüğü kayıt sırasında performans yükü ekleyebilir — sorun gidermiyorsanız kapalı tutun.</string>
+<string name="note_debug_detailed">Etkinleştirildiğinde, Sentinela hata ayıklama günlüğü HTML dosyasını (FADCAM_debug.html) herkese açık İndirilenler/FadCam/ klasörüne yazar. Sorun bildirirken bu dosyayı paylaşın. Gelecekteki yazmaları durdurmak için kapatın.\nNot: Hata ayıklama günlüğü kayıt sırasında performans yükü ekleyebilir — sorun gidermiyorsanız kapalı tutun.</string>
 <string name="location_format_title">Konum Biçimi</string>
 <string name="location_format_coordinates">Yalnızca Koordinatlar</string>
 <string name="location_format_address">Tam Adres</string>
@@ -1703,7 +1703,7 @@
 <string name="location_watermark_sheet_title">Konum Katmanı</string>
 <string name="location_watermark_switch_label">Konum Katmanı</string>
 <string name="watermark_disabled_message" translatable="false">Watermark disabled (no watermark will appear in recordings).</string>
-<string name="widgets_pin_fallback">İstem görünmezse, Ana ekranınıza uzun basın, Widget\'ları açın ve KCam Saat widget\'ını sürükleyin.</string>
+<string name="widgets_pin_fallback">İstem görünmezse, Ana ekranınıza uzun basın, Widget\'ları açın ve Sentinela Saat widget\'ını sürükleyin.</string>
 <string name="widget_black_background_title">Siyah Arka Plan</string>
 <string name="widget_arabic_date_format_title">Arapça Tarih Biçimi</string>
 <string name="widget_option_enabled">Etkin</string>
@@ -1907,9 +1907,9 @@
 <string name="faditor_info_title">Faditor Mini Hakkında</string>
 <string name="faditor_info_subtitle">Yerleşik düzenleyici hakkında bilmeniz gereken her şey</string>
 <string name="faditor_info_how_title">Nasıl çalışır</string>
-<string name="faditor_info_how_desc">Cihazınızdan veya KCam kayıtlarınızdan herhangi bir video seçin. Zaman çizelgesini kullanarak kare kare kırpın, ardından dışa aktarın. Tüm işlemler cihazınızda yerel olarak gerçekleşir — hiçbir şey yüklenmez.\n\nDüzenleme ilerlemeniz her birkaç saniyede bir ve düzenleyiciden her ayrıldığınızda otomatik olarak kaydedilir, böylece uygulama beklenmedik şekilde kapanırsa hiçbir çalışma kaybolmaz.</string>
+<string name="faditor_info_how_desc">Cihazınızdan veya Sentinela kayıtlarınızdan herhangi bir video seçin. Zaman çizelgesini kullanarak kare kare kırpın, ardından dışa aktarın. Tüm işlemler cihazınızda yerel olarak gerçekleşir — hiçbir şey yüklenmez.\n\nDüzenleme ilerlemeniz her birkaç saniyede bir ve düzenleyiciden her ayrıldığınızda otomatik olarak kaydedilir, böylece uygulama beklenmedik şekilde kapanırsa hiçbir çalışma kaybolmaz.</string>
 <string name="faditor_info_convert_title">Akıllı dönüştürme</string>
-<string name="faditor_info_convert_desc">KCam, çökmeye dayanıklı bir biçim olan parçalanmış MP4 (fMP4) formatında kayıt yapar. Standart bir MP4\'ün tek bir sonlandırılmış kapsayıcısı varken, fMP4 videoyu küçük bağımsız parçalar halinde yazar. Bu, uygulama çökse veya kayıt aniden dursa bile görüntülerinizin bozulmadan kalması anlamına gelir.\n\nAncak, harici video oynatıcılar, galeri uygulamaları ve dosya yöneticileri bu dosyalarda arama, ilerletme veya doğru süreyi görüntüleme yapamaz. Bu bir hata değil — güvenilirlik için kasıtlı bir tasarım ödünleşimidir.\n\nVideolarınızı KCam dışında — Google Drive, bir bilgisayar veya başka bir konumda — saklamayı planlıyorsanız, önce dönüştürmelisiniz. Aksi takdirde dosyalar normal oynatma için kullanılamaz.\n\nDönüştürmek için: videoyu burada Faditor Mini\'de açın ve Dışa Aktar\'a dokunun. Dönüştürülen standart MP4, Kayıtlar sekmenizde görünecek, galerinize kaydetmeye veya herhangi bir yerde paylaşmaya hazır olacaktır. İşlem anlık ve kayıpsızdır — yeniden kodlama veya kalite kaybı yoktur.</string>
+<string name="faditor_info_convert_desc">Sentinela, çökmeye dayanıklı bir biçim olan parçalanmış MP4 (fMP4) formatında kayıt yapar. Standart bir MP4\'ün tek bir sonlandırılmış kapsayıcısı varken, fMP4 videoyu küçük bağımsız parçalar halinde yazar. Bu, uygulama çökse veya kayıt aniden dursa bile görüntülerinizin bozulmadan kalması anlamına gelir.\n\nAncak, harici video oynatıcılar, galeri uygulamaları ve dosya yöneticileri bu dosyalarda arama, ilerletme veya doğru süreyi görüntüleme yapamaz. Bu bir hata değil — güvenilirlik için kasıtlı bir tasarım ödünleşimidir.\n\nVideolarınızı Sentinela dışında — Google Drive, bir bilgisayar veya başka bir konumda — saklamayı planlıyorsanız, önce dönüştürmelisiniz. Aksi takdirde dosyalar normal oynatma için kullanılamaz.\n\nDönüştürmek için: videoyu burada Faditor Mini\'de açın ve Dışa Aktar\'a dokunun. Dönüştürülen standart MP4, Kayıtlar sekmenizde görünecek, galerinize kaydetmeye veya herhangi bir yerde paylaşmaya hazır olacaktır. İşlem anlık ve kayıpsızdır — yeniden kodlama veya kalite kaybı yoktur.</string>
 <string name="faditor_info_export_title">Dışa aktarılan dosyalar</string>
 <string name="faditor_info_export_desc">Dışa aktarılan videolar, "Faditor_" öneki ve ardından bir zaman damgası ile aktif depolama konumunuza (Ayarlar\'da yapılandırılanla aynı) kaydedilir. Orijinal kayıtlarınızla birlikte Kayıtlar sekmesinde görünürler.</string>
 <string name="faditor_info_temp_title">Geçici dosyalar ve önbellek</string>
@@ -1918,14 +1918,14 @@
 <string name="faditor_info_projects_desc">Tüm düzenleme oturumlarınız hızlı erişim için gösterilir. Her proje, video URI\'si, kırpma noktaları ve zaman damgalarını içeren küçük bir JSON dosyası olarak cihazınızda saklanır — videolarınızın hiçbir kopyası oluşturulmaz. Projeler her birkaç saniyede bir otomatik kaydedilir, böylece ilerlemeniz asla kaybolmaz.\n\nArtık ihtiyacınız olmayan projeleri çoklu seçim kontrol listesi simgesini kullanarak silebilirsiniz. Bir projeyi silmek yalnızca düzenleme oturumu verilerini kaldırır; orijinal video dosyalarınız dokunulmadan kalır.</string>
 <string name="faditor_your_recordings">Kayıtlarınız</string>
 <string name="faditor_browse_device">Cihazda Gözat</string>
-<string name="faditor_no_recordings">Henüz kayıt bulunamadı. Videolarınızı burada görmek için KCam ile kayda başlayın.</string>
+<string name="faditor_no_recordings">Henüz kayıt bulunamadı. Videolarınızı burada görmek için Sentinela ile kayda başlayın.</string>
 <string name="faditor_video_count">%1$d video</string>
-<string name="faditor_fadcam_source">KCam</string>
+<string name="faditor_fadcam_source">Sentinela</string>
 <string name="faditor_fadrec_source">FadRec</string>
 <string name="faditor_browse_device_desc">Cihazınızdan herhangi bir video seçin</string>
 <string name="faditor_scanning">Kayıtlar taranıyor…</string>
-<string name="faditor_source_chooser_desc">Galerinizden bir video seçin veya KCam kayıtlarınızdan birini seçin</string>
-<string name="faditor_recordings_helper">Aktif depolama konumunuzdan KCam ile kaydedilmiş videolar</string>
+<string name="faditor_source_chooser_desc">Galerinizden bir video seçin veya Sentinela kayıtlarınızdan birini seçin</string>
+<string name="faditor_recordings_helper">Aktif depolama konumunuzdan Sentinela ile kaydedilmiş videolar</string>
 <string name="label_recommended">(Önerilen)</string>
 <string name="universal_back">Geri</string>
 <string name="audio_bitrate_recommended_line">Önerilen: 192000 bps</string>
@@ -1953,7 +1953,7 @@
 <string name="records_search_hint">Kayıtlarda ara…</string>
 <string name="saf_permission_missing_dialog_instructions">SAF izni eksik. Lütfen seçilen klasöre erişim izni verin.</string>
 <string name="saf_permission_missing_dialog_title">SAF İzni Gerekli</string>
-<string name="saf_permission_missing_dialog_message_for_start_recording">Kayıtları özel bir konuma kaydetmek için KCam\'in seçilen klasöre erişmesi gerekir. İstendiğinde erişim izni verin.</string>
+<string name="saf_permission_missing_dialog_message_for_start_recording">Kayıtları özel bir konuma kaydetmek için Sentinela\'in seçilen klasöre erişmesi gerekir. İstendiğinde erişim izni verin.</string>
 <string name="grant_permission_button">İzin Ver</string>
 <string name="trash_auto_delete_picker_helper">Çöp\'teki öğelerin ne zaman otomatik silineceğini seçin.</string>
 <string name="kofi_description">Açıklama kod içinde ayarlanacak.</string>
@@ -1968,16 +1968,16 @@
 <string name="edit_with_faditorx">Faditor Mini ile Düzenle</string>
 <string name="remote_coming_soon_badge">Çok Yakında</string>
 <string name="update_visit_github">GitHub\'ı Ziyaret Et</string>
-<string name="header_logo_default" translatable="false">KCam</string>
+<string name="header_logo_default" translatable="false">Sentinela</string>
 <string name="header_logo_avatar" translatable="false">Avatar</string>
-<string name="app_icon_default" translatable="false">KCam</string>
+<string name="app_icon_default" translatable="false">Sentinela</string>
 <string name="app_icon_alternative" translatable="false">Camera</string>
 <string name="app_icon_faded" translatable="false">0xFF0000</string>
 <string name="app_icon_palestine" translatable="false">I❤️Palestine</string>
-<string name="app_icon_pakistan" translatable="false">KCam</string>
+<string name="app_icon_pakistan" translatable="false">Sentinela</string>
 <string name="app_icon_fadseclab" translatable="false">FadSec Lab</string>
-<string name="app_icon_nooristic" translatable="false">KCam ++</string>
-    <string name="app_icon_bat" translatable="false">KCam</string>
+<string name="app_icon_nooristic" translatable="false">Sentinela ++</string>
+    <string name="app_icon_bat" translatable="false">Sentinela</string>
     <string name="app_icon_redbinary" translatable="false">$ ~/r00t</string>
     <string name="app_icon_notes" translatable="false">Notes</string>
     <string name="app_icon_calculator" translatable="false">Calculator</string>
@@ -2009,7 +2009,7 @@
     <string name="digital_forensics_coming_soon_short">Çok Yakında</string>
     <string name="digital_forensics_discord_coming_soon_toast">Discord bildirimleri gelecek bir güncellemede eklenecek.</string>
     <string name="digital_forensics_helper">Dijital Adli Bilişim iki bölümden oluşur: canlı önizleme katmanı ve kaydedilmiş kanıtlar. Yalnızca canlı görsel AI etiketleri istiyorsanız, Kanıt Toplamayı kapalı tutun. Adli geçmişe ihtiyacınız varsa, Kanıt Toplamayı açın ve ne saklanacağını seçin.</string>
-    <string name="digital_forensics_enable_helper">Bunu akıllı kanıt sensörünüz olarak düşünün. Etkinleştirildiğinde, KCam algılanan aktivitenin bir zaman çizelgesini tutar, böylece daha sonra önemli anlara atlayabilirsiniz.</string>
+    <string name="digital_forensics_enable_helper">Bunu akıllı kanıt sensörünüz olarak düşünün. Etkinleştirildiğinde, Sentinela algılanan aktivitenin bir zaman çizelgesini tutar, böylece daha sonra önemli anlara atlayabilirsiniz.</string>
     <string name="digital_forensics_evidence_enable">Kanıt Toplamayı Etkinleştir</string>
     <string name="digital_forensics_evidence_helper">Etkinleştirildiğinde, tespitler gerçek zamanlı olarak kaydedilmiş kanıt kareleriyle adli veritabanına yazılır. Yalnızca depolama büyümesi olmadan canlı önizleme etiketleri istiyorsanız bunu kapalı tutun.</string>
     <string name="digital_forensics_capture_scope">Kanıt Yakalama Kapsamı</string>
@@ -2153,7 +2153,7 @@
     <string name="share_feedback">Geri bildirim paylaş</string>
     <string name="storage_helper_current_custom_prefix">Mevcut özel klasör:</string>
     <string name="storage_helper_current_custom_uri_prefix">URI:</string>
-    <string name="app_icon_minimal" translatable="false">KCam</string>
+    <string name="app_icon_minimal" translatable="false">Sentinela</string>
     <string name="onboarding_intro_line4">açık kaynak. reklamsız. senin.</string>
     <string name="records_sort_helper">Kayıtların listede nasıl sıralanacağını seçin.</string>
     <string name="records_sort_order_title">Sıralama düzeni</string>
@@ -2172,7 +2172,7 @@
     <string name="notification_stop_button_visible">Görünür</string>
     <string name="notification_stop_button_hidden">Gizli</string>
     <string name="notification_setup_ok">Tamam</string>
-    <string name="note_notification_appearance">Kayıt bildiriminin görünümünü özelleştirin\n(Varsayılan: KCam)</string>
+    <string name="note_notification_appearance">Kayıt bildiriminin görünümünü özelleştirin\n(Varsayılan: Sentinela)</string>
     <string name="hide_stop_button">Durdur butonunu gizle</string>
     <string name="note_hide_stop_button">Bildirimdeki durdur butonunu gizle\n(Varsayılan: Devre Dışı)</string>
     <string name="notification_stop">DURDUR</string>
@@ -2245,9 +2245,9 @@
     <string name="delete_all">Tümünü Sil</string>
     <string name="new_project">Yeni Proje</string>
     <string name="delete">Sil</string>
-    <string name="fadcam_pro_title" translatable="false">KCam Pro</string>
+    <string name="fadcam_pro_title" translatable="false">Sentinela Pro</string>
     <string name="fadcam_pro_subtitle">Tam gizlilik için premium özellikler</string>
-    <string name="fadcam_pro_get_button">KCam Pro\'yu Al</string>
+    <string name="fadcam_pro_get_button">Sentinela Pro\'yu Al</string>
     <string name="fadcam_pro_free">Ücretsiz</string>
     <string name="fadcam_pro_column_label" translatable="false">Pro</string>
     <string name="fadcam_pro_proplus_label" translatable="false">Pro+</string>
@@ -2259,8 +2259,8 @@
     <string name="fadcam_pro_benefit_lifetime_updates">Ömür boyu güncellemeler: Her zaman yeni özellikler, iyileştirmeler ve hata düzeltmeleri alın</string>
     <string name="fadcam_pro_benefit_support">Anında destek: Discord üzerinden biletlerle doğrudan yardım</string>
     <string name="fadcam_pro_coming_soon">Pro+ ve Lab özellikleri, özel simge yüklemeleri, özel uygulama adları ve FadDrive bulut senkronizasyonuyla çok yakında geliyor.</string>
-    <string name="fadcam_pro_support_message">KCam her zaman reklamsız ve izlemesiz olarak ücretsiz kalacak. Tüm projeyi kendi başıma yürütüyorum ve bu sürekli zaman ve çalışma gerektiriyor. Pro\'ya yükseltmek (şu anda ücretsiz) geliştirmeyi desteklemeye yardımcı oluyor ve karşılığında tam ücretsiz sürümün üzerine Pro özellikleri aracılığıyla ek değer sunabiliyorum. Projeyi desteklediğiniz için teşekkürler :)</string>
-    <string name="fadcam_pro_separate_apk">Bağımsız uygulama • KCam ile birlikte çalışır</string>
+    <string name="fadcam_pro_support_message">Sentinela her zaman reklamsız ve izlemesiz olarak ücretsiz kalacak. Tüm projeyi kendi başıma yürütüyorum ve bu sürekli zaman ve çalışma gerektiriyor. Pro\'ya yükseltmek (şu anda ücretsiz) geliştirmeyi desteklemeye yardımcı oluyor ve karşılığında tam ücretsiz sürümün üzerine Pro özellikleri aracılığıyla ek değer sunabiliyorum. Projeyi desteklediğiniz için teşekkürler :)</string>
+    <string name="fadcam_pro_separate_apk">Bağımsız uygulama • Sentinela ile birlikte çalışır</string>
     <string name="fadcam_pro_feature_everything_icon">Her Şey</string>
     <string name="fadcam_pro_feature_everything">Her Şey</string>
     <string name="fadcam_pro_feature_custom_icon">Özel Uygulama Simgesi</string>
@@ -2272,7 +2272,7 @@
     <string name="player_info_title">Video Oynatıcı Hakkında</string>
     <string name="player_info_content"><![CDATA[
 <b>Parçalı MP4 Formatı</b><br/><br/>
-KCam, kayıtlar için parçalı MP4 formatı kullanır. Bu, videoların tek bir tam dosya yerine küçük bölümler halinde kaydedildiği anlamına gelir. Bunun avantajı, kayıt sırasında bir sorun olursa, tüm video yerine yalnızca son birkaç saniyeyi kaybetmenizdir.<br/><br/>
+Sentinela, kayıtlar için parçalı MP4 formatı kullanır. Bu, videoların tek bir tam dosya yerine küçük bölümler halinde kaydedildiği anlamına gelir. Bunun avantajı, kayıt sırasında bir sorun olursa, tüm video yerine yalnızca son birkaç saniyeyi kaybetmenizdir.<br/><br/>
 Videonuzun son birkaç saniyesi donuk veya eski görünüyorsa, endişelenmeyin — bu bir hata değil! Kaydı durdurduğunuzda, mevcut parça döngüsünü tamamlayabilir (~3 saniye), bu da sonunda kısa bir donuk kare bırakabilir.<br/><br/>
 <b>Oynatıcı Sınırlamaları</b><br/><br/>
 Yerleşik video oynatıcının bazı Android sistemi sınırlamaları vardır. İlerleme çubuğunun veya dalga formunun biraz hızlı göründüğünü fark edebilirsiniz — bu normal davranıştır ve bir hata değildir.<br/><br/>
@@ -2285,7 +2285,7 @@ En sorunsuz oynatma deneyimi için VLC gibi harici bir oynatıcı kullanabilirsi
     <string name="codec_switched_to_h264">✓ Kodek H.264\'e değiştirildi. Kayıt başlatılıyor...</string>
     <string name="codec_go_to_settings">Ayarlara Git</string>
     <string name="stream_notes_android14_screen">⚠️ Android 14+: Sistem kısıtlaması, ekran kapalıyken kaydı engeller. Geçici çözümler: (1) Ayarlar → Güvenlik\'te \"Siyah Ekran Modu\"nu etkinleştirin veya (2) Ekran kilidini devre dışı bırakın (PIN/parmak izi olmadan). Her ikisi de kesintisiz uzaktan kayda izin verir</string>
-    <string name="fullscreen_preview_enter">KCam Önizlemesi</string>
+    <string name="fullscreen_preview_enter">Sentinela Önizlemesi</string>
     <string name="fullscreen_preview_close">Tam ekranı kapat</string>
     <string name="fullscreen_preview_not_recording">Tam ekran önizlemeyi kullanmak için önce kayda başlayın</string>
     <string name="fullscreen_preview_tap_hint">Kontrolleri açıp kapatmak için ekrana dokunun</string>
@@ -2309,7 +2309,7 @@ En sorunsuz oynatma deneyimi için VLC gibi harici bir oynatıcı kullanabilirsi
     <string name="automation_row_subtitle">Tuş atama, Bluetooth kumandalar, ses tuşları</string>
     <string name="setting_volume_shutter_title">Ses Tuşu Deklanşörü</string>
     <string name="setting_volume_shutter_summary">Ses tuşları ana sekmede kamera deklanşörü görevi görür</string>
-    <string name="setting_volume_shutter_footer">Ses tuşları ana sekmede deklanşörünüz olur:\n• Dokun — fotoğraf çek\n• Çift dokun — kamerayı değiştir\n• Basılı tut — kaydı başlat veya durdur\n\nBluetooth uzaktan deklanşörler de çalışır ve aynı eylemleri tetikler. Tuşlar KCam ana sekmesi açıkken çalışır — gelecek sürümler herhangi bir tuşun KCam eylemlerini arka planda bile tetiklemesini sağlayacak.\n\nŞimdilik KCam kısayollarını eşlemek için MacroDroid kullanın — bunları Ayarlar → Kısayollar ve Widget\'lar bölümünde bulabilirsiniz.</string>
+    <string name="setting_volume_shutter_footer">Ses tuşları ana sekmede deklanşörünüz olur:\n• Dokun — fotoğraf çek\n• Çift dokun — kamerayı değiştir\n• Basılı tut — kaydı başlat veya durdur\n\nBluetooth uzaktan deklanşörler de çalışır ve aynı eylemleri tetikler. Tuşlar Sentinela ana sekmesi açıkken çalışır — gelecek sürümler herhangi bir tuşun Sentinela eylemlerini arka planda bile tetiklemesini sağlayacak.\n\nŞimdilik Sentinela kısayollarını eşlemek için MacroDroid kullanın — bunları Ayarlar → Kısayollar ve Widget\'lar bölümünde bulabilirsiniz.</string>
     <string name="shortcuts_macrodroid_template">Resmi MacroDroid şablonu: https://templates.macrodroid.com/view/28194</string>
     <string name="thermal_guardian_title">Isı Koruyucu</string>
     <string name="thermal_guardian_row_subtitle">Aşırı ısınmayı önlemek için kaydı otomatik ayarla</string>
@@ -2346,7 +2346,7 @@ En sorunsuz oynatma deneyimi için VLC gibi harici bir oynatıcı kullanabilirsi
     <string name="motion_lab_debug_copy_done">Hareket anlık görüntüsü kopyalandı</string>
     <string name="motion_lab_info_cd">Motion Lab bilgisi</string>
     <string name="motion_lab_info_title">Hareketle Otomatik Kayıt</string>
-    <string name="motion_lab_info_body">Bu, KCam\'in Hareketle Otomatik Kayıt özelliğidir.\n\nBasit kelimelerle nasıl çalışır:\n- Kameranız aktif kalır ve kareleri cihaz üzerinde gerçek zamanlı olarak analiz eder.\n- Cihaz içi makine öğrenimi modeli ve hareket mantığı hareket arar.\n- Geçerli bir hareket tespit edildiğinde, kayıt başlar/devam eder.\n- Hareket devam ettiği sürece kayıt devam eder.\n- Hareket durduktan sonra, Kayıt Sonrası süresi boyunca seçtiğiniz ek saniyeler kadar kayıt devam eder.\n- Ardından kayıt duraklar ve bir sonraki hareket olayını bekler.\n\nKayıt duraklatıldığında, uygulama hâlâ kareleri bellekte analiz ediyordur, ancak hareket tekrar algılanana kadar yeni video verisi yazmaz.\n\nNasıl kullanılır (çoğu kullanıcı için):\n- Tüm seçenekleri varsayılan değerlerde bırakın.\n- Bu ekranda Hareket Sensörü\'nü AÇIN.\n- Ana Sayfa sekmesine gidin ve normal şekilde kayda başlayın.\n- Hareket tabanlı otomatik kayıt otomatik olarak çalışacaktır.\n\nUzak mesafeden kolay test:\n- Bu ekranda Hareketle Otomatik Flaş\'ı AÇIN.\n- Ana Sayfa sekmesinden kayda başlayın.\n- Telefonu odaya bakan bir masaya veya rafa eğimli olarak yerleştirin.\n- Odadan çıkın, ardından girin ve yürüyün.\n- Flaşın yanması, kaydın başladığını uzaktan fark etmenize yardımcı olur.\n- Kayıt, hareket durduktan sonra seçtiğiniz Kayıt Sonrası süresi boyunca devam edecektir.\n\nİpucu: Bu özellik sürekli çalışır, bu nedenle çok yüksek gelişmiş değerler ısıyı artırabilir ve zamanla cihaz sağlığını azaltabilir. Uzun oturumlar için, belirli bir nedeniniz yoksa varsayılanları koruyun.</string>
+    <string name="motion_lab_info_body">Bu, Sentinela\'in Hareketle Otomatik Kayıt özelliğidir.\n\nBasit kelimelerle nasıl çalışır:\n- Kameranız aktif kalır ve kareleri cihaz üzerinde gerçek zamanlı olarak analiz eder.\n- Cihaz içi makine öğrenimi modeli ve hareket mantığı hareket arar.\n- Geçerli bir hareket tespit edildiğinde, kayıt başlar/devam eder.\n- Hareket devam ettiği sürece kayıt devam eder.\n- Hareket durduktan sonra, Kayıt Sonrası süresi boyunca seçtiğiniz ek saniyeler kadar kayıt devam eder.\n- Ardından kayıt duraklar ve bir sonraki hareket olayını bekler.\n\nKayıt duraklatıldığında, uygulama hâlâ kareleri bellekte analiz ediyordur, ancak hareket tekrar algılanana kadar yeni video verisi yazmaz.\n\nNasıl kullanılır (çoğu kullanıcı için):\n- Tüm seçenekleri varsayılan değerlerde bırakın.\n- Bu ekranda Hareket Sensörü\'nü AÇIN.\n- Ana Sayfa sekmesine gidin ve normal şekilde kayda başlayın.\n- Hareket tabanlı otomatik kayıt otomatik olarak çalışacaktır.\n\nUzak mesafeden kolay test:\n- Bu ekranda Hareketle Otomatik Flaş\'ı AÇIN.\n- Ana Sayfa sekmesinden kayda başlayın.\n- Telefonu odaya bakan bir masaya veya rafa eğimli olarak yerleştirin.\n- Odadan çıkın, ardından girin ve yürüyün.\n- Flaşın yanması, kaydın başladığını uzaktan fark etmenize yardımcı olur.\n- Kayıt, hareket durduktan sonra seçtiğiniz Kayıt Sonrası süresi boyunca devam edecektir.\n\nİpucu: Bu özellik sürekli çalışır, bu nedenle çok yüksek gelişmiş değerler ısıyı artırabilir ve zamanla cihaz sağlığını azaltabilir. Uzun oturumlar için, belirli bir nedeniniz yoksa varsayılanları koruyun.</string>
     <string name="motion_lab_percent_value">%1$d%%</string>
     <string name="motion_lab_fps_value">%1$d fps</string>
     <string name="motion_lab_ms_value">%1$d ms</string>
@@ -2430,7 +2430,7 @@ En sorunsuz oynatma deneyimi için VLC gibi harici bir oynatıcı kullanabilirsi
     <string name="remote_pages">Sayfalar</string>
     <string name="remote_layers">Katmanlar</string>
     <string name="remote_access_endpoints_desc">Bu HTTP uç noktaları üzerinden yayın sunucunuza erişin</string>
-    <string name="remote_control_via_api_desc">API çağrılarıyla KCam\'i uzaktan kontrol edin</string>
+    <string name="remote_control_via_api_desc">API çağrılarıyla Sentinela\'i uzaktan kontrol edin</string>
     <string name="remote_buffered_segments_desc">Yayına hazır arabelleğe alınmış segmentler</string>
     <string name="remote_battery_low_warning">⚠️ Düşük Pil - Hemen şarj cihazını takın</string>
     <string name="remote_enter_percentage_hint">Yüzde girin</string>
@@ -2440,14 +2440,14 @@ En sorunsuz oynatma deneyimi için VLC gibi harici bir oynatıcı kullanabilirsi
     <string name="sidebar_update_available">Güncelleme Mevcut</string>
     <string name="sidebar_stable_release">Kararlı Sürüm</string>
     <string name="sidebar_beta_release">Beta Sürümü</string>
-    <string name="sidebar_fadcam_pro">KCam Pro</string>
+    <string name="sidebar_fadcam_pro">Sentinela Pro</string>
     <string name="badge_new">YENİ</string>
-    <string name="update_pro_title">KCam Pro Güncellemesi</string>
-    <string name="update_pro_desc">Yeni bir KCam Pro sürümü mevcut.\n\nÜcretsiz kullanıcılar için kararlı sürüm yaklaşık 60 gün sonra gelecek. Pro kullanıcıları güncellemeleri hemen alır.</string>
-    <string name="update_get_pro">KCam Pro\'yu Al</string>
+    <string name="update_pro_title">Sentinela Pro Güncellemesi</string>
+    <string name="update_pro_desc">Yeni bir Sentinela Pro sürümü mevcut.\n\nÜcretsiz kullanıcılar için kararlı sürüm yaklaşık 60 gün sonra gelecek. Pro kullanıcıları güncellemeleri hemen alır.</string>
+    <string name="update_get_pro">Sentinela Pro\'yu Al</string>
     <string name="update_maybe_later">Belki Sonra</string>
     <string name="update_beta_title">Beta Güncellemesi Mevcut</string>
-    <string name="update_beta_desc">KCam beta, kararlı sürümün yanına kurulabilen bağımsız bir uygulamadır. Kararlı uygulamanızı veya verilerini etkilemez.\n\nYeni özellikleri kararlı sürüme çıkmadan önce test etmek için beta sürümünü yükleyin.</string>
+    <string name="update_beta_desc">Sentinela beta, kararlı sürümün yanına kurulabilen bağımsız bir uygulamadır. Kararlı uygulamanızı veya verilerini etkilemez.\n\nYeni özellikleri kararlı sürüme çıkmadan önce test etmek için beta sürümünü yükleyin.</string>
     <string name="update_get_beta">Beta\'yı Al</string>
     <string name="mini_apps_about_title">Mini Uygulamalar Hakkında</string>
     <string name="mini_apps_current_tools">Mevcut Araçlar</string>
@@ -2544,7 +2544,7 @@ En sorunsuz oynatma deneyimi için VLC gibi harici bir oynatıcı kullanabilirsi
     <string name="about_dialog_error">Hata</string>
     <string name="about_dialog_ok">Tamam</string>
     <string name="about_get_beta">Beta Al</string>
-    <string name="about_fadcam_feedback">KCam Geri Bildirimi</string>
+    <string name="about_fadcam_feedback">Sentinela Geri Bildirimi</string>
 
     <!-- Video split sizes -->
     <string name="video_split_enabled_format">Etkin (%s)</string>
@@ -2557,7 +2557,7 @@ En sorunsuz oynatma deneyimi için VLC gibi harici bir oynatıcı kullanabilirsi
     <string name="video_split_custom_title">Özel Bölme Boyutu (MB)</string>
 
     <!-- Screen recording values -->
-    <string name="screen_rec_splitting_value_format">%s (KCam + FadRec)</string>
+    <string name="screen_rec_splitting_value_format">%s (Sentinela + FadRec)</string>
 
     <!-- Settings home tabs -->
     <string name="settings_tab_all">Tümü</string>
@@ -2667,7 +2667,7 @@ En sorunsuz oynatma deneyimi için VLC gibi harici bir oynatıcı kullanabilirsi
     <string name="channel_security_alarm">Güvenlik Alarmı</string>
     <string name="channel_remote_streaming">Uzaktan Yayın</string>
     <string name="channel_annotation_service">Not Servisi</string>
-    <string name="channel_fadcam_file_ops">KCam Dosya İşlemleri</string>
+    <string name="channel_fadcam_file_ops">Sentinela Dosya İşlemleri</string>
 
     <!-- ScreenRecordingService -->
     <string name="screen_rec_failed">Kayıt başarısız: %s</string>
@@ -2793,17 +2793,17 @@ En sorunsuz oynatma deneyimi için VLC gibi harici bir oynatıcı kullanabilirsi
     <string name="tutorial_dashcam_setup">Dashcam Kurulumu</string>
 
     <!-- iOS Promo -->
-    <string name="fadcam_for_ios_title">iOS için KCam</string>
-    <string name="ios_promo_title">KCam artık iOS\'ta!</string>
+    <string name="fadcam_for_ios_title">iOS için Sentinela</string>
+    <string name="ios_promo_title">Sentinela artık iOS\'ta!</string>
     <string name="ios_promo_subtitle">Sevdiğiniz gizlilik odaklı kamera uygulaması, artık iPhone için de kullanılabilir</string>
 
     <!-- Trash section in Settings -->
     <string name="trash_settings_title">Çöp</string>
     <string name="trash_settings_subtitle">Silinen kayıtları ve dosyaları kurtar</string>
-    <string name="trash_settings_info">Bu özellik zaten mevcuttu — sadece ana ekranın üst çubuğundaki KCam logosuna uzun basmanın arkasında gizliydi. Buraya keşfedilmesi daha kolay olsun diye koyduk.</string>
+    <string name="trash_settings_info">Bu özellik zaten mevcuttu — sadece ana ekranın üst çubuğundaki Sentinela logosuna uzun basmanın arkasında gizliydi. Buraya keşfedilmesi daha kolay olsun diye koyduk.</string>
     <string name="trash_settings_hide_button">Bu bölümü gizle</string>
     <string name="trash_settings_hide_dialog_title">Çöp bölümü gizlensin mi?</string>
-    <string name="trash_settings_hide_dialog_message">Çöp bölümü Ayarlar\'dan kaybolacak. Geri getirmek için ana ekranın üst çubuğundaki KCam logosuna uzun basarak Çöp\'ü açın ve içerideki \"Ayarlar\'da Çöp\'ü Göster\" seçeneğini etkinleştirin.</string>
+    <string name="trash_settings_hide_dialog_message">Çöp bölümü Ayarlar\'dan kaybolacak. Geri getirmek için ana ekranın üst çubuğundaki Sentinela logosuna uzun basarak Çöp\'ü açın ve içerideki \"Ayarlar\'da Çöp\'ü Göster\" seçeneğini etkinleştirin.</string>
     <string name="trash_settings_hide_dialog_confirm">Gizle</string>
 
     <!-- Trash: Show in Settings toggle -->

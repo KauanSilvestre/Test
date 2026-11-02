@@ -146,56 +146,32 @@ android {
 
     flavorDimensions += "pro"
 
+    // Sentinela ships a single flavor. The disguised "Notes/Calculator/Weather"
+    // variants from upstream were removed on purpose: a personal safety recorder
+    // has no use for an app that hides as something else, and it kept the app
+    // minimal. The "default" flavor is kept (not removed) so the Gradle task
+    // names stay assembleDefault*/testDefault* that the CI workflow calls.
     productFlavors {
-        create("notesPro") {
-            dimension = "pro"
-            applicationIdSuffix = ".notes"
-            resValue("string", "app_name", "Notes")
-        }
-        create("calcPro") {
-            dimension = "pro"
-            applicationIdSuffix = ".calc"
-            resValue("string", "app_name", "Calculator")
-        }
-        create("weatherPro") {
-            dimension = "pro"
-            applicationIdSuffix = ".weather"
-            resValue("string", "app_name", "Weather")
-        }
         create("default") {
             dimension = "pro"
-            // Default for proPlus builds
         }
     }
 
-// ./gradlew assembleNotesProRelease - Notes Pro variant
-// ./gradlew assembleCalcProRelease - Calculator Pro variant
-// ./gradlew assembleWeatherProRelease - Weather Pro variant
 // ./gradlew assembleDefaultProPlusRelease -PcustomAppName="Custom Name" - Pro+ custom build (standalone)
 
-    // Variant filter: only build specific variants (modern API — the old
-    // variantFilter{} is deprecated since AGP 8.x).
+    // Variant filter: the only flavor is "default"; drop its plain "pro" build
+    // type (we ship debug, release and proPlus). Modern API — the old
+    // variantFilter{} is deprecated since AGP 8.x.
     androidComponents {
         beforeVariants { variant ->
-            val isPreBuiltFlavor = variant.name.contains("notesPro") || variant.name.contains("calcPro") || variant.name.contains("weatherPro")
-            val isDefaultFlavor = variant.name.contains("default")
-
-            if (isPreBuiltFlavor) {
-                // Pre-built flavors: only 'release' build type
-                if (!variant.name.endsWith("Release")) {
-                    variant.enable = false
-                }
-            } else if (isDefaultFlavor) {
-                // Default flavor: allow 'debug', 'release', and 'proPlus' build types
-                if (variant.name.endsWith("Pro") && !variant.name.endsWith("ProPlus")) {
-                    variant.enable = false
-                }
+            if (variant.name.endsWith("Pro") && !variant.name.endsWith("ProPlus")) {
+                variant.enable = false
             }
         }
     }
 
-    // Dynamic APK output names: FadCam_<flavor>_v<versionName><suffix>-<abi>.apk
-    // (default flavor has no <flavor> part; universal APK gets the literal "-universal")
+    // Dynamic APK output names: Sentinela_v<versionName><suffix>-<abi>.apk
+    // (universal APK gets the literal "-universal")
     applicationVariants.all {
         val versionName = "${defaultConfig.versionName}${buildType.versionNameSuffix.orEmpty()}"
         val flavor = if (flavorName != "default") "${flavorName}_" else ""
@@ -236,16 +212,6 @@ android {
         // getByName("test").java.setSrcDirs(emptyList<String>())
         // getByName("androidTest").java.setSrcDirs(emptyList<String>())
         
-        // Flavor-specific resources (icons override main icons)
-        getByName("notesPro") {
-            res.srcDir("src/notesPro/res")
-        }
-        getByName("calcPro") {
-            res.srcDir("src/calcPro/res")
-        }
-        getByName("weatherPro") {
-            res.srcDir("src/weatherPro/res")
-        }
     }
 
     packaging {

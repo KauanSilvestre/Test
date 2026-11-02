@@ -75,7 +75,7 @@
     <string name="resolution_helper_all">Hagh resolution ki che "Duwe Kamera" di, da makhki aw shata kamaruno pa lar malati ki aw da recording pa wakht ke da kamara badalwalo (live switching) ijazat warkawi. Hagh resolution ki che "Current Camera" di, yawaz da aanwaany intikhab shawi kamera saar kaar kawi.</string>
     <string name="note_quailty">Quality intikhab kai\n(Default: HD)</string>
     <string name="setting_watermark">Watermark</string>
-    <string name="note_watermark">Watermark option intikhab kai\n(Default: Timestamp sara da KCam)</string>
+    <string name="note_watermark">Watermark option intikhab kai\n(Default: Timestamp sara da Sentinela)</string>
     <string name="note_watermark_extra">Oke zar video save kol we, nu \'No Watermark\' intekhab kae. Watermark am add kol gware? Nu byam hes khabara nada, bs lag wakh ba der akhli!</string>
     <string name="setting_location_title">Da Location Data</string>
     <string name="note_location">Da location data am watermark ki shamil kae. \nGPS pehla zaruri on kol de \n(Default: Disabled)</string>
@@ -96,13 +96,13 @@
     </string-array>
     <string-array name="questions_array" tools:ignore="InconsistentArrays">
         <item>DISCLAIMER</item>
-        <item>KCam da user data jama kai zan sara?</item>
+        <item>Sentinela da user data jama kai zan sara?</item>
         <item>Di app ki ishtehar am shta?</item>
-        <item>KCam da location access wali gwari?</item>
+        <item>Sentinela da location access wali gwari?</item>
         <item>Da internet permission walae zarurat de?</item>
         <item>Hes runga data pa external servers bande store kegi?</item>
         <item>Zama videos sara sa kegi record kolo na pas?</item>
-        <item>KCam zama data third party services ta legi?</item>
+        <item>Sentinela zama data third party services ta legi?</item>
         <item> </item>
         <item> </item>
         <item>General</item>
@@ -116,15 +116,15 @@
         <item> </item>
     </string-array>
     <string-array name="answers_array" tools:ignore="InconsistentArrays">
-        <item>KCam hes am ghair akhlaqi ya illegal istemal la nade. Misuse, da cha surveillance ya privacy ki da dakhal, zamung da guidelines khilaf di. Da de app authors hes qisam am misuse jawabgar na di.
+        <item>Sentinela hes am ghair akhlaqi ya illegal istemal la nade. Misuse, da cha surveillance ya privacy ki da dakhal, zamung da guidelines khilaf di. Da de app authors hes qisam am misuse jawabgar na di.
 </item>
-        <item>Na, KCam hes kisam user data na jama kai.</item>
-        <item>Na, KCam bilkul ad-free dai.</item>
+        <item>Na, Sentinela hes kisam user data na jama kai.</item>
+        <item>Na, Sentinela bilkul ad-free dai.</item>
         <item>Da location info watermark ke shaamil kawalo dapara.</item>
         <item>Da automatic update checking da para.</item>
         <item>Na, tola data sta pa device bandi store kigi.</item>
         <item>Sta videos sta pa device ki internal app storage ke save kigi.</item>
-        <item>Na, KCam hes data na share kai ao na jama kai, hatta crash logs hum na.</item>
+        <item>Na, Sentinela hes data na share kai ao na jama kai, hatta crash logs hum na.</item>
         <item> </item>
         <item> </item>
         <item> </item>
@@ -143,7 +143,7 @@
     <string name="button_readme_github">GitHub Repository</string>
     <string name="community_title">Zamung Community ki shamil shae:</string>
     <string name="discord_title">Da Discord Server</string>
-    <string name="thankyou_msg">KCam istemal kolo dapara manana!</string>
+    <string name="thankyou_msg">Sentinela istemal kolo dapara manana!</string>
     <string name="settings_title">Settings</string>
     <string name="array_watermark_time_fadcam">Wakh, sara da Fadcam</string>
     <string name="array_watermark_timeonly">Timestamp</string>
@@ -295,17 +295,17 @@ Tawsiya shwee: 192000 bps, 48000 Hz da aksar karwonko lapara.</string>
     <string name="note_debug_extra">Kala che faal shi, yaw debug log file ba pa Downloads/FadCam folder ke jorol kegi. Da dé pa app problems ke madad kole shi.</string>
     <!-- Onboarding Settings -->
     <string name="setting_onboarding_title">Pa Raatluky Sho Ke Onboarding Warshayi</string>
-    <string name="note_onboarding">Faal ka che pa raatluky karazan ke da KCam da app pezhandana aw ejazat larshowuna wuwiny.</string>
+    <string name="note_onboarding">Faal ka che pa raatluky karazan ke da Sentinela da app pezhandana aw ejazat larshowuna wuwiny.</string>
     <!-- Auto Update Settings -->
     <string name="setting_auto_update_check_title">Pa Sho Ke Automatic Update Check</string>
-    <string name="note_auto_update_check">Ke faal wi, KCam ba har kala che ta app kholé update check kawi. Da automatic update check band kolo lapara dé ghair faal ka.\n(Default: On)</string>
+    <string name="note_auto_update_check">Ke faal wi, Sentinela ba har kala che ta app kholé update check kawi. Da automatic update check band kolo lapara dé ghair faal ka.\n(Default: On)</string>
     <!-- Storage Location Settings -->
     <string name="storage_location_title">Da Zakhira Zai</string>
     <string name="storage_location_description">Ka zakhira kawal chi videos cherta sakli.</string>
     <string name="storage_location_internal">Da App Dakhili Zakhira (Default, Private)</string>
     <string name="storage_location_custom">Khoso Zai (SD Card/Nor, Da Gallery La Khwaa Katey Kegi)</string>
     <string name="storage_location_choose_folder">Folder Entekhab Ka</string>
-    <string name="storage_location_note">Yadawana: Da khoso zai karwal videos noro app ta kesheena kedole shi (masalan, Gallery). Dakhili zakhira videos yawazi KCam ta private sati.</string>
+    <string name="storage_location_note">Yadawana: Da khoso zai karwal videos noro app ta kesheena kedole shi (masalan, Gallery). Dakhili zakhira videos yawazi Sentinela ta private sati.</string>
     <string name="storage_icon_description">Da Zakhira Icon</string>
     <string name="location_icon_description">Da Mawqeiyat Icon</string>
     <string name="location_embedding_icon_description">Da Mawqeiyat Shamil Kawlo Icon</string>
@@ -325,16 +325,16 @@ Tawsiya shwee: 192000 bps, 48000 Hz da aksar karwonko lapara.</string>
     <string name="onboarding_intro_line3">او ستاسو لپاره جوړ شوی - نه د اعلان ورکوونکو لپاره.</string>
     <string name="language_change_later_note">تاسو کولای شئ دا وروسته په تنظیماتو کې بدل کړئ.</string>
     <string name="permissions_required">اجازې ته اړتیا ده</string>
-    <string name="permissions_description">KCam د ویډیو ثبتولو او ساتلو لپاره ستاسو کامرې، مایکروفون، او زېرمتون ته لاسرسي ته اړتیا لري.</string>
+    <string name="permissions_description">Sentinela د ویډیو ثبتولو او ساتلو لپاره ستاسو کامرې، مایکروفون، او زېرمتون ته لاسرسي ته اړتیا لري.</string>
     <string name="grant_permissions">اجازې ورکړئ</string>
     <string name="permissions_note">د دوام لپاره تاسو باید ټولې اجازې ورکړئ.</string>
     <string name="permissions_granted">ټولې اجازې ورکړل شوې!</string>
     <string name="open_settings">تنظیمات خلاص کړئ</string>
     <string name="disable_battery_optimization">د بیټرۍ آپټیمایزيشن غیر فعاله کړئ</string>
     <string name="onboarding_human_title">تصدیق کړئ که تاسو انسان یاست</string>
-    <string name="onboarding_human_desc">هممم... سمه ده. دا قواعد غیر قابل مذاکره دي. که تاسو نشئ منلی، مهرباني وکړئ KCam همدا اوس له منځه یوسئ.</string>
-    <string name="onboarding_human_checkbox1">زه به KCam د کوم قانون ماتولو، د چا محرمیت ته تېری کولو، یا د عجیبه کارونو لپاره نه کاروم. که چېرې زه غلطي وکړم، د پروګرام جوړوونکی مسؤل نه دی. (دا زما مسؤلیت دی).</string>
-    <string name="onboarding_human_checkbox2">زه لا له کارولو مخکې له KCam سره مینه لرم. (اختیاري نه دی)</string>
+    <string name="onboarding_human_desc">هممم... سمه ده. دا قواعد غیر قابل مذاکره دي. که تاسو نشئ منلی، مهرباني وکړئ Sentinela همدا اوس له منځه یوسئ.</string>
+    <string name="onboarding_human_checkbox1">زه به Sentinela د کوم قانون ماتولو، د چا محرمیت ته تېری کولو، یا د عجیبه کارونو لپاره نه کاروم. که چېرې زه غلطي وکړم، د پروګرام جوړوونکی مسؤل نه دی. (دا زما مسؤلیت دی).</string>
+    <string name="onboarding_human_checkbox2">زه لا له کارولو مخکې له Sentinela سره مینه لرم. (اختیاري نه دی)</string>
     <string name="onboarding_human_button">اجازه راکړئ ننوځم!</string>
     <!-- Records Options and Empty State Strings -->
     <string name="sort_by">Tartib ka</string>
@@ -347,8 +347,8 @@ Tawsiya shwee: 192000 bps, 48000 Hz da aksar karwonko lapara.</string>
     <!-- Remote Tab Strings -->
     <string name="remote_access_title">Da liray control</string>
     <string name="remote_toast_coming_soon">Zur razee! In Sha Allah</string>
-    <string name="remote_coming_soon">Da KCam lapara da liray control zur razee.</string>
-    <string name="remote_feature_description">Da QR code pa mreshta sara KCam clients jora ka da secure, mahali network control lapara: record shoro/band kawalo, preview, zoom, camera switch kawalo, aw nor dher - tol da end-to-end encryption sara.</string>
+    <string name="remote_coming_soon">Da Sentinela lapara da liray control zur razee.</string>
+    <string name="remote_feature_description">Da QR code pa mreshta sara Sentinela clients jora ka da secure, mahali network control lapara: record shoro/band kawalo, preview, zoom, camera switch kawalo, aw nor dher - tol da end-to-end encryption sara.</string>
     <!-- Strings for TrashFragment -->
     <string name="trash_auto_deleted_toast">%1$d zorani items pa khpala delete shwal.</string>
     <string name="trash_empty_toast_message">Da delete kawalo lapara kho item neshta.</string>
@@ -410,7 +410,7 @@ Tawsiya shwee: 192000 bps, 48000 Hz da aksar karwonko lapara.</string>
     <string name="trash_select_all">Tol Khwakhara Ka</string>
     <!-- Adding notification customization strings -->
     <string name="setting_notification_appearance">Da Notification Zaher</string>
-    <string name="note_notification_appearance">Da recording notification zaher badal kai\n(Default: KCam)</string>
+    <string name="note_notification_appearance">Da recording notification zaher badal kai\n(Default: Sentinela)</string>
     <string name="hide_stop_button">Da bandawalo button pat kai</string>
     <string name="note_hide_stop_button">Pa notification ke da bandawalo button pat kai\n(Default: Disabled)</string>
     <string name="notification_preview">Da notification namoona</string>
@@ -421,7 +421,7 @@ Tawsiya shwee: 192000 bps, 48000 Hz da aksar karwonko lapara.</string>
     <string name="notification_video_recording_progress_description">Recording rawan de</string>
     <string name="notification_stop">BAND</string>
     <string-array name="notification_appearance_options">
-        <item>KCam (default)</item>
+        <item>Sentinela (default)</item>
         <item>Da system update</item>
         <item>Download kawol</item>
         <item>Sync kawol</item>
@@ -504,20 +504,20 @@ Tawsiya shwee: 192000 bps, 48000 Hz da aksar karwonko lapara.</string>
     <string name="annotation_tools">Annotashun Tools</string>
     <string name="annotations">Annotashun</string>
     <string name="app_icon_alternative" translatable="false">Camera</string>
-    <string name="app_icon_bat" translatable="false">KCam</string>
+    <string name="app_icon_bat" translatable="false">Sentinela</string>
     <string name="app_icon_black_alias_label" translatable="false">\u0020</string>
     <string name="app_icon_calculator" translatable="false">Calculator</string>
     <string name="app_icon_car" translatable="false">ClutchX</string>
     <string name="app_icon_clock" translatable="false">Clock</string>
-    <string name="app_icon_default" translatable="false">KCam</string>
+    <string name="app_icon_default" translatable="false">Sentinela</string>
     <string name="app_icon_faded" translatable="false">0xFF0000</string>
     <string name="app_icon_fadseclab" translatable="false">FadSec Lab</string>
     <string name="app_icon_football" translatable="false">FootballX 2024</string>
     <string name="app_icon_jet" translatable="false">JF-17: ThunderX</string>
-    <string name="app_icon_minimal" translatable="false">KCam</string>
-    <string name="app_icon_nooristic" translatable="false">KCam ++</string>
+    <string name="app_icon_minimal" translatable="false">Sentinela</string>
+    <string name="app_icon_nooristic" translatable="false">Sentinela ++</string>
     <string name="app_icon_notes" translatable="false">Notes</string>
-    <string name="app_icon_pakistan" translatable="false">KCam</string>
+    <string name="app_icon_pakistan" translatable="false">Sentinela</string>
     <string name="app_icon_palestine" translatable="false">I❤️Palestine</string>
     <string name="app_icon_redbinary" translatable="false">$ ~/r00t</string>
     <string name="app_icon_weather" translatable="false">Weather</string>
@@ -664,7 +664,7 @@ Would you like to switch to H.264 and start recording?</string>
     <string name="digital_forensics_discord_alerts">Discord Alerts</string>
     <string name="digital_forensics_discord_coming_soon_toast">Discord alerts ba mustaqbil update ki zayda shi.</string>
     <string name="digital_forensics_enable">Digital Forensics Faal Ka</string>
-    <string name="digital_forensics_enable_helper">Think of da as sta / khpal smart evidence sensor. When enabled, KCam keeps a timeline of detected activity so you can jump to important moments later.</string>
+    <string name="digital_forensics_enable_helper">Think of da as sta / khpal smart evidence sensor. When enabled, Sentinela keeps a timeline of detected activity so you can jump to important moments later.</string>
     <string name="digital_forensics_event_dangerous_object">Dangerous Object Tags</string>
     <string name="digital_forensics_event_person">Person Events</string>
     <string name="digital_forensics_event_pet">Pet Events</string>
@@ -753,7 +753,7 @@ Would you like to switch to H.264 and start recording?</string>
     <string name="e2e_encryption_change_title">Change E2E Encryption Password</string>
     <string name="e2e_encryption_configured">Configured — segments are encrypted end-to-end</string>
     <string name="e2e_encryption_not_configured">Tanzim na shwi — cloud streaming faalolo dapara tanzim ka</string>
-    <string name="e2e_encryption_setup_desc">Sta FadSec ID password na stream encryption key hasil kegi. Da ba da password sara match kawalai shi che ta KCam dashboard ke streams ogorlo dapara istemal kai.</string>
+    <string name="e2e_encryption_setup_desc">Sta FadSec ID password na stream encryption key hasil kegi. Da ba da password sara match kawalai shi che ta Sentinela dashboard ke streams ogorlo dapara istemal kai.</string>
     <string name="e2e_encryption_setup_hint">Enter sta / khpal FadSec ID password</string>
     <string name="e2e_encryption_setup_title">Set E2E Encryption Password</string>
     <string name="e2e_encryption_title">E2E Stream Encryption</string>
@@ -791,16 +791,16 @@ Would you like to switch to H.264 and start recording?</string>
     <string name="fadcam_pro_feature_notification_icon">Notification Discreet Icon</string>
     <string name="fadcam_pro_feature_user_icon">User Uploaded Icon</string>
     <string name="fadcam_pro_free">Free</string>
-    <string name="fadcam_pro_get_button">Get KCam Pro</string>
+    <string name="fadcam_pro_get_button">Get Sentinela Pro</string>
     <string name="fadcam_pro_header_button">پرو ترلاسه کړئ</string>
     <string name="fadcam_pro_lab_label">Lab</string>
     <string name="fadcam_pro_paid_offer">December 23, 2025 na pas, $15 ki Lifetime Access hasil ka — yo wari payment, hamesha updates.</string>
     <string name="fadcam_pro_plus_label">Pro</string>
     <string name="fadcam_pro_proplus_label">Pro+</string>
-    <string name="fadcam_pro_separate_apk">Standalone app • Works alongside KCam</string>
+    <string name="fadcam_pro_separate_apk">Standalone app • Works alongside Sentinela</string>
     <string name="fadcam_pro_subtitle">Premium features for complete discretion</string>
-    <string name="fadcam_pro_support_message">KCam ba hamesha free pati de, ishtehar na aw tracking na. Za pura project pa khpala handel kawam. Pro ta upgrade kol (os waqt free) development ke madad kai. Da project da mali mard dapara manana :)</string>
-    <string name="fadcam_pro_title">KCam Pro</string>
+    <string name="fadcam_pro_support_message">Sentinela ba hamesha free pati de, ishtehar na aw tracking na. Za pura project pa khpala handel kawam. Pro ta upgrade kol (os waqt free) development ke madad kai. Da project da mali mard dapara manana :)</string>
+    <string name="fadcam_pro_title">Sentinela Pro</string>
     <string name="faditor_add_asset_image">Image (5s still)</string>
     <string name="faditor_add_asset_title">Asset Zaat Ka</string>
     <string name="faditor_add_asset_video">Video clip</string>
@@ -865,7 +865,7 @@ Export runs as a background service — you can close the app and it will keep e
     <string name="faditor_export_success">Video exported successfully</string>
     <string name="faditor_exporting">Export kigi…</string>
     <string name="faditor_exporting_percent">Exporting… %1$d%%</string>
-    <string name="faditor_fadcam_source">KCam</string>
+    <string name="faditor_fadcam_source">Sentinela</string>
     <string name="faditor_fadrec_source">FadRec</string>
     <string name="faditor_feature_convert">Smart Convert</string>
     <string name="faditor_feature_convert_desc">Crash-safe recordings khpala seekable standard MP4 ke badal kai che smooth playback everywhere</string>
@@ -879,11 +879,11 @@ Export runs as a background service — you can close the app and it will keep e
     <string name="faditor_feature_trim_desc">Khpal videos exact frame ta cut ka che ta gware</string>
     <string name="faditor_flip_title">Aina Ka</string>
     <string name="faditor_home_tagline">Lightweight video editor</string>
-    <string name="faditor_info_convert_desc">KCam records in a crash-safe format called fragmented MP4 (fMP4). Unlike a standard MP4 which has one finalized container, fMP4 writes video in small independent chunks. This means sta / khpal footage stays intact even if the app crashes or recording stops suddenly.\n\nHowever, external video players, gallery apps, and file managers will not be able to seek, scrub, or display the correct duration of these files. This is not a bug — it is a deliberate design trade-off for reliability.\n\nIf you plan to store sta / khpal videos outside KCam — on Google Drive, a computer, or any other location — you must convert them first. Otherwise the files will be unusable for normal playback.\n\nTo convert: simply open the video here in Faditor Mini and tap Export ka. The converted standard MP4 will appear in sta / khpal Records tab, ready to save to sta / khpal gallery or share anywhere. The process is instant and lossless — no re-encoding or quality loss.</string>
+    <string name="faditor_info_convert_desc">Sentinela records in a crash-safe format called fragmented MP4 (fMP4). Unlike a standard MP4 which has one finalized container, fMP4 writes video in small independent chunks. This means sta / khpal footage stays intact even if the app crashes or recording stops suddenly.\n\nHowever, external video players, gallery apps, and file managers will not be able to seek, scrub, or display the correct duration of these files. This is not a bug — it is a deliberate design trade-off for reliability.\n\nIf you plan to store sta / khpal videos outside Sentinela — on Google Drive, a computer, or any other location — you must convert them first. Otherwise the files will be unusable for normal playback.\n\nTo convert: simply open the video here in Faditor Mini and tap Export ka. The converted standard MP4 will appear in sta / khpal Records tab, ready to save to sta / khpal gallery or share anywhere. The process is instant and lossless — no re-encoding or quality loss.</string>
     <string name="faditor_info_convert_title">Smart conversion</string>
     <string name="faditor_info_export_desc">Exported videos are saved to sta / khpal active storage location (the same one configured in Tanzimaat) with the prefix \"Faditor_\" followed by a timestamp. They appear in the Records tab alongside sta / khpal original recordings.</string>
     <string name="faditor_info_export_title">Exported files</string>
-    <string name="faditor_info_how_desc">Intikhab Ka any video from sta / khpal device or sta / khpal KCam recordings. Trim it frame-by-frame using the timeline, then export. All processing happens locally on sta / khpal device — nothing is uploaded.\n\nYour editing progress is auto-saved every few seconds and whenever you leave the editor, so no work is lost if the app closes unexpectedly.</string>
+    <string name="faditor_info_how_desc">Intikhab Ka any video from sta / khpal device or sta / khpal Sentinela recordings. Trim it frame-by-frame using the timeline, then export. All processing happens locally on sta / khpal device — nothing is uploaded.\n\nYour editing progress is auto-saved every few seconds and whenever you leave the editor, so no work is lost if the app closes unexpectedly.</string>
     <string name="faditor_info_how_title">How it works</string>
     <string name="faditor_info_projects_desc">All sta / khpal editing sessions are shown for quick access. Each project is stored as a small JSON file on sta / khpal device containing the video URI, trim points, and timestamps — no copies of sta / khpal videos are made. Projects are auto-saved every few seconds, so sta / khpal progress is never lost.\n\nYou can delete projects you no longer need using the multi-select checklist icon. Deleting a project only removes the editing session data; sta / khpal original video files remain untouched.</string>
     <string name="faditor_info_projects_title">Recent projects</string>
@@ -896,10 +896,10 @@ Export runs as a background service — you can close the app and it will keep e
     <string name="faditor_mini_title">Faditor Mini</string>
     <string name="faditor_mini_toast">Faditor Mini — coming soon</string>
     <string name="faditor_new_project">Nawai Project</string>
-    <string name="faditor_no_recordings">No recordings found yet. Recording shuru ka with KCam to see sta / khpal videos here.</string>
+    <string name="faditor_no_recordings">No recordings found yet. Recording shuru ka with Sentinela to see sta / khpal videos here.</string>
     <string name="faditor_play_pause">Play or pause</string>
     <string name="faditor_recent_projects">Recent Projects</string>
-    <string name="faditor_recordings_helper">KCam sara record shwi videos sta chalu storage location na</string>
+    <string name="faditor_recordings_helper">Sentinela sara record shwi videos sta chalu storage location na</string>
     <string name="faditor_redo">Bela</string>
     <string name="faditor_remuxing">Optimizing for preview…</string>
     <string name="faditor_remuxing_percent">Optimizing… %1$ds processed</string>
@@ -909,7 +909,7 @@ Export runs as a background service — you can close the app and it will keep e
     <string name="faditor_select_items">Intikhab Ka items</string>
     <string name="faditor_select_video">Video Intikhab Ka</string>
     <string name="faditor_selected_count">%1$d selected</string>
-    <string name="faditor_source_chooser_desc">Intikhab Ka a video from sta / khpal gallery or pick one from sta / khpal KCam recordings</string>
+    <string name="faditor_source_chooser_desc">Intikhab Ka a video from sta / khpal gallery or pick one from sta / khpal Sentinela recordings</string>
     <string name="faditor_speed_reset">Reset to 1x</string>
     <string name="faditor_speed_title">Playback Suraat</string>
     <string name="faditor_split_error">Cannot split here — too close to edge</string>
@@ -1107,14 +1107,14 @@ Da video-linked items dapara, photo viewer ke evidence details istemal ka che so
     <string name="fullscreen_label_torch">Torch</string>
     <string name="fullscreen_label_zoom">Zoom</string>
     <string name="fullscreen_preview_close">Fullscreen band ka</string>
-    <string name="fullscreen_preview_enter">KCam Preview</string>
+    <string name="fullscreen_preview_enter">Sentinela Preview</string>
     <string name="fullscreen_preview_not_recording">Recording shuru ka first to use fullscreen preview</string>
     <string name="fullscreen_preview_tap_hint">Tap screen to toggle controls</string>
     <string name="fullscreen_torch">Torch</string>
     <string name="general">Aam</string>
     <string name="grant_permission_button">Ejazat Werka</string>
     <string name="header_logo_avatar" translatable="false">Avatar</string>
-    <string name="header_logo_default" translatable="false">KCam</string>
+    <string name="header_logo_default" translatable="false">Sentinela</string>
     <string name="help_section">Madad</string>
     <string name="helper_app_icon_option" translatable="false">Select an alternative launcher icon.</string>
     <string name="helper_audio_advanced">Quality/size balance dapara bitrate aw sampling rate khoso ka.</string>
@@ -1138,7 +1138,7 @@ Da video-linked items dapara, photo viewer ke evidence details istemal ka che so
 Misaluna: ABC-1234 (dashcam), Camera #3, Conference Hall A</string>
     <string name="helper_watermark_option">Overlay content intikhab ka: timestamp + brand, sirf timestamp, ya hes na.</string>
     <string name="helper_watermark_preview">Da agha shan de che watermark sta recorded video pa pas-kuch ki zaher shi.
-Fun fact: 10/Jul/2024 04:47 PM wakht ke KCam v1.0 first shipped.</string>
+Fun fact: 10/Jul/2024 04:47 PM wakht ke Sentinela v1.0 first shipped.</string>
     <string name="home_cards_fold_toggle">Toggle Kor cards</string>
     <string name="home_clock_color_choice_desc">Clock color %1$s</string>
     <string name="home_clock_color_helper">Da Kor palette na yao clock card rang intikhab ka.</string>
@@ -1341,7 +1341,7 @@ Fun fact: 10/Jul/2024 04:47 PM wakht ke KCam v1.0 first shipped.</string>
     <string name="mini_app_torch_screen_desc">Use full screen brightness as a light source</string>
     <string name="mini_app_torch_screen_title">Screen Light</string>
     <string name="mini_app_torch_title">Torch</string>
-    <string name="mini_apps_planned_shortcuts_desc">Da Kor screen shortcuts da har Mini App ta osani rasai dapara KCam pehla khola na.
+    <string name="mini_apps_planned_shortcuts_desc">Da Kor screen shortcuts da har Mini App ta osani rasai dapara Sentinela pehla khola na.
 
 Intent-based automation support (Tasker, MacroDroid, etc.) da Mini Apps programmatically trigger kolo dapara — QR scanning, torch, aw nor automated workflows ke istemal ka.</string>
     <string name="mini_apps_planned_shortcuts_title">Planned: Shortcuts &amp; Automation</string>
@@ -1375,7 +1375,7 @@ Intent-based automation support (Tasker, MacroDroid, etc.) da Mini Apps programm
     <string name="motion_lab_enable_sensor">Motion Sensor Faal Ka</string>
     <string name="motion_lab_footer">Pas ki controls khoso ya kri che ta khas rawai darkar wi. Da aksar setups dapara, defaults enha barkari aw mohtam intikhab de.</string>
     <string name="motion_lab_fps_value">%1$d fps</string>
-    <string name="motion_lab_info_body">This is KCam\'s Auto Record on Motion feature.\n\nHow it works in simple words:\n- Your camera stays active and analyzes frames on-device in real time.\n- The on-device machine learning model and motion logic look for movement.\n- When valid motion is detected, recording starts/resumes.\n- Recording keeps going while motion continues.\n- After motion stops, Post-roll keeps recording for sta / khpal selected extra seconds.\n- Then recording pauses and waits for the next motion event.\n\nWhen recording is paused, the app is still analyzing frames in memory, but it is not writing new video data until motion is detected again.\n\nHow to use (most users):\n- Keep all options at default values.\n- Turn ON Motion Sensor on da screen.\n- Go to Kor tab and start recording normally.\n- Motion-based auto record will run automatically.\n\nEasy test from far distance:\n- Turn ON Auto Torch on da screen.\n- Recording shuru ka from Kor tab.\n- Place the phone tilted on a table or shelf facing the room.\n- Leave the room, then enter and walk in.\n- Torch turning ON helps you instantly notice from far away agha recording started.\n- Recording will continue for sta / khpal selected Post-roll duration after motion stops.\n\nTip: This feature runs continuously, so very high advanced values can increase heat and can reduce device health over time. For long sessions, keep defaults unless you have a specific reason.</string>
+    <string name="motion_lab_info_body">This is Sentinela\'s Auto Record on Motion feature.\n\nHow it works in simple words:\n- Your camera stays active and analyzes frames on-device in real time.\n- The on-device machine learning model and motion logic look for movement.\n- When valid motion is detected, recording starts/resumes.\n- Recording keeps going while motion continues.\n- After motion stops, Post-roll keeps recording for sta / khpal selected extra seconds.\n- Then recording pauses and waits for the next motion event.\n\nWhen recording is paused, the app is still analyzing frames in memory, but it is not writing new video data until motion is detected again.\n\nHow to use (most users):\n- Keep all options at default values.\n- Turn ON Motion Sensor on da screen.\n- Go to Kor tab and start recording normally.\n- Motion-based auto record will run automatically.\n\nEasy test from far distance:\n- Turn ON Auto Torch on da screen.\n- Recording shuru ka from Kor tab.\n- Place the phone tilted on a table or shelf facing the room.\n- Leave the room, then enter and walk in.\n- Torch turning ON helps you instantly notice from far away agha recording started.\n- Recording will continue for sta / khpal selected Post-roll duration after motion stops.\n\nTip: This feature runs continuously, so very high advanced values can increase heat and can reduce device health over time. For long sessions, keep defaults unless you have a specific reason.</string>
     <string name="motion_lab_info_cd">Motion Lab info</string>
     <string name="motion_lab_info_title">Auto Record on Motion</string>
     <string name="motion_lab_ms_value">%1$d ms</string>
@@ -1397,7 +1397,7 @@ Intent-based automation support (Tasker, MacroDroid, etc.) da Mini Apps programm
     <string name="automation_row_subtitle">Button mapping, Bluetooth remotes, volume keys</string>
     <string name="setting_volume_shutter_title">Volume Shutter</string>
     <string name="setting_volume_shutter_summary">Da volume tano da khor tab ke da camera shutter pa shey kar kawi</string>
-    <string name="setting_volume_shutter_footer">Da volume tano da khor tab ke sta shutter keegi:\n• Tap — aksa wokha\n• Double-tap — camera wobada\n• Wrokhi sa — recording pila ya band ka\n\nBluetooth remote shutters ham kar kawi aw hamagha akhtiyarat pila kawi. Tano kar kawi kala che da KCam khor tab khali we — raatloonky wee bandono ke che har tano da KCam intents pila kawi, chey pa shalide ki ham.\n\nDa anhaa waqto, da KCam shortcuts de map karolow lapara MacroDroid wokara — da Settings → Shortcuts &amp; Widgets ke yee mooma.</string>
+    <string name="setting_volume_shutter_footer">Da volume tano da khor tab ke sta shutter keegi:\n• Tap — aksa wokha\n• Double-tap — camera wobada\n• Wrokhi sa — recording pila ya band ka\n\nBluetooth remote shutters ham kar kawi aw hamagha akhtiyarat pila kawi. Tano kar kawi kala che da Sentinela khor tab khali we — raatloonky wee bandono ke che har tano da Sentinela intents pila kawi, chey pa shalide ki ham.\n\nDa anhaa waqto, da Sentinela shortcuts de map karolow lapara MacroDroid wokara — da Settings → Shortcuts &amp; Widgets ke yee mooma.</string>
     <string name="shortcuts_macrodroid_template">Da MacroDroid rasmi template: https://templates.macrodroid.com/view/28194</string>
 
     <string name="thermal_guardian_title">Harara Sati</string>
@@ -1427,7 +1427,7 @@ Intent-based automation support (Tasker, MacroDroid, etc.) da Mini Apps programm
     <string name="new_project">Nawai Project</string>
     <string name="next">Bela</string>
     <string name="note_cam_dual_unsupported">Sta device dual camera recording support nadi kai.</string>
-    <string name="note_debug_detailed">When enabled, KCam writes a debug log HTML file (FADCAM_debug.html) into the public Downloads/FadCam/ folder. Share Ka da file when reporting issues. Turn off to stop future writes.\nNote: Debug logging may add performance overhead during recording — keep it off unless you are troubleshooting.</string>
+    <string name="note_debug_detailed">When enabled, Sentinela writes a debug log HTML file (FADCAM_debug.html) into the public Downloads/FadCam/ folder. Share Ka da file when reporting issues. Turn off to stop future writes.\nNote: Debug logging may add performance overhead during recording — keep it off unless you are troubleshooting.</string>
     <string name="note_from_developer_subtitle">README, links &amp; updates</string>
     <string name="note_from_developer_title">Da Developer Note</string>
     <string name="note_zoom_ratio">Intikhab Ka zoom ratio\n(Default: %1$.1fx - no zoom)</string>
@@ -1461,7 +1461,7 @@ Intent-based automation support (Tasker, MacroDroid, etc.) da Mini Apps programm
     <string name="playback_speed_title">Playback Suraat</string>
     <string name="player_info_content"><![CDATA[
 <b>Fragmented MP4 Format</b><br/><br/>
-KCam uses a fragmented MP4 format for recordings. This means videos are saved in small segments instead of one complete file. The benefit is that if something goes wrong during recording, you only lose the last few seconds instead of the entire video.<br/><br/>
+Sentinela uses a fragmented MP4 format for recordings. This means videos are saved in small segments instead of one complete file. The benefit is that if something goes wrong during recording, you only lose the last few seconds instead of the entire video.<br/><br/>
 If the last few seconds of your video appear frozen or stale, don\'t worry — it\'s not a bug! When you stop recording, the current fragment may still complete its cycle (~3 seconds), which can leave a brief stale frame at the end.<br/><br/>
 <b>Player Limitations</b><br/><br/>
 The built-in video player has some Android system limitations. You may notice the progress bar or waveform appearing slightly snappy — this is normal behavior and not a bug.<br/><br/>
@@ -1521,7 +1521,7 @@ Yadona: La na yao exit method faal pati shi che bended na shi!</string>
     <string name="privacy_black_mode_disabled_toast">Privasy Mode Ghair faal de</string>
     <string name="privacy_black_mode_enable_title">Privacy Black Mode Faal Ka</string>
     <string name="privacy_black_mode_enabled_toast">Privasy Mode Faal de</string>
-    <string name="privacy_black_mode_helper">If sta / khpal device kills the app in the background, you can use da feature to keep the app running in the foreground.\n\nA black screen overlay appears, making it look like the screen is off while recording continues.\n\nTap the KCam icon in the top header of the Kor tab to activate it.</string>
+    <string name="privacy_black_mode_helper">If sta / khpal device kills the app in the background, you can use da feature to keep the app running in the foreground.\n\nA black screen overlay appears, making it look like the screen is off while recording continues.\n\nTap the Sentinela icon in the top header of the Kor tab to activate it.</string>
     <string name="privacy_black_mode_title">Privacy Tiyar Screen</string>
     <string name="project_desc_hint">What is da project about?</string>
     <string name="project_desc_label">Tafseel (Optional)</string>
@@ -1637,7 +1637,7 @@ Yadona: La na yao exit method faal pati shi che bended na shi!</string>
     </plurals>
     <string name="records_filter_all">Tol</string>
     <string name="mode_all">Tol</string>
-    <string name="records_filter_camera">KCam</string>
+    <string name="records_filter_camera">Sentinela</string>
     <string name="records_filter_camera_all">Tol</string>
     <string name="records_filter_camera_back">Shata</string>
     <string name="records_filter_camera_dual">Dual</string>
@@ -1814,7 +1814,7 @@ Yadona: La na yao exit method faal pati shi che bended na shi!</string>
     <string name="maximum_recording_duration_custom_description">له ۱ څخه تر ۱۴۴۰ پورې بشپړ شمېر دقیقې دننه کړئ. مخکینۍ دودیزه ارزښت ساتل کیږي.</string>
     <string name="row_zoom_ratio_title">Zoom Ratio</string>
     <string name="saf_permission_missing_dialog_instructions">SAF ejazat mojood nadi. Mehrbani oka intikhab shwi folder ta rasai werka.</string>
-    <string name="saf_permission_missing_dialog_message_for_start_recording">Da recordings khoso zai ke save kolo dapara, KCam ta intikhab shwi folder ta rasai dapara ejazat pakar de. Kala che prompt kai, mehrbani oka ejazat werka.</string>
+    <string name="saf_permission_missing_dialog_message_for_start_recording">Da recordings khoso zai ke save kolo dapara, Sentinela ta intikhab shwi folder ta rasai dapara ejazat pakar de. Kala che prompt kai, mehrbani oka ejazat werka.</string>
     <string name="saf_permission_missing_dialog_title">SAF Ejazat Pakar De</string>
     <string name="screen_rec_bitrate">Bitrate</string>
     <string name="screen_rec_bitrate_helper">VBR da content complexity bandi fit kai. CBR yao fixed target bitrate istemal kai.</string>
@@ -2003,7 +2003,7 @@ Yadona: La na yao exit method faal pati shi che bended na shi!</string>
     <string name="stream_no_clients">No clients connected</string>
     <string name="stream_no_save">Segments auto-deleted after streaming</string>
     <string name="stream_notes_android14_screen">⚠️ Android 14+: System restriction prevents recording when screen is off. Workarounds: (1) Faal Ka "Black Screen Mode" in Tanzimaat → Amniyat, or (2) Ghair Faal Ka screen lock (no PIN/password/fingerprint). Both allow seamless remote recording</string>
-    <string name="stream_notes_cellular">⚠️ Sirf WiFi: Cellular networks nari wasaluna block kai. Da har network na seamless streaming dapara (WiFi, LTE, cherta), KCam Pro+ ta upgrade ka. Da har network na private link sara stream ka — no port forwarding, no router changes, no network restrictions.</string>
+    <string name="stream_notes_cellular">⚠️ Sirf WiFi: Cellular networks nari wasaluna block kai. Da har network na seamless streaming dapara (WiFi, LTE, cherta), Sentinela Pro+ ta upgrade ka. Da har network na private link sara stream ka — no port forwarding, no router changes, no network restrictions.</string>
     <string name="stream_notes_quality">• Stream quality (LOW/MEDIUM/HIGH/ULTRA) FPS cap aw bitrate control kai che network problems na shi</string>
     <string name="stream_notes_resolution">• Stream orientation aw resolution sta normal recording settings na akhestali shi (Video Settings → Resolution &amp; Orientation). Che ta stream dimensions badal kol gware nu adjust ka</string>
     <string name="stream_notes_title">Notes</string>
@@ -2324,7 +2324,7 @@ Yadona: La na yao exit method faal pati shi che bended na shi!</string>
     <string name="watermark_options_heading">Intikhabuna</string>
     <string name="watermark_preview_funny">For Real? :( \n    ＞﹏＜</string>
     <string name="watermark_preview_heading">Preview</string>
-    <string name="watermark_preview_sample_fadcam">Captured by KCam - %1$s</string>
+    <string name="watermark_preview_sample_fadcam">Captured by Sentinela - %1$s</string>
     <string name="watermark_preview_sample_timeonly">%1$s</string>
     <string name="watermark_speed_off">Band</string>
     <string name="watermark_speed_on">On — Suraat from GPS satellite data</string>
@@ -2332,7 +2332,7 @@ Yadona: La na yao exit method faal pati shi che bended na shi!</string>
     <string name="watermark_style_badge_label">Sirf Brand Label</string>
     <string name="watermark_style_none_label">Watermark Nadi</string>
     <string name="watermark_style_row_title">Watermark Style</string>
-    <string name="watermark_style_time_fadcam_label">Wakh sara da KCam</string>
+    <string name="watermark_style_time_fadcam_label">Wakh sara da Sentinela</string>
     <string name="watermark_style_timeonly_label">Wakh (Timestamp)</string>
     <string name="watermark_timezone_format_gmt_name">GMT Offset + Num</string>
     <string name="watermark_timezone_format_gmt_only">GMT Offset Only</string>
@@ -2379,7 +2379,7 @@ How to read: "Zone 42N — 372,684m E, 3,512,334m N" = Zone 42 pa Northern hemis
     <string name="widget_time_format_24h">24-hour (15:30)</string>
     <string name="widget_time_format_title">Wakh Format</string>
     <string name="widgets_helper_text">Quick actions kor screen ta pin ka che osani rasai da para.</string>
-    <string name="widgets_pin_fallback">Che prompt na zaher shi, kor screen ogad dab ka, Widgets khola, aw KCam Clock widget drag ka.</string>
+    <string name="widgets_pin_fallback">Che prompt na zaher shi, kor screen ogad dab ka, Widgets khola, aw Sentinela Clock widget drag ka.</string>
     <string name="widgets_pin_unsupported">Pinning widgets sta launcher lado support na shi.</string>
     <string name="zoom_not_available_toast">Zoom mojood nadi</string>
     <string name="zoom_slider_helper">Recording dapara zoom level adjust ka. Ultra-wide lens recordings dapara, 0.5x option istemal ka che ultra-wide field of view sara record kae.</string>
@@ -2512,7 +2512,7 @@ How to read: "Zone 42N — 372,684m E, 3,512,334m N" = Zone 42 pa Northern hemis
 
     <string name="remote_access_endpoints_desc">Da HTTP endpoints da lari sara streaming server ta rasai wala ka</string>
 
-    <string name="remote_control_via_api_desc">API calls da lari sara KCam remote control ka</string>
+    <string name="remote_control_via_api_desc">API calls da lari sara Sentinela remote control ka</string>
 
     <string name="remote_buffered_segments_desc">Buffer shwi segments streaming da para tiyar shwal</string>
 
@@ -2532,19 +2532,19 @@ How to read: "Zone 42N — 372,684m E, 3,512,334m N" = Zone 42 pa Northern hemis
 
     <string name="sidebar_beta_release">Beta Release</string>
 
-    <string name="sidebar_fadcam_pro">KCam Pro</string>
+    <string name="sidebar_fadcam_pro">Sentinela Pro</string>
 
     <string name="badge_new">NEW</string>
 
-    <string name="update_pro_title">KCam Pro Update</string>
-    <string name="update_pro_desc">Da KCam Pro yo nawai version mojood sho.\n\nDa free karkono dapara, stable release ba taqriban 60 wruro ke kigi. Pro karkono updates fauren wala kige.</string>
+    <string name="update_pro_title">Sentinela Pro Update</string>
+    <string name="update_pro_desc">Da Sentinela Pro yo nawai version mojood sho.\n\nDa free karkono dapara, stable release ba taqriban 60 wruro ke kigi. Pro karkono updates fauren wala kige.</string>
 
-    <string name="update_get_pro">KCam Pro wala ka</string>
+    <string name="update_get_pro">Sentinela Pro wala ka</string>
 
     <string name="update_maybe_later">Shaied wrasta</string>
 
     <string name="update_beta_title">Beta Update Mojood</string>
-    <string name="update_beta_desc">Da KCam beta yao separata app de che da stable version pa neben instala kedale shi. Da ba sta stable app ya da data se nalara kai.\n\nBeta install ka da nawi khasiatono test kolo dapara che stable release ta ra sawlao.</string>
+    <string name="update_beta_desc">Da Sentinela beta yao separata app de che da stable version pa neben instala kedale shi. Da ba sta stable app ya da data se nalara kai.\n\nBeta install ka da nawi khasiatono test kolo dapara che stable release ta ra sawlao.</string>
 
     <string name="update_get_beta">Beta wala ka</string>
 
@@ -2661,7 +2661,7 @@ How to read: "Zone 42N — 372,684m E, 3,512,334m N" = Zone 42 pa Northern hemis
     <string name="about_dialog_error">Ghalati</string>
     <string name="about_dialog_ok">Sho</string>
     <string name="about_get_beta">Beta Wala Ka</string>
-    <string name="about_fadcam_feedback">KCam Feedback</string>
+    <string name="about_fadcam_feedback">Sentinela Feedback</string>
 
     <!-- Video split sizes -->
     <string name="video_split_enabled_format">Faal De (%s)</string>
@@ -2677,15 +2677,15 @@ How to read: "Zone 42N — 372,684m E, 3,512,334m N" = Zone 42 pa Northern hemis
     <string name="screen_rec_resolution_value" translatable="false">1920×1080</string>
     <string name="screen_rec_framerate_value" translatable="false">30 fps</string>
     <string name="screen_rec_bitrate_value" translatable="false">8 Mbps</string>
-    <string name="screen_rec_splitting_value_format">%s (KCam + FadRec)</string>
+    <string name="screen_rec_splitting_value_format">%s (Sentinela + FadRec)</string>
 
     <!-- Settings home tabs -->
     <string name="settings_tab_all">Tol</string>
-    <string name="settings_tab_fadcam" translatable="false">KCam</string>
+    <string name="settings_tab_fadcam" translatable="false">Sentinela</string>
     <string name="settings_tab_fadrec" translatable="false">FadRec</string>
 
     <!-- Watermark preview labels -->
-    <string name="watermark_preview_fadcam" translatable="false">KCam</string>
+    <string name="watermark_preview_fadcam" translatable="false">Sentinela</string>
     <string name="watermark_preview_fadrec" translatable="false">FadRec</string>
     <string name="settings_location_update_interval_5s">5.0 saniyah</string>
 
@@ -2791,7 +2791,7 @@ How to read: "Zone 42N — 372,684m E, 3,512,334m N" = Zone 42 pa Northern hemis
     <string name="channel_security_alarm">Amniyat Khatar</string>
     <string name="channel_remote_streaming">Liri Streaming</string>
     <string name="channel_annotation_service">Tashrih Khidmat</string>
-    <string name="channel_fadcam_file_ops">KCam File Amaliyat</string>
+    <string name="channel_fadcam_file_ops">Sentinela File Amaliyat</string>
 
     <!-- ScreenRecordingService -->
     <string name="screen_rec_failed">Recording nakam sho: %s</string>
@@ -2917,17 +2917,17 @@ How to read: "Zone 42N — 372,684m E, 3,512,334m N" = Zone 42 pa Northern hemis
     <string name="tutorial_dashcam_setup">Dashcam Setup</string>
 
     <!-- iOS Promo -->
-    <string name="fadcam_for_ios_title">KCam iOS paara</string>
-    <string name="ios_promo_title">KCam os waqt pa iOS ke mojood de!</string>
+    <string name="fadcam_for_ios_title">Sentinela iOS paara</string>
+    <string name="ios_promo_title">Sentinela os waqt pa iOS ke mojood de!</string>
     <string name="ios_promo_subtitle">Haman da miar privacy-first camera app che ta kha soom, os da iPhone dapara mojood de</string>
 
     <!-- Trash section in Settings -->
     <string name="trash_settings_title">Trash</string>
     <string name="trash_settings_subtitle">Delete shwi recording au files berta restore ka</string>
-    <string name="trash_settings_info">Da ficha pehla dalta mojood wa — yawaz da KCam logo pa home screen ke top bar ke long-press kawlo pa shan posh wa. Mo da dalta yawaz zaha karo che payda kawal asan shi.</string>
+    <string name="trash_settings_info">Da ficha pehla dalta mojood wa — yawaz da Sentinela logo pa home screen ke top bar ke long-press kawlo pa shan posh wa. Mo da dalta yawaz zaha karo che payda kawal asan shi.</string>
     <string name="trash_settings_hide_button">Da section posh ka</string>
     <string name="trash_settings_hide_dialog_title">Trash section posh sho?</string>
-    <string name="trash_settings_hide_dialog_message">Trash section da Settings na wawrti shi. Da berta rawstalo dapara, da home screen ke top bar ke KCam logo long-press ka, Trash khole, au paki \"Show Trash in Settings\" faal ka.</string>
+    <string name="trash_settings_hide_dialog_message">Trash section da Settings na wawrti shi. Da berta rawstalo dapara, da home screen ke top bar ke Sentinela logo long-press ka, Trash khole, au paki \"Show Trash in Settings\" faal ka.</string>
     <string name="trash_settings_hide_dialog_confirm">Posh Ka</string>
 
     <!-- Trash: Show in Settings toggle -->
