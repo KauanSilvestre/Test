@@ -27,7 +27,7 @@ public class SplashActivity extends Activity {
         new Handler(Looper.getMainLooper()).postDelayed(() -> {
             Class<?> destination = RuntimeCompat.shouldUseWatchUi(SplashActivity.this)
                     ? WatchMainActivity.class
-                    : MainActivity.class;
+                    : com.fadcam.kcam.home.SentinelaHomeActivity.class;
             startActivity(new Intent(SplashActivity.this, destination));
             // Apply fade transition instead of default activity animation
             com.fadcam.Utils.overridePendingTransitionCompat(this, R.anim.fade_in, R.anim.fade_out);

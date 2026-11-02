@@ -104,6 +104,7 @@
         </activity>
 
         <activity android:name=".MainActivity" android:launchMode="singleTop" android:configChanges="orientation|screenSize|screenLayout|keyboardHidden|uiMode" android:exported="false" />
+        <activity android:name=".kcam.home.SentinelaHomeActivity" android:exported="false" android:launchMode="singleTop" android:configChanges="orientation|screenSize|keyboardHidden|uiMode" android:theme="@android:style/Theme.Material.NoActionBar" />
 
         <!-- Watch-optimized activity for Wear OS round-screen devices -->
         <activity

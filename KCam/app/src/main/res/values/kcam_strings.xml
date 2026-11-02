@@ -264,4 +264,13 @@
     <string name="kcam_edition_feature_batch">Batch export</string>
     <string name="kcam_edition_feature_disguise">Disguised app variants</string>
     <string name="kcam_edition_gpl">Sentinela is free software (GPL-3.0), based on FadCam by FadSec Lab. Source code: github.com/KauanSilvestre/Test</string>
+    <!-- Sentinela minimal home -->
+    <string name="sentinela_home_tagline">Record and preserve evidence of a risky situation.</string>
+    <string name="sentinela_home_record">RECORD</string>
+    <string name="sentinela_home_stop">STOP</string>
+    <string name="sentinela_home_state_recording">Recording in progress</string>
+    <string name="sentinela_home_state_idle">Ready</string>
+    <string name="sentinela_home_records">Recordings</string>
+    <string name="sentinela_home_configure">Settings and profiles</string>
+    <string name="sentinela_home_note">You can also start with a double press of the power button (see Settings). Screen recording always shows the system confirmation.</string>
 </resources>

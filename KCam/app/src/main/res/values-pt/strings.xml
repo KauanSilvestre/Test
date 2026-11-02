@@ -2649,4 +2649,13 @@ Para a reprodução mais suave, você pode usar um player externo como o VLC. Ma
         <item quantity="one">%1$d selecionado</item>
         <item quantity="other">%1$d selecionados</item>
     </plurals>
+    <!-- Sentinela minimal home -->
+    <string name="sentinela_home_tagline">Registre e preserve provas de uma situação de risco.</string>
+    <string name="sentinela_home_record">GRAVAR</string>
+    <string name="sentinela_home_stop">PARAR</string>
+    <string name="sentinela_home_state_recording">Gravando</string>
+    <string name="sentinela_home_state_idle">Pronto</string>
+    <string name="sentinela_home_records">Gravações</string>
+    <string name="sentinela_home_configure">Configurações e perfis</string>
+    <string name="sentinela_home_note">Você também pode iniciar com um duplo clique no botão liga/desliga (veja em Configurações). A gravação de tela sempre mostra a confirmação do sistema.</string>
 </resources>
