@@ -9,7 +9,6 @@ public final class QuickRecordPrefs {
     private static final String KEY_MODE = "mode";
     private static final String KEY_POWER_WATCH = "power_watch";
     private static final String KEY_TOGGLE_STOPS = "toggle_stops";
-    private static final String KEY_VIBRATE = "vibrate";
 
     private QuickRecordPrefs() {
     }
@@ -42,13 +41,5 @@ public final class QuickRecordPrefs {
 
     public static void setToggleStops(Context c, boolean on) {
         p(c).edit().putBoolean(KEY_TOGGLE_STOPS, on).apply();
-    }
-
-    public static boolean vibrate(Context c) {
-        return p(c).getBoolean(KEY_VIBRATE, true);
-    }
-
-    public static void setVibrate(Context c, boolean on) {
-        p(c).edit().putBoolean(KEY_VIBRATE, on).apply();
     }
 }

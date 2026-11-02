@@ -43,8 +43,6 @@ public class QuickRecordSettingsFragment extends KMiniAppFragment {
         LinearLayout opts = card(body);
         toggle(opts, R.string.kcam_quick_toggle_stops, QuickRecordPrefs.toggleStops(requireContext()),
                 on -> QuickRecordPrefs.setToggleStops(requireContext(), on));
-        toggle(opts, R.string.kcam_quick_vibrate, QuickRecordPrefs.vibrate(requireContext()),
-                on -> QuickRecordPrefs.setVibrate(requireContext(), on));
         toggle(opts, R.string.kcam_quick_power_watch, QuickRecordPrefs.powerWatch(requireContext()), on -> {
             QuickRecordPrefs.setPowerWatch(requireContext(), on);
             PowerButtonWatchService.sync(requireContext());

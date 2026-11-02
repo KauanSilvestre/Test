@@ -74,7 +74,9 @@ public class QuickRecordActivity extends ComponentActivity {
 
         if (QuickRecordPrefs.toggleStops(this) && Recorders.isAnythingRecording(this)) {
             Recorders.stopAll(this);
-            if (QuickRecordPrefs.vibrate(this)) Recorders.buzz(this, 2);
+            // No command-receipt buzz here: each service vibrates at its real
+            // stop point (Utils.vibrateRecordingStop), so the feedback reflects
+            // the actual state, not merely that the stop was requested.
             Toast.makeText(this, R.string.kcam_quick_stopped, Toast.LENGTH_SHORT).show();
             finish();
             return;
@@ -241,6 +243,7 @@ public class QuickRecordActivity extends ComponentActivity {
             }
         } catch (Exception e) {
             FLog.e(TAG, "Quick record failed for " + mode, e);
+            com.fadcam.Utils.vibrateRecordingError(this);
             Toast.makeText(this, R.string.kcam_quick_failed, Toast.LENGTH_LONG).show();
             finish();
         }
@@ -279,13 +282,16 @@ public class QuickRecordActivity extends ComponentActivity {
             }
         } catch (Exception e) {
             FLog.e(TAG, "Screen start failed", e);
+            com.fadcam.Utils.vibrateRecordingError(this);
             Toast.makeText(this, R.string.kcam_quick_failed, Toast.LENGTH_LONG).show();
             finish();
         }
     }
 
     private void done(int message) {
-        if (QuickRecordPrefs.vibrate(this)) Recorders.buzz(this, 1);
+        // The start confirmation buzz comes from the service once recording
+        // actually begins (Utils.vibrateRecordingStart), not from here — so a
+        // buzz never implies a start that did not happen.
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
         finish();
         overridePendingTransitionCompat();

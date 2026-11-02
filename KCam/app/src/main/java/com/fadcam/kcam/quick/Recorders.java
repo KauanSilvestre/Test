@@ -2,9 +2,6 @@ package com.fadcam.kcam.quick;
 
 import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
-import android.os.VibrationEffect;
-import android.os.Vibrator;
 
 import androidx.core.content.ContextCompat;
 
@@ -101,22 +98,6 @@ public final class Recorders {
             }
         } catch (Exception e) {
             FLog.w(TAG, "Screen stop failed", e);
-        }
-    }
-
-    @SuppressWarnings("deprecation")
-    public static void buzz(Context c, int times) {
-        Vibrator v = (Vibrator) c.getSystemService(Context.VIBRATOR_SERVICE);
-        if (v == null || !v.hasVibrator()) return;
-        long[] pattern = new long[times * 2];
-        for (int i = 0; i < times; i++) {
-            pattern[i * 2] = i == 0 ? 0 : 120;
-            pattern[i * 2 + 1] = 60;
-        }
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            v.vibrate(VibrationEffect.createWaveform(pattern, -1));
-        } else {
-            v.vibrate(pattern, -1);
         }
     }
 }

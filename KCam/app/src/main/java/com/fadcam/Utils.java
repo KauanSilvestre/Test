@@ -398,6 +398,37 @@ public class Utils {
     }
 
     /**
+     * Distinct vibration when a recording FAILS to start or finalize: three
+     * short, strong pulses, deliberately different from the single start pulse
+     * and the longer stop pulse, so a failure is unmistakable without looking at
+     * the screen. Fired from the services at the REAL failure point, so it
+     * reflects the actual state, not merely that a command was received. Gated by
+     * the master Haptic feedback toggle.
+     */
+    @SuppressWarnings("deprecation") // pre-O vibrate(long[]) fallback
+    public static void vibrateRecordingError(android.content.Context context) {
+        try {
+            com.fadcam.SharedPreferencesManager prefs =
+                    com.fadcam.SharedPreferencesManager.getInstance(context);
+            if (!prefs.isHapticFeedbackEnabled()) {
+                return;
+            }
+            android.os.Vibrator vibrator = androidx.core.content.ContextCompat.getSystemService(
+                    context, android.os.Vibrator.class);
+            if (vibrator == null || !vibrator.hasVibrator()) {
+                return;
+            }
+            long[] pattern = {0, 90, 90, 90, 90, 90};
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+                vibrator.vibrate(android.os.VibrationEffect.createWaveform(pattern, -1));
+            } else {
+                vibrator.vibrate(pattern, -1);
+            }
+        } catch (Exception ignored) {
+        }
+    }
+
+    /**
      * Whether UI-touch haptics are allowed: master toggle AND the
      * "Buttons & controls" group toggle (both default ON).
      */

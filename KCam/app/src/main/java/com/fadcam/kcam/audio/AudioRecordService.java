@@ -137,6 +137,7 @@ public class AudioRecordService extends Service {
             recorder.start();
         } catch (Exception e) {
             FLog.e(TAG, "MediaRecorder failed to start", e);
+            com.fadcam.Utils.vibrateRecordingError(this);
             releaseRecorder();
             //noinspection ResultOfMethodCallIgnored
             out.delete();
@@ -152,6 +153,8 @@ public class AudioRecordService extends Service {
         startedAtElapsed = SystemClock.elapsedRealtime();
         running = true;
         broadcastState();
+        // Honest tactile feedback: audio recording actually started.
+        com.fadcam.Utils.vibrateRecordingStart(this);
         handler.post(tick);
         FLog.i(TAG, "FadMic recording → " + currentPath);
         return true;
@@ -172,7 +175,11 @@ public class AudioRecordService extends Service {
         }
         releaseRecorder();
         if (wakeLock != null && wakeLock.isHeld()) wakeLock.release();
-        if (wasRunning) broadcastState();
+        if (wasRunning) {
+            broadcastState();
+            // Honest tactile feedback: audio recording actually stopped.
+            com.fadcam.Utils.vibrateRecordingStop(this);
+        }
         stopForegroundCompat();
         stopSelf();
     }

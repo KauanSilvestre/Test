@@ -7370,6 +7370,8 @@ public class RecordingService extends Service {
             createCameraPreviewSession();
         } catch (Exception e) {
             FLog.e(TAG, "CRITICAL FAILURE IN startRecording", e);
+            // Honest tactile feedback: the recording did NOT start.
+            com.fadcam.Utils.vibrateRecordingError(this);
 
             // Broadcast the failure to the UI with details
             java.io.StringWriter sw = new java.io.StringWriter();
