@@ -146,6 +146,63 @@ public final class SessionIntegrity {
         }
     }
 
+    /**
+     * App-private folder that always holds integrity manifests. Used for
+     * recordings in a custom (SAF) folder, where writing a sibling file is not
+     * always possible — the manifest is kept here instead, keyed by file name.
+     */
+    public static File integrityDir(Context context) {
+        File base = context.getExternalFilesDir(null);
+        if (base == null) {
+            base = context.getFilesDir();
+        }
+        File dir = new File(base, "integrity");
+        if (!dir.exists()) {
+            //noinspection ResultOfMethodCallIgnored
+            dir.mkdirs();
+        }
+        return dir;
+    }
+
+    /**
+     * Computes the checksum of a content/SAF media URI and writes its manifest
+     * into {@link #integrityDir}. Returns the manifest file, or {@code null} on
+     * failure. Reads the media read-only through the ContentResolver and never
+     * modifies it. Does heavy I/O (hashing) — call it off the main thread.
+     *
+     * @param displayName      the media's display name (used for the manifest file name)
+     * @param sizeBytes        media size if known, else {@code 0}
+     * @param recordedAtMillis capture time (epoch millis); pass {@code 0} for "now"
+     */
+    public static File writeManifestForUri(Context context, android.net.Uri mediaUri,
+                                           String displayName, long sizeBytes,
+                                           long recordedAtMillis) {
+        if (mediaUri == null) {
+            return null;
+        }
+        try {
+            String sha;
+            try (InputStream in = context.getContentResolver().openInputStream(mediaUri)) {
+                if (in == null) {
+                    return null;
+                }
+                sha = sha256(in);
+            }
+            long when = recordedAtMillis > 0 ? recordedAtMillis : System.currentTimeMillis();
+            String name = (displayName != null && !displayName.isEmpty()) ? displayName : "recording";
+            String json = buildManifest(name, sizeBytes, sha, isoUtc(when),
+                    appLabel(context), deviceLabel(), androidLabel());
+            File out = new File(integrityDir(context), name + SIDECAR_SUFFIX);
+            try (FileOutputStream os = new FileOutputStream(out)) {
+                os.write(json.getBytes(StandardCharsets.UTF_8));
+            }
+            return out;
+        } catch (Exception e) {
+            com.fadcam.FLog.w(TAG, "Integrity manifest (uri) failed", e);
+            return null;
+        }
+    }
+
     private static String appLabel(Context context) {
         String name;
         try {

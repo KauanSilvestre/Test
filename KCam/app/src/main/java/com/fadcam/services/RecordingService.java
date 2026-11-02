@@ -1417,9 +1417,21 @@ public class RecordingService extends Service {
                         try {
                             android.net.Uri u = android.net.Uri.parse(finalUri);
                             if ("file".equals(u.getScheme()) && u.getPath() != null) {
+                                // Internal storage: sidecar next to the file.
                                 java.io.File media = new java.io.File(u.getPath());
                                 com.fadcam.kcam.integrity.SessionIntegrity.writeSidecar(
                                         RecordingService.this, media, media.lastModified());
+                            } else if ("content".equals(u.getScheme())) {
+                                // Custom (SAF) folder: keep the manifest in the
+                                // app's integrity folder (sibling writes are not
+                                // guaranteed in SAF).
+                                androidx.documentfile.provider.DocumentFile media =
+                                        androidx.documentfile.provider.DocumentFile.fromSingleUri(
+                                                RecordingService.this, u);
+                                String nm = media != null ? media.getName() : null;
+                                long sz = media != null ? media.length() : 0L;
+                                com.fadcam.kcam.integrity.SessionIntegrity.writeManifestForUri(
+                                        RecordingService.this, u, nm, sz, 0L);
                             }
                         } catch (Exception e) {
                             FLog.w(TAG, "Integrity sidecar failed", e);
