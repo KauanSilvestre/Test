@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sentinela</string>
+
+    <string name="tab_home">Início</string>
+    <string name="tab_profiles">Perfis</string>
+    <string name="tab_records">Registros</string>
+
+    <string name="profile_audio">Áudio</string>
+    <string name="profile_camera_audio">Câmera + áudio</string>
+    <string name="profile_screen_audio">Tela + áudio</string>
+    <string name="profile_complete">Completo compatível</string>
+
+    <string name="source_microphone">Microfone</string>
+    <string name="source_rear_camera">Câmera traseira</string>
+    <string name="source_front_camera">Câmera frontal</string>
+    <string name="source_screen">Tela</string>
+    <string name="source_playback_audio">Áudio interno</string>
+
+    <string name="state_not_requested">não solicitado</string>
+    <string name="state_starting">iniciando</string>
+    <string name="state_awaiting_consent">aguardando consentimento</string>
+    <string name="state_active">ativo</string>
+    <string name="state_stopped">encerrado</string>
+    <string name="state_unsupported">não suportado</string>
+    <string name="state_permission_denied">permissão negada</string>
+    <string name="state_user_denied">negado pelo usuário</string>
+    <string name="state_device_locked">tela bloqueada</string>
+    <string name="state_interrupted">interrompido</string>
+    <string name="state_failed">falhou</string>
+
+    <string name="home_active_profile">Perfil ativo: %s</string>
+    <string name="home_start">Iniciar</string>
+    <string name="home_stop">Parar</string>
+    <string name="home_transparency_title">Gravação transparente</string>
+    <string name="home_transparency_body">O Sentinela sempre mostra uma notificação enquanto grava e respeita os indicadores de câmera e microfone do Android. Ele não oculta a gravação de ninguém. Grave apenas o que você tem direito de gravar.</string>
+
+    <string name="status_idle">Pronto. Toque em Iniciar ou use o disparo configurado.</string>
+    <string name="status_starting">Iniciando captura…</string>
+    <string name="status_active">Gravando — %d fonte(s) ativa(s)</string>
+    <string name="status_stopping">Finalizando e verificando arquivos…</string>
+    <string name="status_finished">Sessão encerrada: %s</string>
+    <string name="status_failed">Falha: %s</string>
+
+    <string name="notif_channel_name">Gravação do Sentinela</string>
+    <string name="notif_channel_desc">Mostra que uma gravação está em andamento.</string>
+    <string name="notif_title">Sentinela está gravando</string>
+    <string name="notif_starting">Iniciando captura…</string>
+    <string name="notif_action_stop">Parar</string>
+    <plurals name="notif_active_sources">
+        <item quantity="one">%d fonte ativa</item>
+        <item quantity="other">%d fontes ativas</item>
+    </plurals>
+
+    <string name="profiles_title">Perfis de captura</string>
+    <string name="profiles_camera_lens">Câmera</string>
+    <string name="profiles_quality">Qualidade de vídeo</string>
+    <string name="profiles_segment">Duração do segmento</string>
+    <string name="profiles_minutes">%d min</string>
+    <string name="profiles_vibrate">Vibrar ao confirmar</string>
+    <string name="profiles_screen_note">A captura de tela pede consentimento do sistema a cada sessão e pode ser interrompida ao bloquear a tela. Não é garantida como captura totalmente automática.</string>
+
+    <string name="lens_rear">Traseira</string>
+    <string name="lens_front">Frontal</string>
+    <string name="lens_both">Ambas (se suportado)</string>
+
+    <string name="records_title">Registros</string>
+    <string name="records_empty">Nenhuma gravação ainda.</string>
+    <string name="records_summary">%1$d segmento(s) · %2$s</string>
+
+    <string name="detail_sources">Fontes</string>
+    <string name="detail_segments">Segmentos</string>
+
+    <string name="action_close">Fechar</string>
+    <string name="action_delete">Excluir</string>
+
+    <string name="tile_label">Sentinela</string>
+</resources>
